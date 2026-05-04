@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudyDocs</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0b0b0f, #171717, #000);
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        #content,
+        .selection-container {
+            background: rgba(255, 255, 255, 0.07);
+            padding: 45px;
+            border-radius: 22px;
+            text-align: center;
+            width: 100%;
+            max-width: 480px;
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 35px;
+            font-weight: 700;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 22px;
+        }
+
+        button {
+            background: #6366f1;
+            color: white;
+            border: none;
+            padding: 17px 20px;
+            border-radius: 12px;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.2s;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #4f46e5;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>Select your country</h1>
+
+        <div class="button-grid">
+            <button onclick="showSubjects('poland')">Poland</button>
+            <button onclick="showSubjects('germany')">Germany</button>
+            <button onclick="showSubjects('uk')">UK</button>
+        </div>
+    </div>
+
+    <script>
+        function showSubjects(country) {
+            let content = '';
+
+            if (country === "poland") {
+                content = `
+                    <div class="selection-container">
+                        <h1>Wybierz przedmiot!</h1>
+                        <div class="button-grid">
+                            <button onclick="window.location.href='polska/polski.html'">Polski</button>
+                            <button onclick="window.location.href='polska/angielski.html'">Angielski</button>
+                            <button onclick="window.location.href='polska/matematyka.html'">Matematyka</button>
+                        </div>
+                    </div>`;
+            }
+
+            if (country === "germany") {
+                content = `
+                    <div class="selection-container">
+                        <h1>Wähle ein Fach!</h1>
+                        <div class="button-grid">
+                            <button onclick="window.location.href='niemcy/deutsch.html'">Deutsch</button>
+                            <button onclick="window.location.href='niemcy/englisch.html'">Englisch</button>
+                            <button onclick="window.location.href='niemcy/mathematik.html'">Mathematik</button>
+                        </div>
+                    </div>`;
+            }
+
+            if (country === "uk") {
+                content = `
+                    <div class="selection-container">
+                        <h1>Choose your subject!</h1>
+                        <div class="button-grid">
+                            <button onclick="window.location.href='uk/english.html'">English</button>
+                            <button onclick="window.location.href='uk/french.html'">French</button>
+                            <button onclick="window.location.href='uk/math.html'">Math</button>
+                        </div>
+                    </div>`;
+            }
+
+            document.body.innerHTML = content;
+        }
+    </script>
+
+</body>
+
+</html>
