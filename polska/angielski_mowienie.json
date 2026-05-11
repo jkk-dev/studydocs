@@ -1,0 +1,60 @@
+[
+    {
+        "title": "1. Przedstawianie się i small talk",
+        "tag": "Podstawy",
+        "text": "Rozpoczynanie rozmowy i nawiązywanie kontaktów to absolutna podstawa płynnej komunikacji ustnej.",
+        "points": [
+            "Rozpoczęcie: Nice to meet you. / How's it going? / How have you been?",
+            "Pytania o pracę/studia: What do you do for a living? / Are you a student?",
+            "Reagowanie na odpowiedzi (aktywne słuchanie): Really? / That sounds interesting. / Oh, I see. / How wonderful!",
+            "Utrzymywanie konwersacji (tzw. follow-up questions): Why did you choose that? / What do you like most about it?"
+        ],
+        "example": "A: I work as an IT specialist. B: That sounds really interesting! How long have you been doing that?"
+    },
+    {
+        "title": "2. Wyrażanie opinii",
+        "tag": "Komunikacja",
+        "text": "Zwroty niezbędne, gdy chcesz powiedzieć, co myślisz na dany temat. Unikaj powtarzania tylko słów 'I think'.",
+        "points": [
+            "Podstawowe: I think that... / I believe that...",
+            "Zaawansowane: In my opinion, / To my mind, / As far as I'm concerned, / From my point of view,",
+            "Wyrażanie pewności: I am absolutely sure that... / I strongly believe that...",
+            "Wyrażanie niepewności: I guess that... / I'm not really sure, but it seems to me that..."
+        ],
+        "example": "To my mind, public transport should be completely free for students. As far as I'm concerned, it would solve the problem of traffic jams."
+    },
+    {
+        "title": "3. Zgadzanie się i brak zgody",
+        "tag": "Dyskusja",
+        "text": "Kulturalne wyrażanie zgody lub niezgody z opinią rozmówcy. W języku angielskim bardzo ważna jest uprzejmość (politeness).",
+        "points": [
+            "Zgoda: I completely agree. / You are absolutely right. / That's a good point. / I couldn't agree more (Nie mógłbym zgodzić się bardziej = zgadzam się w 100%).",
+            "Częściowa zgoda: I agree to some extent, but... / You have a point, but...",
+            "Niezgoda (uprzejma): I'm afraid I disagree. / I don't think that's true. / I see your point, but... / That's not always the case."
+        ],
+        "example": "A: I think violent video games should be banned. B: I see your point, but I'm afraid I disagree. Parents should control what their kids play, not the government."
+    },
+    {
+        "title": "4. Opis ilustracji (Zadanie egzaminacyjne)",
+        "tag": "Egzaminy",
+        "text": "Opis obrazka to jedno z najczęstszych zadań na maturze i innych egzaminach ustnych.",
+        "points": [
+            "Lokalizacja: In the picture, I can see... / In the foreground (Na pierwszym planie) / In the background (W tle) / On the left/right",
+            "Opisywanie czynności (zawsze używaj Present Continuous!): The man is holding a cup. / The people are smiling.",
+            "Zgadywanie/Spekulacje (gdy nie jesteśmy pewni): He looks tired. / She seems to be happy. / They might be on a holiday. / It could be a family dinner.",
+            "Wrażenia ogólne: The atmosphere is relaxed."
+        ],
+        "example": "In the picture, I can see three people sitting at the table. In the background, there is a large window. They are laughing, so they must be good friends."
+    },
+    {
+        "title": "5. Pytanie o drogę i udzielanie wskazówek",
+        "tag": "Sytuacje z życia",
+        "text": "Praktyczne zwroty używane w podróży i na ulicy w obcym mieście.",
+        "points": [
+            "Pytanie o drogę: Excuse me, how can I get to the train station? / Could you tell me the way to the nearest hospital? / Is there a pharmacy near here?",
+            "Udzielanie wskazówek: Go straight on (idź prosto), turn left/right (skręć w lewo/prawo), take the second turning on the right (skręć w drugą przecznicę po prawej).",
+            "Określanie położenia: It's next to the bank. / It's opposite the post office. / It's on the corner."
+        ],
+        "example": "Excuse me, how can I get to the museum? - Go straight on, turn left at the traffic lights, and it will be on your right, opposite the park."
+    }
+]

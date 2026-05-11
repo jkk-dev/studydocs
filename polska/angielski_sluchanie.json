@@ -1,0 +1,60 @@
+[
+    {
+        "title": "1. Słuchanie dla ogólnego sensu (Listening for gist)",
+        "tag": "Strategie",
+        "text": "Zrozumienie ogólnego przekazu, głównego tematu nagrania lub intencji mówiącego, bez skupiania się na pojedynczych słowach.",
+        "points": [
+            "Nie panikuj, jeśli nie rozumiesz każdego słowa. To normalne!",
+            "Skup się na tonie głosu: czy mówca jest radosny, zdenerwowany, czy może sarkastyczny?",
+            "Zwracaj uwagę na słowa kluczowe, które powtarzają się w nagraniu",
+            "Postaraj się uchwycić 'the big picture' – o czym jest dyskusja (np. planowanie wakacji, skarga w sklepie)?"
+        ],
+        "example": "Nawet jeśli nie zrozumiesz trudnego zdania o specyfikacji silnika, z tonu głosu i słów takich jak 'broken', 'terrible', 'fix' wywnioskujesz, że jest to rozmowa o zepsutym aucie u mechanika."
+    },
+    {
+        "title": "2. Przewidywanie treści przed słuchaniem",
+        "tag": "Przed nagraniem",
+        "text": "To, co robisz ZANIM usłyszysz nagranie, jest równie ważne, co samo słuchanie. Daje to ogromną przewagę.",
+        "points": [
+            "Przeanalizuj instrukcję, by wiedzieć kto będzie mówić, gdzie i dlaczego",
+            "Przeczytaj bardzo dokładnie wszystkie pytania i możliwe odpowiedzi (A, B, C)",
+            "Podkreśl słowa kluczowe w pytaniach (tzw. keywords)",
+            "Zastanów się, jakich słów (synonimów) możesz się spodziewać w nagraniu. Pamiętaj, że w nagraniu rzadko pojawiają się dokładnie te same słowa co na kartce!"
+        ],
+        "example": "Jeśli w pytaniu masz 'The boy feels exhausted', w nagraniu możesz usłyszeć: 'I'm incredibly tired', 'I have no energy left', lub 'I'm completely worn out'."
+    },
+    {
+        "title": "3. Dystraktory (Pułapki egzaminacyjne)",
+        "tag": "Egzaminy",
+        "text": "Dystraktory to celowo wprowadzone do nagrania informacje, które mają za zadanie zmylić ucznia.",
+        "points": [
+            "Uważaj, gdy usłyszysz w nagraniu dokładnie to samo słowo, co w jednej z odpowiedzi (A, B, C) - to bardzo często jest pułapka!",
+            "Mówcy często zmieniają zdanie: 'I wanted to buy a blue shirt, but then I realized the red one looked better.'",
+            "Zwracaj uwagę na zaprzeczenia (not, hardly, never, barely) wklejone w zdania",
+            "Słuchaj spójników zmieniających sens: BUT, ALTHOUGH, HOWEVER, ACTUALLY. One bardzo często kasują wszystko to, co powiedziano przed chwilą."
+        ],
+        "example": "Pytanie: O której godzinie spotkają się bohaterowie? W nagraniu usłyszysz: 'Let's meet at 5 PM. Oh wait, my bus arrives at 5:15, so make it 5:30.' Poprawna odpowiedź to 5:30, a nie 5:00."
+    },
+    {
+        "title": "4. Słuchanie szczegółowe (Listening for specific details)",
+        "tag": "Strategie",
+        "text": "Typ słuchania, gdy potrzebujesz wyłapać bardzo konkretne informacje: datę, cyfrę, kwotę, kierunek lub nazwę własną.",
+        "points": [
+            "Skup się dokładnie na liczbach (różnica między np. thirteen (13) a thirty (30))",
+            "Zwracaj uwagę na literowanie (spelling). Nazwiska czy nazwy miejscowości na egzaminach są często literowane na głos",
+            "Bądź gotowy na szybkie notowanie (tzw. gap filling - uzupełnianie luk)"
+        ],
+        "example": "W zadaniu musisz wpisać numer pokoju. Słyszysz: 'Your room number is double two four'. Musisz wiedzieć, że to oznacza 224."
+    },
+    {
+        "title": "5. Łączenie wypowiedzi ze zdaniami (Matching)",
+        "tag": "Egzaminy",
+        "text": "Zadanie, w którym wysłuchujesz kilku krótkich monologów (Speakers 1-4) i musisz dopasować do nich stwierdzenia.",
+        "points": [
+            "Każdy mówca zazwyczaj nawiązuje do podobnego tematu, np. wakacji, więc wszyscy używają podobnego słownictwa",
+            "Kluczem jest wyłapanie głównego nastawienia (attitude) mówcy - czy narzeka, czy jest zachwycony, a może ostrzega przed czymś?",
+            "Skup się na parafrazowaniu. Jeśli nagłówek to 'It was too expensive', mówca powie 'It cost a fortune' lub 'It was a waste of money'."
+        ],
+        "example": "Speaker 1 narzeka na tłumy na plaży, a Speaker 2 na ceny. Musisz precyzyjnie przypisać: Speaker 1 -> 'The place was overcrowded', Speaker 2 -> 'The prices were unreasonable'."
+    }
+]

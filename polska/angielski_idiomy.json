@@ -1,0 +1,61 @@
+[
+    {
+        "title": "1. Co to są idiomy?",
+        "tag": "Definicje",
+        "text": "Idiomy to wyrażenia, których znaczenie niedosłowne (przenośne) różni się od znaczenia poszczególnych słów, które się na nie składają. Nie można ich tłumaczyć dosłownie słowo po słowie.",
+        "points": [
+            "Zrozumienie idiomów jest kluczowe dla naturalnego brzmienia w języku angielskim",
+            "Często nawiązują do kultury, historii, zwierząt, części ciała czy kolorów",
+            "Na egzaminach ustnych użycie idiomu potrafi bardzo podnieść ocenę za słownictwo"
+        ],
+        "example": "Dosłowne przetłumaczenie 'It's raining cats and dogs' (Pada kotami i psami) nie ma sensu, ale jako idiom oznacza to po prostu: 'Leje jak z cebra'."
+    },
+    {
+        "title": "2. Idiomy związane z kolorami",
+        "tag": "Kategorie",
+        "text": "Wiele potocznych idiomów angielskich wykorzystuje nazwy kolorów.",
+        "points": [
+            "Out of the blue - nagle, niespodziewanie (jak grom z jasnego nieba)",
+            "Once in a blue moon - bardzo rzadko, od święta",
+            "To be caught red-handed - zostać złapanym na gorącym uczynku",
+            "To give someone the green light - dać komuś zielone światło (pozwolenie)"
+        ],
+        "example": "I hadn't seen my friend for years, and then, completely out of the blue, he called me yesterday. We only see each other once in a blue moon."
+    },
+    {
+        "title": "3. Idiomy związane ze zwierzętami",
+        "tag": "Kategorie",
+        "text": "Kolejna ogromna grupa idiomów odnosi się do zwierząt i ich cech.",
+        "points": [
+            "To have butterflies in one's stomach - bardzo się denerwować/stresować (mieć motyle w brzuchu z nerwów, np. przed egzaminem)",
+            "Hold your horses! - chwileczkę, nie tak szybko! (uspokój się)",
+            "To let the cat out of the bag - wygadać się, zdradzić tajemnicę",
+            "A dark horse - czarny koń (osoba, która niespodziewanie wygrywa lub objawia nieznany talent)"
+        ],
+        "example": "It was supposed to be a surprise party, but my brother let the cat out of the bag! Before the exam, I had huge butterflies in my stomach."
+    },
+    {
+        "title": "4. Idiomy związane z ciałem (Body Idioms)",
+        "tag": "Kategorie",
+        "text": "Części ciała świetnie opisują stany emocjonalne i relacje międzyludzkie.",
+        "points": [
+            "To cost an arm and a leg - kosztować majątek, być bardzo drogim",
+            "To give someone a hand - pomóc komuś",
+            "To turn a blind eye to something - przymknąć na coś oko (udawać, że się czegoś nie widzi)",
+            "To pull someone's leg - nabierać kogoś, żartować sobie z kogoś"
+        ],
+        "example": "I love this new laptop, but it costs an arm and a leg. Are you serious, or are you just pulling my leg?"
+    },
+    {
+        "title": "5. Różne przydatne idiomy na co dzień",
+        "tag": "Kategorie",
+        "text": "Zestawienie najpopularniejszych idiomów, które na pewno usłyszysz w filmach czy serialach.",
+        "points": [
+            "A piece of cake - bułka z masłem, coś bardzo prostego",
+            "To beat around the bush - owijać w bawełnę, unikać odpowiedzi wprost",
+            "Under the weather - czuć się niewyraźnie, być lekko chorym",
+            "To call it a day - zakończyć pracę na dziś"
+        ],
+        "example": "Stop beating around the bush and tell me the truth. I think I will call it a day because I'm feeling a bit under the weather."
+    }
+]

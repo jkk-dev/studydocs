@@ -1,0 +1,64 @@
+[
+    {
+        "title": "1. E-mail nieoficjalny (Informal e-mail)",
+        "tag": "Formy wypowiedzi",
+        "text": "Pisany do kolegi, koleżanki lub członka rodziny. Charakteryzuje się luźnym językiem i swobodną strukturą.",
+        "points": [
+            "Rozpoczęcie: Hi Tom, / Dear Mary, / Hello!",
+            "Wstęp: Thanks for your last email. / How are you? / It was great to hear from you.",
+            "Rozwinięcie: Tu realizujemy punkty (kropki) z polecenia. Używamy prostych czasów, skrótów (I'm, don't, can't) i potocznego słownictwa (cool, awesome, guy)",
+            "Zakończenie i pożegnanie: I must go now. / Say hello to your parents. / Write back soon. / Best wishes, / Take care, / Love, (plus Twój podpis - zazwyczaj XYZ)"
+        ],
+        "example": "Hi Mark, Thanks for your email. I'm writing to tell you about my new school. It's really cool! Let me know when you can visit me. Take care, XYZ."
+    },
+    {
+        "title": "2. List oficjalny / E-mail formalny (Formal letter)",
+        "tag": "Formy wypowiedzi",
+        "text": "Pisany do instytucji, osoby na wyższym stanowisku, w sprawie reklamacji, podania o pracę itp. Obowiązuje styl formalny.",
+        "points": [
+            "Nie używamy form skróconych! (Piszemy I am, do not, cannot zamiast I'm, don't, can't)",
+            "Rozpoczęcie: Dear Sir or Madam, (gdy nie znamy nazwiska) lub Dear Mr. Smith, (gdy znamy nazwisko)",
+            "Cel listu: I am writing to inquire about... / I am writing to express my dissatisfaction with... / I am writing in connection with...",
+            "Zakończenie: I look forward to hearing from you. (Czekam na odpowiedź)",
+            "Pożegnanie: Yours faithfully, (jeśli zaczęliśmy Dear Sir/Madam) lub Yours sincerely, (jeśli użyliśmy nazwiska np. Dear Mr. Smith)"
+        ],
+        "example": "Dear Sir or Madam, I am writing to complain about the service in your restaurant. I look forward to receiving your reply. Yours faithfully, XYZ."
+    },
+    {
+        "title": "3. Rozprawka 'Za i Przeciw' (For and Against Essay)",
+        "tag": "Zaawansowane",
+        "text": "Dłuższa forma wypowiedzi wymagająca przedstawienia argumentów z obu stron danego problemu.",
+        "points": [
+            "Wstęp: Przedstaw temat i zjawisko (np. W dzisiejszych czasach wiele osób...). Nie wyrażaj jeszcze swojej opinii!",
+            "Akapit 2 (Zalety): On the one hand, there are several advantages... Wymień 2-3 argumenty ZA i podaj do nich przykłady.",
+            "Akapit 3 (Wady): On the other hand, there are also some disadvantages... Wymień 2-3 argumenty PRZECIW.",
+            "Zakończenie: In conclusion / To sum up... Dopiero tutaj podsumowujesz i wyrażasz swoją opinię (In my opinion, I believe that...)"
+        ],
+        "example": "On the one hand, living in a city gives you more job opportunities. For example, there are many international companies. On the other hand, the air is polluted."
+    },
+    {
+        "title": "4. Artykuł / Wpis na bloga (Article / Blog entry)",
+        "tag": "Formy wypowiedzi",
+        "text": "Półoficjalna forma pisemna. Ma za zadanie zaciekawić czytelnika, zachęcić go do myślenia lub dyskusji.",
+        "points": [
+            "Tytuł: Zawsze wymyśl chwytliwy tytuł (np. 'The Best Holidays Ever!' zamiast 'My holidays')",
+            "Pytania retoryczne: We wstępie warto zadać pytanie do czytelnika (Have you ever wondered...? / What would you do if...?)",
+            "Podziel tekst na akapity, z których każdy opisuje jeden główny punkt polecenia",
+            "Zakończenie: Zachęć czytelników do zostawienia komentarza (What do you think? Leave a comment below!)"
+        ],
+        "example": "Have you ever tried extreme sports? Last weekend I went skydiving and it was breathtaking! What is the most extreme thing you have done? Let me know!"
+    },
+    {
+        "title": "5. Łączniki zdań i spójniki (Linking Words)",
+        "tag": "Słownictwo w pisaniu",
+        "text": "Używanie odpowiednich słów łączących gwarantuje płynność tekstu i wyższą ocenę za spójność wypowiedzi (cohesion and coherence).",
+        "points": [
+            "Dodawanie informacji: Furthermore, Moreover, In addition, What is more (Ponadto)",
+            "Kontrast: However (Jednakże), Although (Chociaż), On the other hand (Z drugiej strony), Despite / In spite of (Pomimo)",
+            "Podawanie przykładów: For instance, For example, Such as",
+            "Wynik / Konsekwencja: Therefore (Dlatego też), As a result (W rezultacie), Consequently",
+            "Kolejność: Firstly (Po pierwsze), Secondly (Po drugie), Finally / Lastly (Na koniec)"
+        ],
+        "example": "The weather was terrible. However, we decided to go for a walk. As a result, we all got completely wet."
+    }
+]

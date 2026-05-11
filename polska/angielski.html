@@ -169,13 +169,13 @@
         <h1>Angielski</h1>
 
         <nav class="menu">
-            <button class="active" onclick="loadCourse(this)">Gramatyka</button>
-            <button onclick="showPage('Słownictwo', this)">Słownictwo</button>
-            <button onclick="showPage('Czytanie', this)">Czytanie</button>
-            <button onclick="showPage('Pisanie', this)">Pisanie</button>
-            <button onclick="showPage('Mówienie', this)">Mówienie</button>
-            <button onclick="showPage('Słuchanie', this)">Słuchanie</button>
-            <button onclick="showPage('Idiomy', this)">Idiomy</button>
+            <button class="active" onclick="loadSection('Gramatyka Angielska', 'angielski.json', this)">Gramatyka</button>
+            <button onclick="loadSection('Słownictwo', 'angielski_slownictwo.json', this)">Słownictwo</button>
+            <button onclick="loadSection('Czytanie', 'angielski_czytanie.json', this)">Czytanie</button>
+            <button onclick="loadSection('Pisanie', 'angielski_pisanie.json', this)">Pisanie</button>
+            <button onclick="loadSection('Mówienie', 'angielski_mowienie.json', this)">Mówienie</button>
+            <button onclick="loadSection('Słuchanie', 'angielski_sluchanie.json', this)">Słuchanie</button>
+            <button onclick="loadSection('Idiomy', 'angielski_idiomy.json', this)">Idiomy</button>
         </nav>
     </aside>
 
@@ -200,67 +200,54 @@
             }
         }
 
-        function showPage(title, button) {
+        async function loadSection(title, jsonFile, button) {
             setActiveButton(button);
 
             content.innerHTML = `
                 <h2>${title}</h2>
-                <p class="intro">
-                    Ten dział jest gotowy do rozbudowy. Tutaj możesz dodać notatki,
-                    przykłady, ćwiczenia i materiały do nauki.
-                </p>
+                <p class="intro">Ładowanie materiałów...</p>
+            `;
 
-                <div class="lesson">
-                    <span class="tag">W przygotowaniu</span>
-                    <h3>${title}</h3>
-                    <p>
-                        Tu pojawi się pełny materiał do działu: <b>${title}</b>.
+            try {
+                const response = await fetch(jsonFile);
+                if (!response.ok) throw new Error("Nie udało się załadować danych");
+                const course = await response.json();
+
+                let html = `
+                    <h2>${title}</h2>
+                    <p class="intro">
+                        Szczegółowe materiały i zasady z działu: <b>${title}</b>. Znajdziesz tutaj kompleksowe objaśnienia i przykłady.
                     </p>
-                </div>
-            `;
-        }
-
-        async function loadCourse(button) {
-            setActiveButton(button);
-
-            content.innerHTML = `
-                <h2>Gramatyka</h2>
-                <p class="intro">Ładowanie kursu gramatyki...</p>
-            `;
-
-            const response = await fetch("angielski.json");
-            const course = await response.json();
-
-            let html = `
-                <h2>Gramatyka Angielska</h2>
-                <p class="intro">
-                    Pełny kurs gramatyki języka angielskiego. Znajdziesz tutaj czasy,
-                    konstrukcje, przykłady i ważne zasady potrzebne do nauki.
-                </p>
-            `;
-
-            course.forEach(section => {
-                html += `
-                    <article class="lesson">
-                        <span class="tag">${section.tag}</span>
-                        <h3>${section.title}</h3>
-                        <p>${section.text}</p>
-
-                        <ul>
-                            ${section.points.map(point => `<li>${point}</li>`).join("")}
-                        </ul>
-
-                        <div class="example">
-                            ${section.example}
-                        </div>
-                    </article>
                 `;
-            });
 
-            content.innerHTML = html;
+                course.forEach(section => {
+                    html += `
+                        <article class="lesson">
+                            <span class="tag">${section.tag}</span>
+                            <h3>${section.title}</h3>
+                            <p>${section.text}</p>
+
+                            <ul>
+                                ${section.points.map(point => `<li>${point}</li>`).join("")}
+                            </ul>
+
+                            <div class="example">
+                                ${section.example}
+                            </div>
+                        </article>
+                    `;
+                });
+
+                content.innerHTML = html;
+            } catch (error) {
+                content.innerHTML = `
+                    <h2>${title}</h2>
+                    <p class="intro">Błąd ładowania danych lub plik nie istnieje.</p>
+                `;
+            }
         }
 
-        loadCourse(document.querySelector(".menu button.active"));
+        loadSection('Gramatyka Angielska', 'angielski.json', document.querySelector(".menu button.active"));
     </script>
 
 </body>

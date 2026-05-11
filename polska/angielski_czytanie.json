@@ -1,0 +1,61 @@
+[
+    {
+        "title": "1. Skimming (Czytanie pobieżne)",
+        "tag": "Strategie",
+        "text": "Skimming to technika szybkiego czytania tekstu w celu zrozumienia jego głównego sensu, bez zagłębiania się w szczegóły.",
+        "points": [
+            "Przeczytaj nagłówek i ewentualne podtytuły",
+            "Zwróć uwagę na pierwsze zdanie każdego akapitu (tzw. topic sentence) - często zawiera ono kluczową myśl całego akapitu",
+            "Nie zatrzymuj się na nieznanych słowach",
+            "Przeskanuj wzrokiem zakończenie i wnioski"
+        ],
+        "example": "Gdy szukasz w gazecie artykułu, który Cię interesuje, wykonujesz skimming. Przebiegasz wzrokiem po stronie, by złapać ogólny temat (the gist)."
+    },
+    {
+        "title": "2. Scanning (Szukanie konkretnych informacji)",
+        "tag": "Strategie",
+        "text": "Scanning to technika, w której Twoim celem jest znalezienie bardzo konkretnej informacji (np. daty, nazwiska, ceny), ignorując resztę tekstu.",
+        "points": [
+            "Zanim zaczniesz skanować, musisz dokładnie wiedzieć, czego szukasz (np. liczby 1998, nazwy miasta London)",
+            "Błyskawicznie przesuwaj wzrok w dół po stronach lub kolumnach",
+            "Skupiaj się na wyróżnieniach, wielkich literach, liczbach czy kursywie",
+            "Kiedy znajdziesz potrzebne słowo kluczowe, przeczytaj tylko to konkretne zdanie powoli"
+        ],
+        "example": "Szukanie numeru telefonu w książce telefonicznej lub sprawdzanie godziny odjazdu pociągu w rozkładzie to typowy scanning."
+    },
+    {
+        "title": "3. Rozwiązywanie zadań Prawda/Fałsz",
+        "tag": "Egzaminy",
+        "text": "Bardzo popularny typ zadania (True / False / Not Given). Najważniejsze w nim jest to, by nie opierać się na własnej wiedzy, a jedynie na tekście.",
+        "points": [
+            "Zawsze czytaj pytania ZANIM zaczniesz wczytywać się w tekst (pozwoli to na zastosowanie skimmingu i scanningu)",
+            "Zwracaj uwagę na słowa skrajne i modyfikatory: always, never, exactly, often, some, mostly. Zmieniają one całkowicie sens zdania",
+            "Not Given (Brak Informacji) wybieraj wtedy, gdy tekst ani nie potwierdza zdania, ani mu nie zaprzecza. Nie domyślaj się!"
+        ],
+        "example": "Jeśli w tekście jest: 'John likes red cars', a pytanie brzmi: 'John loves blue cars', odpowiedź to False. Jeśli pytanie brzmi: 'John has a red car', odpowiedź to Not Given (wiemy, że je lubi, ale nie wiemy czy posiada)."
+    },
+    {
+        "title": "4. Odgadywanie znaczenia z kontekstu",
+        "tag": "Umiejętności",
+        "text": "Na egzaminach bardzo często pojawiają się słowa, których nie znasz. Umiejętność domyślenia się ich znaczenia jest kluczowa dla płynnego czytania.",
+        "points": [
+            "Spójrz na słowa wokół nieznanego wyrazu (przed i po nim)",
+            "Określ część mowy – czy to rzeczownik, przymiotnik, czy czasownik?",
+            "Szukaj spójników kontrastu (but, however, although) – sugerują one, że słowo będzie miało znaczenie przeciwne do poprzedniej części zdania",
+            "Szukaj definicji w tym samym zdaniu, często oddzielonej przecinkami lub po słowie 'is / means'"
+        ],
+        "example": "W zdaniu: 'The weather was extremely frigid, so we decided to put on our thickest winter coats', nawet jeśli nie znasz słowa 'frigid', kontekst 'thickest winter coats' podpowiada, że 'frigid' znaczy mroźny/bardzo zimny."
+    },
+    {
+        "title": "5. Dobieranie nagłówków do akapitów (Heading Matching)",
+        "tag": "Egzaminy",
+        "text": "Kolejny klasyczny typ zadania egzaminacyjnego. Wymaga zrozumienia głównej myśli poszczególnych części tekstu.",
+        "points": [
+            "Zazwyczaj nagłówków jest więcej niż akapitów, co stanowi pułapkę (dystraktor)",
+            "Przeczytaj pierwszy i ostatni wyraz/zdanie akapitu – to tam zazwyczaj kryje się najważniejszy wniosek",
+            "Szukaj synonimów! Prawidłowy nagłówek nigdy nie będzie zawierał dokładnie tych samych słów co akapit. Będzie sparafrazowany",
+            "Zignoruj szczegóły. Nagłówek musi streszczać cały akapit, a nie jeden wyrwany z kontekstu detal"
+        ],
+        "example": "Akapit opisujący spadek emisji CO2, użycie odnawialnych źródeł energii i sadzenie drzew nie będzie miał nagłówka 'Sadzenie drzew', lecz bardziej ogólny np. 'Positive Environmental Changes'."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "1. Rodzina i relacje (Family & Relationships)",
+        "tag": "Słownictwo",
+        "text": "Słownictwo związane z członkami rodziny, etapami życia i relacjami międzyludzkimi.",
+        "points": [
+            "Immediate family (najbliższa rodzina): parents (rodzice), siblings (rodzeństwo), spouse (małżonek)",
+            "Extended family (dalsza rodzina): aunt (ciocia), uncle (wujek), cousin (kuzyn), grandparents (dziadkowie)",
+            "In-laws (powinowaci): mother-in-law (teściowa), son-in-law (zięć)",
+            "Relacje: acquaintance (znajomy), fiancé (narzeczony), to get divorced (rozwieść się)"
+        ],
+        "example": "My extended family is very large. I have three cousins and two aunts. My sister recently got engaged to her fiancé."
+    },
+    {
+        "title": "2. Praca i zawody (Work & Professions)",
+        "tag": "Słownictwo",
+        "text": "Podstawowe i zaawansowane wyrażenia związane ze środowiskiem pracy, zawodami i poszukiwaniem zatrudnienia.",
+        "points": [
+            "Zawody: accountant (księgowy), plumber (hydraulik), surgeon (chirurg), lawyer (prawnik)",
+            "W pracy: salary (pensja), wages (tygodniówka), shift (zmiana), promotion (awans)",
+            "Poszukiwanie pracy: apply for a job (aplikować o pracę), resume/CV (życiorys), job interview (rozmowa o pracę)",
+            "Inne: to be fired/sacked (zostać zwolnionym), to resign (zrezygnować), to retire (przejść na emeryturę)"
+        ],
+        "example": "He applied for a job as an accountant. After a successful interview, he got the position and expects a promotion soon."
+    },
+    {
+        "title": "3. Podróże i transport (Travel & Transport)",
+        "tag": "Słownictwo",
+        "text": "Słowa potrzebne w podróży, na lotnisku, na dworcu i w hotelu.",
+        "points": [
+            "Lotnisko: departure lounge (hala odlotów), boarding pass (karta pokładowa), luggage (bagaż), customs (odprawa celna)",
+            "Transport: commute (dojeżdżać do pracy), traffic jam (korek drogowy), public transport (komunikacja miejska)",
+            "Zakwaterowanie: to book a room (zarezerwować pokój), reception (recepcja), single/double room (pokój jedno/dwuosobowy)",
+            "Czasowniki phrasal verbs: set off (wyruszyć), take off (startować - o samolocie), check in (zameldować się)"
+        ],
+        "example": "We need to set off early to avoid traffic jams. Our plane takes off at 8 AM, so we must be at the airport two hours earlier."
+    },
+    {
+        "title": "4. Zdrowie i medycyna (Health & Medicine)",
+        "tag": "Słownictwo",
+        "text": "Przydatne zwroty u lekarza, opisywanie chorób i objawów oraz dbanie o zdrowie.",
+        "points": [
+            "Objawy: sore throat (ból gardła), headache (ból głowy), fever (gorączka), cough (kaszel)",
+            "U lekarza: prescription (recepta), appointment (wizyta u lekarza), blood pressure (ciśnienie krwi)",
+            "Choroby i urazy: flu (grypa), food poisoning (zatrucie pokarmowe), broken bone (złamana kość), sprained ankle (skręcona kostka)",
+            "Leczenie: painkillers (tabletki przeciwbólowe), antibiotics (antybiotyki), surgery (operacja)"
+        ],
+        "example": "I have a terrible headache and a sore throat. I need to make an appointment with my doctor to get a prescription."
+    },
+    {
+        "title": "5. Jedzenie i gotowanie (Food & Cooking)",
+        "tag": "Słownictwo",
+        "text": "Pojęcia związane z jedzeniem w restauracji, metodami przygotowywania potraw i rodzajami żywności.",
+        "points": [
+            "Sposoby gotowania: boil (gotować we wrzątku), fry (smażyć), bake (piec w piekarniku), grill (grillować)",
+            "W restauracji: starter/appetizer (przystawka), main course (danie główne), dessert (deser), bill/check (rachunek), tip (napiwek)",
+            "Smaki i konsystencja: sour (kwaśny), bitter (gorzki), spicy (pikantny), crunchy (chrupiący)",
+            "Jedzenie: dairy products (nabiał), poultry (drób), seafood (owoce morza), carbohydrates (węglowodany)"
+        ],
+        "example": "For starter, I would like a soup. For the main course, I will have fried poultry with crunchy vegetables."
+    }
+]
