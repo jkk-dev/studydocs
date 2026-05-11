@@ -1,0 +1,138 @@
+[
+    {
+        "title": "1. Czym jest gramatyka?",
+        "tag": "Podstawy",
+        "text": "Gramatyka to system zasad, które pokazują, jak działa język. Dzięki niej wiemy, jak poprawnie odmieniać wyrazy, budować zdania i tworzyć logiczne wypowiedzi.",
+        "points": [
+            "fonetyka bada głoski i wymowę",
+            "fleksja zajmuje się odmianą wyrazów",
+            "słowotwórstwo pokazuje, jak powstają nowe wyrazy",
+            "składnia opisuje budowę zdań",
+            "interpunkcja określa zasady używania znaków przestankowych"
+        ],
+        "example": "Gramatyka nie jest tylko zbiorem reguł. Pomaga zrozumieć, dlaczego jedno zdanie brzmi poprawnie, a inne nie."
+    },
+    {
+        "title": "2. Części mowy",
+        "tag": "Morfologia",
+        "text": "Części mowy to grupy wyrazów, które mają podobne znaczenie i podobnie zachowują się w zdaniu.",
+        "points": [
+            "rzeczownik nazywa osoby, rzeczy, miejsca, zjawiska i pojęcia",
+            "czasownik oznacza czynność, stan albo proces",
+            "przymiotnik określa cechy rzeczownika",
+            "liczebnik oznacza liczbę lub kolejność",
+            "zaimek zastępuje inne części mowy",
+            "przysłówek określa czasownik, przymiotnik albo inny przysłówek",
+            "przyimek tworzy wyrażenia, np. w domu, na stole",
+            "spójnik łączy wyrazy lub zdania",
+            "partykuła wzmacnia albo zmienia sens wypowiedzi",
+            "wykrzyknik wyraża emocje"
+        ],
+        "example": "W zdaniu: „Bardzo pilny uczeń szybko napisał trudne zadanie” występują różne części mowy: przysłówek, przymiotnik, rzeczownik i czasownik."
+    },
+    {
+        "title": "3. Rzeczownik",
+        "tag": "Odmiana",
+        "text": "Rzeczownik odpowiada na pytania: kto? co? Odmienia się przez przypadki i liczby. Ma także rodzaj.",
+        "points": [
+            "liczba pojedyncza: dom, książka, dziecko",
+            "liczba mnoga: domy, książki, dzieci",
+            "rodzaj męski: chłopiec, stół",
+            "rodzaj żeński: dziewczyna, lampa",
+            "rodzaj nijaki: dziecko, okno",
+            "rzeczowniki konkretne: zeszyt, pies, szkoła",
+            "rzeczowniki abstrakcyjne: miłość, strach, wolność"
+        ],
+        "example": "Rzeczownik „książka” odmienia się: książka, książki, książce, książkę, książką, książce, książko."
+    },
+    {
+        "title": "4. Przypadki",
+        "tag": "Deklinacja",
+        "text": "Przypadki pokazują funkcję rzeczownika w zdaniu. W języku polskim jest siedem przypadków.",
+        "points": [
+            "Mianownik: kto? co?",
+            "Dopełniacz: kogo? czego?",
+            "Celownik: komu? czemu?",
+            "Biernik: kogo? co?",
+            "Narzędnik: z kim? z czym?",
+            "Miejscownik: o kim? o czym?",
+            "Wołacz: o!"
+        ],
+        "example": "Przykład odmiany: kot, kota, kotu, kota, kotem, kocie, kocie!"
+    },
+    {
+        "title": "5. Czasownik",
+        "tag": "Czynność",
+        "text": "Czasownik oznacza czynność, stan lub proces. Odpowiada na pytania: co robi? co się z nim dzieje? w jakim jest stanie?",
+        "points": [
+            "czasownik odmienia się przez osoby",
+            "czasownik odmienia się przez liczby",
+            "czasownik ma czas: przeszły, teraźniejszy i przyszły",
+            "czasownik ma tryb: oznajmujący, rozkazujący i przypuszczający",
+            "czasownik może mieć stronę czynną, bierną lub zwrotną",
+            "czasownik ma aspekt dokonany lub niedokonany"
+        ],
+        "example": "„Czytałem” to czasownik w czasie przeszłym, w pierwszej osobie liczby pojedynczej, w rodzaju męskim."
+    },
+    {
+        "title": "6. Aspekt czasownika",
+        "tag": "Zaawansowane",
+        "text": "Aspekt mówi, czy czynność została zakończona, czy trwała albo powtarzała się.",
+        "points": [
+            "aspekt dokonany: napisać, przeczytać, zrobić",
+            "aspekt niedokonany: pisać, czytać, robić",
+            "czasowniki dokonane często odpowiadają na pytanie: co zrobić?",
+            "czasowniki niedokonane często odpowiadają na pytanie: co robić?"
+        ],
+        "example": "„Pisałem wypracowanie” oznacza proces. „Napisałem wypracowanie” oznacza zakończoną czynność."
+    },
+    {
+        "title": "7. Części zdania",
+        "tag": "Składnia",
+        "text": "Części zdania pokazują, jaką funkcję pełnią wyrazy w wypowiedzeniu.",
+        "points": [
+            "podmiot wskazuje wykonawcę czynności",
+            "orzeczenie informuje, co robi podmiot albo w jakim jest stanie",
+            "przydawka określa rzeczownik",
+            "dopełnienie uzupełnia znaczenie czasownika",
+            "okolicznik określa miejsce, czas, sposób, cel lub przyczynę czynności"
+        ],
+        "example": "W zdaniu „Mały kot szybko wskoczył na parapet” słowo „kot” jest podmiotem, „wskoczył” orzeczeniem, a „szybko” okolicznikiem."
+    },
+    {
+        "title": "8. Zdanie pojedyncze i złożone",
+        "tag": "Budowa zdań",
+        "text": "Zdanie pojedyncze ma jedno orzeczenie. Zdanie złożone ma co najmniej dwa orzeczenia.",
+        "points": [
+            "zdanie pojedyncze: Uczeń pisze.",
+            "zdanie złożone: Uczeń pisze, a nauczyciel sprawdza zeszyty.",
+            "zdanie złożone współrzędnie ma części równorzędne",
+            "zdanie złożone podrzędnie ma część nadrzędną i podrzędną"
+        ],
+        "example": "„Nie poszedłem do szkoły, ponieważ byłem chory” to zdanie złożone podrzędnie."
+    },
+    {
+        "title": "9. Imiesłowy",
+        "tag": "Zaawansowane",
+        "text": "Imiesłowy to formy czasownika, które mają cechy czasownika oraz przymiotnika albo przysłówka.",
+        "points": [
+            "imiesłów przymiotnikowy czynny: czytający, piszący",
+            "imiesłów przymiotnikowy bierny: napisany, zrobiony",
+            "imiesłów przysłówkowy współczesny: idąc, czytając",
+            "imiesłów przysłówkowy uprzedni: zrobiwszy, przeczytawszy"
+        ],
+        "example": "W zdaniu „Idąc do szkoły, słuchałem muzyki” słowo „idąc” jest imiesłowem przysłówkowym współczesnym."
+    },
+    {
+        "title": "10. Mowa zależna i niezależna",
+        "tag": "Wypowiedzi",
+        "text": "Mowa niezależna dokładnie cytuje czyjeś słowa. Mowa zależna przekazuje ich sens bez dokładnego cytatu.",
+        "points": [
+            "mowa niezależna: Ania powiedziała: „Jestem zmęczona”.",
+            "mowa zależna: Ania powiedziała, że jest zmęczona.",
+            "w mowie zależnej często zmienia się osoba czasownika",
+            "w mowie niezależnej używa się dwukropka i cudzysłowu"
+        ],
+        "example": "„Tomek powiedział: «Przyjdę jutro»” można zmienić na „Tomek powiedział, że przyjdzie następnego dnia”."
+    }
+]

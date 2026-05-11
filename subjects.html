@@ -70,58 +70,13 @@
 <body>
 
     <div id="content">
-        <h1>Select your country</h1>
-
+        <h1>Wybierz przedmiot!</h1>
         <div class="button-grid">
-            <button onclick="showSubjects('poland')">Poland</button>
-            <button onclick="showSubjects('germany')">Germany</button>
-            <button onclick="showSubjects('uk')">UK</button>
+            <button onclick="window.location.href='polska/polski.html'">Polski</button>
+            <button onclick="window.location.href='polska/angielski.html'">Angielski</button>
+            <button onclick="window.location.href='polska/matematyka.html'">Matematyka</button>
         </div>
     </div>
-
-    <script>
-        function showSubjects(country) {
-            let content = '';
-
-            if (country === "poland") {
-                content = `
-                    <div class="selection-container">
-                        <h1>Wybierz przedmiot!</h1>
-                        <div class="button-grid">
-                            <button onclick="window.location.href='polska/polski.html'">Polski</button>
-                            <button onclick="window.location.href='polska/angielski.html'">Angielski</button>
-                            <button onclick="window.location.href='polska/matematyka.html'">Matematyka</button>
-                        </div>
-                    </div>`;
-            }
-
-            if (country === "germany") {
-                content = `
-                    <div class="selection-container">
-                        <h1>Wähle ein Fach!</h1>
-                        <div class="button-grid">
-                            <button onclick="window.location.href='niemcy/deutsch.html'">Deutsch</button>
-                            <button onclick="window.location.href='niemcy/englisch.html'">Englisch</button>
-                            <button onclick="window.location.href='niemcy/mathematik.html'">Mathematik</button>
-                        </div>
-                    </div>`;
-            }
-
-            if (country === "uk") {
-                content = `
-                    <div class="selection-container">
-                        <h1>Choose your subject!</h1>
-                        <div class="button-grid">
-                            <button onclick="window.location.href='uk/english.html'">English</button>
-                            <button onclick="window.location.href='uk/french.html'">French</button>
-                            <button onclick="window.location.href='uk/math.html'">Math</button>
-                        </div>
-                    </div>`;
-            }
-
-            document.body.innerHTML = content;
-        }
-    </script>
 
 </body>
 
