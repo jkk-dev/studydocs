@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Czym jest charakterystyka?",
+        "tag": "Podstawy",
+        "text": "Charakterystyka to forma wypowiedzi, w której opisujemy cechy postaci: zewnętrzne i wewnętrzne. Każdą cechę należy poprzeć przykładem z tekstu lub życia.",
+        "points": [
+            "Charakterystyka bezpośrednia: autor wprost nazywa cechy bohatera",
+            "Charakterystyka pośrednia: cechy wynikają z zachowań, dialogów, reakcji",
+            "Własna: charakteryzujemy kogoś z naszego otoczenia",
+            "Porównawcza: zestawiamy dwie postacie, szukając podobieństw i różnic"
+        ],
+        "example": "Zamiast: „Rudy był odważny.\" → „Rudy wykazał się odwagą, gdy mimo tortur nie wydał kolegów z konspiracji.\""
+    },
+    {
+        "title": "2. Struktura charakterystyki",
+        "tag": "Budowa",
+        "text": "Charakterystyka ma stałą strukturę: wstęp z przedstawieniem postaci, rozwinięcie z cechami i zakończenie z oceną lub refleksją.",
+        "points": [
+            "WSTĘP: kim jest bohater? (imię, skąd pochodzi, z jakiego dzieła/z życia)",
+            "ROZWINIĘCIE: cechy zewnętrzne → cechy wewnętrzne → zachowania/relacje",
+            "ZAKOŃCZENIE: ocena postaci, co można się od niej nauczyć",
+            "Każda cecha = ilustracja przykładem!"
+        ],
+        "example": "Wstęp: „Jan Bytnar, znany jako Rudy, to jeden z głównych bohaterów powieści 'Kamienie na szaniec' Aleksandra Kamińskiego – harcerz i żołnierz Szarych Szeregów.\""
+    },
+    {
+        "title": "3. Cechy zewnętrzne",
+        "tag": "Elementy",
+        "text": "Opis wyglądu postaci powinien być zwięzły i podany we wstępie lub na początku rozwinięcia. Unikaj zbyt szczegółowych opisów, jeśli tekst ich nie dostarcza.",
+        "points": [
+            "Wygląd: sylwetka, wzrost, kolor oczu/włosów, charakterystyczne cechy",
+            "Ubiór: jeśli jest charakterystyczny dla postaci lub epoki",
+            "Sposób poruszania się, gesty, mimika",
+            "Opis musi mieć podstawę w tekście – nie zmyślaj!"
+        ],
+        "example": "„Zosia z 'Pana Tadeusza' jest opisywana jako drobna, jasnowłosa dziewczyna o delikatnych rysach – ideał urody szlachcianki w romantyzmie.\""
+    },
+    {
+        "title": "4. Cechy wewnętrzne – charakter",
+        "tag": "Elementy",
+        "text": "To najważniejsza część charakterystyki. Opisujemy temperament, wartości, zalety i wady bohatera, popierając każdą cechę dowodem z tekstu.",
+        "points": [
+            "Zalety: odwaga, lojalność, dobroć, pracowitość, wytrwałość",
+            "Wady: pycha, chciwość, naiwność, niezdecydowanie, zazdrość",
+            "Temperament: flegmatyk, choleryk, sangwinik, melancholik",
+            "Ewolucja postaci: czy bohater zmienia się w trakcie akcji?"
+        ],
+        "example": "„Balladyna odznaczała się niepohamowaną ambicją – to właśnie ona skłoniła ją do zamordowania siostry Aliny, by zdobyć koronę.\""
+    },
+    {
+        "title": "5. Relacje z innymi postaciami",
+        "tag": "Elementy",
+        "text": "Sposób, w jaki bohater odnosi się do innych postaci, wiele mówi o jego charakterze. To ważny element charakterystyki.",
+        "points": [
+            "Opisz główne relacje: rodzina, przyjaźń, miłość, rywalizacja",
+            "Jak bohater traktuje innych? (z szacunkiem, pogardą, serdecznością?)",
+            "Czy relacje się zmieniają w toku akcji?",
+            "Przytocz konkretną scenę ilustrującą relację"
+        ],
+        "example": "„Ksiądz Robak (Jacek Soplica) wykazywał głęboką miłość do syna Tadeusza, choć przez lata musiał ukrywać swoją tożsamość.\""
+    },
+    {
+        "title": "6. Motywacje i wartości bohatera",
+        "tag": "Elementy",
+        "text": "Dobra charakterystyka pyta: dlaczego bohater postępuje tak, a nie inaczej? Jakie wartości nim kierują?",
+        "points": [
+            "Co jest dla bohatera najważniejsze? (miłość, władza, ojczyzna, rodzina?)",
+            "Co go motywuje do działania?",
+            "Czy jego wartości są spójne z jego zachowaniem?",
+            "Konflikty wewnętrzne: dylemat moralny, rozterki bohatera"
+        ],
+        "example": "„Konrad z 'Dziadów' jest motywowany miłością do narodu – wierzy, że jego uczucia są silniejsze od Boga, co prowadzi go do bluźnierstwa.\""
+    },
+    {
+        "title": "7. Język charakterystyki",
+        "tag": "Język",
+        "text": "Charakterystykę piszemy w czasie teraźniejszym (prezentyzm), używając bogatego słownictwa wartościującego i przymiotników określających cechy.",
+        "points": [
+            "Czas teraźniejszy (prezentyzm): „Rudy jest odważny\", nie „Rudy był\"",
+            "Unikaj powtórzeń – stosuj synonimy: odważny, śmiały, nieustraszony, dzielny",
+            "Wyrażenia oceniające: „godny podziwu\", „wzbudzający współczucie\", „budzący grozę\"",
+            "Nie zaczynaj każdego zdania od imienia bohatera"
+        ],
+        "example": "Synonim „dobry\": serdeczny, życzliwy, altruistyczny, wspaniałomyślny, szlachetny. Synonim „zły\": okrutny, bezwzględny, podstępny, perfidny."
+    },
+    {
+        "title": "8. Charakterystyka porównawcza",
+        "tag": "Rodzaje",
+        "text": "Porównujemy dwie postacie pod kątem wybranych cech. Możemy skupić się na podobieństwach, różnicach lub zestawieniu obu.",
+        "points": [
+            "Określ kryterium porównania (np. stosunek do ojczyzny, odwaga, wartości)",
+            "Omów postać A, następnie postać B pod tym samym kątem",
+            "Lub: rozdział na podobieństwa i różnice",
+            "Zakończ wnioskiem: co porównanie mówi o ludzkich wyborach?"
+        ],
+        "example": "„Zarówno Rudy, jak i Zośka wykazują się odwagą. Jednak Rudy jest bardziej impulsywny, podczas gdy Zośka cechuje się spokojem i opanowaniem w działaniu.\""
+    },
+    {
+        "title": "9. Ocena i refleksja końcowa",
+        "tag": "Zakończenie",
+        "text": "Zakończenie charakterystyki to osobista ocena postaci i refleksja nad jej znaczeniem lub lekcją, jaką możemy z niej wyciągnąć.",
+        "points": [
+            "Oceń postać: czy zasługuje na szacunek, współczucie, potępienie?",
+            "Co możemy się nauczyć z jej losów?",
+            "Czy bohater jest wzorem do naśladowania, przestrogą, czy kimś pośrodku?",
+            "Możesz odwołać się do wartości uniwersalnych"
+        ],
+        "example": "„Balladyna jest przestrogą przed ślepą ambicją. Jej historia uczy nas, że władza zdobyta kosztem moralności nie przynosi szczęścia.\""
+    },
+    {
+        "title": "10. Najczęstsze błędy w charakterystyce",
+        "tag": "Błędy",
+        "text": "Unikanie tych błędów podnosi ocenę o kilka punktów. Sprawdź, czy Twoja charakterystyka ich nie zawiera.",
+        "points": [
+            "Streszczanie fabuły zamiast opisywania cech (typowy błąd!)",
+            "Ogólniki bez przykładów: „Rudy był dobry i odważny.\" – za mało!",
+            "Mieszanie cech zewnętrznych z wewnętrznymi w chaotyczny sposób",
+            "Używanie czasu przeszłego zamiast teraźniejszego (prezentyzm)"
+        ],
+        "example": "BŁĄD: „Rudy poszedł do szkoły, gdzie poznał Zośkę i Alka.\" (streszczanie) → POPRAWNIE: „Rudy wyróżniał się lojalnością – nie wydał przyjaciół nawet pod wpływem tortur.\""
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Jak analizować tekst literacki?",
+        "tag": "Podstawy",
+        "text": "Analiza tekstu to systematyczne badanie jego elementów: fabuły, bohaterów, narracji, języka i kontekstu. Interpretacja to wyjaśnianie sensów ukrytych.",
+        "points": [
+            "Analiza: co jest w tekście? (warstwa zewnętrzna i budowa)",
+            "Interpretacja: co to oznacza? (głębszy sens i przesłanie)",
+            "Zawsze zaczynaj od uważnego przeczytania tekstu",
+            "Zwracaj uwagę na tytuł, autora i czas powstania"
+        ],
+        "example": "Analiza „Lalki\" Prusa: realistyczny opis Warszawy XIX wieku. Interpretacja: walka idealisty z bezdusznym światem."
+    },
+    {
+        "title": "2. Analiza narracji i świata przedstawionego",
+        "tag": "Analiza",
+        "text": "Określenie, kto opowiada historię i jak skonstruowany jest świat, w którym toczą się wydarzenia.",
+        "points": [
+            "Narrator wszechwiedzący (3. osoba) vs narrator uczestnik (1. osoba)",
+            "Czas akcji: chronologiczny, retrospekcja, inwersja czasowa",
+            "Miejsce akcji: realistyczne, fantastyczne, symboliczne",
+            "Bohaterowie: główni, poboczni, epizodyczni"
+        ],
+        "example": "Narrator w „Panu Tadeuszu\" to osoba tęskniąca za ojczyzną, patrząca na świat z dystansem i czułością."
+    },
+    {
+        "title": "3. Analiza języka i stylu",
+        "tag": "Analiza",
+        "text": "Badanie środków artystycznego wyrazu użytych przez autora i ich funkcji w tekście.",
+        "points": [
+            "Znajdź epitety, porównania, metafory, onomatopeje",
+            "Określ styl: wysoki (podniosły), potoczny, archaizowany, naukowy",
+            "Zwróć uwagę na budowę zdań (krótkie, rwane vs długie, złożone)",
+            "Jaką funkcję pełnią te środki? (np. budują nastrój grozy)"
+        ],
+        "example": "Styl w „Chłopach\" Reymonta: stylizacja gwarowa nadająca tekstowi autentyczność życia wiejskiego."
+    },
+    {
+        "title": "4. Konteksty interpretacyjne",
+        "tag": "Analiza",
+        "text": "Umieszczenie tekstu w szerszej perspektywie pomaga w jego głębszym zrozumieniu.",
+        "points": [
+            "Kontekst biograficzny: fakty z życia autora (np. emigracja Mickiewicza)",
+            "Kontekst historyczny: wydarzenia epoki (np. zabory, wojna)",
+            "Kontekst literacki: nawiązania do innych dzieł (intertekstualność)",
+            "Kontekst kulturowy: mity, symbole, tradycje, religia"
+        ],
+        "example": "Czytając „Kamienie na szaniec\", musimy znać kontekst okupacji niemieckiej w Polsce."
+    },
+    {
+        "title": "5. Analiza wiersza – specyfika",
+        "tag": "Analiza",
+        "text": "Wiersz wymaga uwagi na formę: układ strof, rymy, rytm i osobę podmiotu lirycznego.",
+        "points": [
+            "Podmiot liryczny: kto mówi? do kogo? (sytuacja liryczna)",
+            "Budowa: stroficzny, ciągły, biały, wolny",
+            "Instrumentacja dźwiękowa: rymy, asonanse, onomatopeje",
+            "Gatunek: sonet, tren, oda, hymn, pieśń"
+        ],
+        "example": "W „Trenach\" Kochanowskiego podmiotem jest cierpiący ojciec po stracie ukochanej córki."
+    },
+    {
+        "title": "6. Czytanie ze zrozumieniem – techniki",
+        "tag": "Techniki",
+        "text": "Egzamin często sprawdza umiejętność wyszukiwania informacji w tekście nieliterackim (artykuł, felieton).",
+        "points": [
+            "Kluczowe słowa: podkreślaj najważniejsze pojęcia w tekście",
+            "Teza tekstu: znajdź główne przesłanie autora",
+            "Struktura argumentacji: jak autor przekonuje do swoich racji?",
+            "Pytania do tekstu: odpowiadaj precyzyjnie, cytując fragmenty, jeśli trzeba"
+        ],
+        "example": "W tekście naukowym o ekologii tezą może być: „Zmiany klimatu wymagają natychmiastowych działań państw.\""
+    },
+    {
+        "title": "7. Rozpoznawanie intencji autora",
+        "tag": "Analiza",
+        "text": "Co autor chce osiągnąć poprzez swój tekst? Czy chce pouczyć, wzruszyć, rozbawić, czy ostrzec?",
+        "points": [
+            "Funkcja dydaktyczna: tekst ma uczyć zasad moralnych",
+            "Funkcja ekspresywna: wyrażanie silnych uczuć autora",
+            "Funkcja ludyczna: tekst ma bawić i dostarczać rozrywki",
+            "Funkcja perswazyjna: przekonywanie do konkretnych poglądów"
+        ],
+        "example": "Bajki Krasickiego mają funkcję dydaktyczną – piętnują ludzkie wady pod maską zwierząt."
+    },
+    {
+        "title": "8. Porównywanie tekstów",
+        "tag": "Techniki",
+        "text": "Umiejętność zestawienia dwóch utworów pod kątem tematu, bohaterów lub formy.",
+        "points": [
+            "Znajdź wspólny motyw (np. motyw matki, motyw ojczyzny)",
+            "Wskaż podobieństwa w ujęciu tematu",
+            "Wskaż różnice (np. inny nastrój, inna epoka)",
+            "Wyciągnij wniosek: dlaczego autorzy podeszli do tematu inaczej?"
+        ],
+        "example": "Porównanie obrazu wsi w „Chłopach\" i „Panu Tadeuszu\": u Reymonta ciężka praca, u Mickiewicza arkadia szlachecka."
+    },
+    {
+        "title": "9. Analiza motywów literackich",
+        "tag": "Motywy",
+        "text": "Motyw to powtarzający się w literaturze schemat, postać lub sytuacja (topos).",
+        "points": [
+            "Motyw wędrówki: (np. „Odyseja\", „Mały Książę\", „Latarnik\")",
+            "Motyw miłości: (np. „Quo vadis\", „Pan Tadeusz\", „Romeo i Julia\")",
+            "Motyw walki o wolność: (np. „Kamienie na szaniec\", „Dziady\")",
+            "Motyw winy i kary: (np. „Balladyna\", „Zbrodnia i kara\")"
+        ],
+        "example": "Motyw Syzyfa – symbol bezsensownego, ale heroicznego wysiłku podejmowanego przez człowieka."
+    },
+    {
+        "title": "10. Najczęstsze błędy w analizie tekstu",
+        "tag": "Błędy",
+        "text": "Unikanie tych błędów sprawi, że Twoja analiza będzie rzeczowa i otrzyma więcej punktów na egzaminie.",
+        "points": [
+            "Streszczanie treści zamiast jej analizowania (najczęstszy błąd!)",
+            "Przypisywanie autorowi poglądów bohaterów",
+            "Ignorowanie kontekstu powstania dzieła",
+            "Używanie ogólników typu: „Tekst jest bardzo ciekawy i pouczający.\""
+        ],
+        "example": "BŁĄD: „Wiersz opowiada o tym, że autor kocha przyrodę.\", POPRAWNIE: „Podmiot liryczny wyraża zachwyt nad pięknem natury poprzez liczne epitety i metafory.\""
+    }
+]

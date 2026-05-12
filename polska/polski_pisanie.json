@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Struktura wypracowania",
+        "tag": "Podstawy",
+        "text": "Każde wypracowanie musi mieć trzy części: wstęp, rozwinięcie i zakończenie. Brak którejś z nich obniża ocenę.",
+        "points": [
+            "Wstęp: wprowadzenie tematu, teza lub hipoteza",
+            "Rozwinięcie: argumenty poparte przykładami z lektur",
+            "Zakończenie: podsumowanie i wnioski nawiązujące do tezy",
+            "Minimum 250 słów na egzaminie ósmoklasisty"
+        ],
+        "example": "Teza: „Przyjaźń jest jedną z najważniejszych wartości w życiu, co potwierdzają losy Rudego, Alka i Zośki z 'Kamieni na szaniec'.\""
+    },
+    {
+        "title": "2. Streszczenie",
+        "tag": "Formy wypowiedzi",
+        "text": "Krótkie, zwięzłe przedstawienie najważniejszych wydarzeń tekstu. Piszemy własnymi słowami, w 3. osobie, w czasie przeszłym, bez własnych opinii.",
+        "points": [
+            "Zachowuj chronologię wydarzeń",
+            "Nie dodawaj własnych ocen ani komentarzy",
+            "Pomijaj dialogi, szczegółowe opisy i poboczne wątki",
+            "Używaj czasu przeszłego i 3. osoby"
+        ],
+        "example": "Zamiast cytatu dialogu → „Tadeusz zauważył Zosię i zafascynował się jej urodą.\""
+    },
+    {
+        "title": "3. Charakterystyka postaci",
+        "tag": "Formy wypowiedzi",
+        "text": "Opis cech zewnętrznych i wewnętrznych bohatera. Każdą cechę należy poprzeć przykładem z tekstu.",
+        "points": [
+            "Cechy zewnętrzne: wygląd, ubiór, wiek",
+            "Cechy wewnętrzne: charakter, wartości, wady i zalety",
+            "Popieraj każdą cechę przykładem z lektury",
+            "Używaj bogatego słownictwa i unikaj powtórzeń"
+        ],
+        "example": "„Rudy był odważny i lojalny wobec przyjaciół – nawet pod wpływem tortur nie wydał kolegów z konspiracji.\""
+    },
+    {
+        "title": "4. List formalny",
+        "tag": "Formy użytkowe",
+        "text": "Oficjalny list kierowany do instytucji lub osoby nieznanej. Wymaga zachowania odpowiedniej formy i grzeczności.",
+        "points": [
+            "Miejsce i data w prawym górnym rogu",
+            "Zwrot grzecznościowy: „Szanowny Panie/Szanowna Pani\"",
+            "Jasno sformułowana prośba lub informacja",
+            "Zakończenie: „Z poważaniem\" + czytelny podpis"
+        ],
+        "example": "„Szanowna Pani Dyrektor, zwracam się z uprzejmą prośbą o wyrażenie zgody na organizację szkolnego turnieju sportowego w dniu 20 maja br.\""
+    },
+    {
+        "title": "5. Rozprawka",
+        "tag": "Formy wypowiedzi",
+        "text": "Forma argumentacyjna, w której autor broni swojego stanowiska. Wymaga tezy i co najmniej 2–3 argumentów z przykładami.",
+        "points": [
+            "Teza: jednoznaczne stanowisko (np. „Uważam, że odwaga jest niezbędna...\")",
+            "Argument: logiczne uzasadnienie tezy",
+            "Przykład: odwołanie do lektury, filmu, życia",
+            "Spójniki: po pierwsze, ponadto, co więcej, podsumowując"
+        ],
+        "example": "Argument: „Odwagę potwierdzają czyny Zośki z 'Kamieni na szaniec', który ryzykował życiem, aby uwolnić przyjaciela.\""
+    },
+    {
+        "title": "6. Opowiadanie",
+        "tag": "Formy wypowiedzi",
+        "text": "Narracyjna forma wypowiedzi z bohaterami, akcją i dialogami. Kluczowe są: ciekawy wstęp, punkt kulminacyjny i zaskakujące zakończenie.",
+        "points": [
+            "Narracja w 1. lub 3. osobie",
+            "Schemat: ekspozycja → zawiązanie → kulminacja → rozwiązanie",
+            "Stosuj dialogi i opisy sytuacji",
+            "Wzbogacaj tekst porównaniami, epitetami i metaforami"
+        ],
+        "example": "Otwarcie: „Kiedy otworzyłem te drzwi, wiedziałem, że nic już nie będzie takie samo. Cisza, która mnie przywitała, była głośniejsza niż jakikolwiek krzyk.\""
+    },
+    {
+        "title": "7. Przemówienie",
+        "tag": "Formy wypowiedzi",
+        "text": "Forma publiczna, mająca przekonać lub wzruszyć słuchaczy. Wymaga bezpośredniego zwrotu do odbiorców i wyraźnej struktury.",
+        "points": [
+            "Zwrot do odbiorców: „Drodzy uczniowie!\", „Szanowni Państwo!\"",
+            "Wstęp nawiązujący do okazji",
+            "Argumenty odwołujące się do emocji i faktów",
+            "Zakończenie: apel lub wezwanie do działania"
+        ],
+        "example": "„Drodzy Absolwenci! Dziś zamykacie jeden rozdział życia i otwieracie kolejny. Pamiętajcie – każda droga zaczyna się od pierwszego kroku.\""
+    },
+    {
+        "title": "8. Recenzja",
+        "tag": "Formy wypowiedzi",
+        "text": "Ocena dzieła (książki, filmu, gry) łącząca informację z subiektywną opinią autora.",
+        "points": [
+            "Dane o dziele: tytuł, autor, rok, gatunek",
+            "Krótkie streszczenie (bez spoilerów!)",
+            "Ocena: co się podobało i co nie, dlaczego",
+            "Rekomendacja: dla kogo polecasz i dlaczego warto"
+        ],
+        "example": "„'Mały Książę' to lektura, która porusza czytelnika w każdym wieku. Mimo prostej fabuły kryje głębokie prawdy o miłości i odpowiedzialności. Gorąco polecam.\""
+    },
+    {
+        "title": "9. Ogłoszenie i zaproszenie",
+        "tag": "Formy użytkowe",
+        "text": "Krótkie formy użytkowe służące informowaniu lub zapraszaniu. Muszą zawierać wszystkie kluczowe dane.",
+        "points": [
+            "Ogłoszenie: tytuł, treść (kto, co, kiedy, gdzie), kontakt",
+            "Zaproszenie: kto zaprasza, na co, kiedy i gdzie",
+            "Stosuj czytelny układ i wyróżnienia",
+            "Język jasny, konkretny, bez zbędnych ozdobników"
+        ],
+        "example": "Zaproszenie: „Serdecznie zapraszam na uroczystość zakończenia roku szkolnego, 21 czerwca o godz. 10:00 w auli. Proszę o potwierdzenie obecności.\""
+    },
+    {
+        "title": "10. Notatka i pamiętnik",
+        "tag": "Formy wypowiedzi",
+        "text": "Notatka to zwięzły zapis kluczowych informacji. Pamiętnik to subiektywny dziennik przeżyć pisany w 1. osobie.",
+        "points": [
+            "Notatka: punkty, skróty, tylko najważniejsze fakty",
+            "Pamiętnik: data, opis przeżyć, refleksje, emocje",
+            "Pamiętnik piszemy w 1. osobie liczby pojedynczej",
+            "Pamiętnik może zawierać zwroty do „Drogi Dzienniku\""
+        ],
+        "example": "Pamiętnik: „15 maja. Drogi Dzienniku, dziś wydarzyło się coś, czego się zupełnie nie spodziewałam. Spotkałam starego przyjaciela...\""
+    }
+]

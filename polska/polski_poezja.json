@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Czym jest wiersz? Podstawowe pojęcia",
+        "tag": "Podstawy",
+        "text": "Wiersz to literacka forma wypowiedzi, w której ważną rolę odgrywa rytm, dźwięk i układ wersów. Analiza wiersza wymaga znajomości specyficznych terminów.",
+        "points": [
+            "Wers: jedna linijka wiersza",
+            "Strofa (zwrotka): grupa wersów oddzielona od innych",
+            "Refren: powtarzająca się część wiersza",
+            "Podmiot liryczny: osoba wypowiadająca się w wierszu (to nie autor!)"
+        ],
+        "example": "Wiersz stroficzny: ma wyraźny podział na zwrotki. Wiersz ciągły (stychiczny): nie ma podziału na strofy."
+    },
+    {
+        "title": "2. Podmiot liryczny i sytuacja liryczna",
+        "tag": "Analiza",
+        "text": "Najważniejszym elementem analizy jest ustalenie, kto mówi, do kogo i w jakich okolicznościach.",
+        "points": [
+            "Liryka bezpośrednia: podmiot mówi w 1. osobie („ja\")",
+            "Liryka pośrednia: podmiot nie ujawnia się wprost, opisuje świat",
+            "Liryka zwrotu do adresata: podmiot kieruje słowa do konkretnej osoby/rzeczy",
+            "Sytuacja liryczna: okoliczności, w których znajduje się podmiot"
+        ],
+        "example": "Liryka bezpośrednia: „Czego chcesz od nas, Panie, za Twe hojne dary?\" (Jan Kochanowski)"
+    },
+    {
+        "title": "3. Rymy i rytm",
+        "tag": "Budowa",
+        "text": "Rymy to powtarzające się zakończenia wyrazów. Rytm to regularne powtarzanie się akcentów, sylab lub pauz.",
+        "points": [
+            "Rymy parzyste: AABB",
+            "Rymy krzyżowe: ABAB",
+            "Rymy okalające: ABBA",
+            "Rymy dokładne (pełne) i niedokładne (częściowe)"
+        ],
+        "example": "Rym krzyżowy: „Litwo! Ojczyzno moja! ty jesteś jak zdrowie (A) / Ile cię trzeba cenić, ten tylko się dowie (A) ...\" – to rym parzysty!"
+    },
+    {
+        "title": "4. Środki stylistyczne w poezji",
+        "tag": "Elementy",
+        "text": "Poeci używają środków artystycznego wyrazu, by wzmocnić przekaz i działać na wyobraźnię czytelnika.",
+        "points": [
+            "Epitety: przymiotniki określające rzeczownik (np. błękitne niebo)",
+            "Metafory (przenośnie): niedosłowne użycie słów",
+            "Porównania: zestawienie dwóch rzeczy (np. biały jak śnieg)",
+            "Onomatopeje: wyrazy dźwiękonaśladowcze (np. szum, trzask)"
+        ],
+        "example": "„Słońce jak złoty talar płonęło na niebie.\""
+    },
+    {
+        "title": "5. Gatunki liryczne",
+        "tag": "Rodzaje",
+        "text": "W zależności od tematyki i budowy wyróżniamy różne gatunki wierszy.",
+        "points": [
+            "Pieśń: rytmiczna, często z refrenem (np. „Pieśni\" Kochanowskiego)",
+            "Tren: utwór żałobny po śmierci bliskiej osoby",
+            "Sonet: kunsztowna budowa (14 wersów: 4+4+3+3)",
+            "Hymn: uroczysty utwór pochwalny"
+        ],
+        "example": "Sonet: „Stepy akermańskie\" Adama Mickiewicza."
+    },
+    {
+        "title": "6. Nastrój i tonacja wiersza",
+        "tag": "Interpretacja",
+        "text": "Wiersz może budzić różne emocje. Analizując go, określ, jaki jest jego nastrój.",
+        "points": [
+            "Ton podniosły (patetyczny): uroczysty, ważny",
+            "Ton melancholijny: smutny, pełen zadumy",
+            "Ton ironiczny: kpiący, dystansujący się",
+            "Ton radosny, pełen entuzjazmu"
+        ],
+        "example": "„Smutno mi, Boże!\" Juliusza Słowackiego ma nastrój melancholijny i pełen nostalgii."
+    },
+    {
+        "title": "7. Analiza wiersza – krok po kroku",
+        "tag": "Egzamin",
+        "text": "Dobra analiza powinna być uporządkowana i odwoływać się do konkretnych fragmentów tekstu.",
+        "points": [
+            "Krok 1: Przeczytaj wiersz kilka razy (najlepiej na głos)",
+            "Krok 2: Określ podmiot liryczny i adresata",
+            "Krok 3: Znajdź i nazwij środki stylistyczne",
+            "Krok 4: Wyciągnij wnioski – co poezja chce nam przekazać?"
+        ],
+        "example": "Analizując „Redutę Ordona\", zwróć uwagę na dynamizm opisu walki i patriotyczny ton."
+    },
+    {
+        "title": "8. Poezja współczesna vs dawna",
+        "tag": "Historia",
+        "text": "Poezja zmieniała się na przestrzeni wieków – od rygorystycznych reguł po wolność formy.",
+        "points": [
+            "Wiersz biały: wiersz bez rymów",
+            "Wiersz wolny: wiersz bez regularnego rytmu i rymów",
+            "Liryka lingwistyczna: skupiona na zabawie słowem i językiem",
+            "Wiersz wizualny: układ wersów tworzy obraz (kaligram)"
+        ],
+        "example": "Poezja Wisławy Szymborskiej często używa ironii i wiersza wolnego dla przekazania głębokich prawd."
+    },
+    {
+        "title": "9. Interpretacja tytułu",
+        "tag": "Analiza",
+        "text": "Tytuł to często klucz do zrozumienia całego wiersza. Zastanów się, jakie ma znaczenie.",
+        "points": [
+            "Tytuł może wskazywać na temat (np. „Do młodości\")",
+            "Tytuł może być ironicznym komentarzem",
+            "Tytuł może nawiązywać do innego dzieła literackiego",
+            "Brak tytułu (incypit): używamy pierwszego wersu jako tytułu"
+        ],
+        "example": "Tytuł „Niepewność\" Mickiewicza od razu sugeruje stan emocjonalny podmiotu lirycznego."
+    },
+    {
+        "title": "10. Najczęstsze błędy w interpretacji poezji",
+        "tag": "Błędy",
+        "text": "Unikaj tych pułapek, aby Twoja analiza była rzetelna i trafna.",
+        "points": [
+            "Utożsamianie podmiotu lirycznego z autorem (największy błąd!)",
+            "Streszczanie wiersza zamiast jego interpretacji",
+            "Wymienianie środków stylistycznych bez określenia ich funkcji",
+            "Nadinterpretacja – doszukiwanie się sensów, których nie ma w tekście"
+        ],
+        "example": "BŁĄD: „Autor mówi, że jest mu smutno.\", POPRAWNIE: „Podmiot liryczny wyraża swój smutek i zagubienie.\""
+    }
+]

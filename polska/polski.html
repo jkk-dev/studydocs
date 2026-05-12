@@ -169,18 +169,18 @@
         <h1>Polski</h1>
 
         <nav class="menu">
-            <button onclick="showPage('Lektury', this)">Lektury</button>
-            <button class="active" onclick="loadGrammar(this)">Gramatyka</button>
-            <button onclick="showPage('Pisanie', this)">Pisanie</button>
-            <button onclick="showPage('Ortografia', this)">Ortografia</button>
-            <button onclick="showPage('Interpunkcja', this)">Interpunkcja</button>
-            <button onclick="showPage('Środki stylistyczne', this)">Środki stylistyczne</button>
-            <button onclick="showPage('Rozprawka', this)">Rozprawka</button>
-            <button onclick="showPage('Charakterystyka', this)">Charakterystyka</button>
-            <button onclick="showPage('Opowiadanie', this)">Opowiadanie</button>
-            <button onclick="showPage('Poezja', this)">Poezja</button>
-            <button onclick="showPage('Epoki literackie', this)">Epoki literackie</button>
-            <button onclick="showPage('Analiza tekstu', this)">Analiza tekstu</button>
+            <button class="active" onclick="loadSection('Lektury', 'polski_lektury.json', this)">Lektury</button>
+            <button onclick="loadSection('Gramatyka', 'gramatyka.json', this)">Gramatyka</button>
+            <button onclick="loadSection('Pisanie', 'polski_pisanie.json', this)">Pisanie</button>
+            <button onclick="loadSection('Ortografia', 'polski_ortografia.json', this)">Ortografia</button>
+            <button onclick="loadSection('Interpunkcja', 'polski_interpunkcja.json', this)">Interpunkcja</button>
+            <button onclick="loadSection('Środki stylistyczne', 'polski_srodki.json', this)">Środki stylistyczne</button>
+            <button onclick="loadSection('Rozprawka', 'polski_rozprawka.json', this)">Rozprawka</button>
+            <button onclick="loadSection('Charakterystyka', 'polski_charakterystyka.json', this)">Charakterystyka</button>
+            <button onclick="loadSection('Opowiadanie', 'polski_opowiadanie.json', this)">Opowiadanie</button>
+            <button onclick="loadSection('Poezja', 'polski_poezja.json', this)">Poezja</button>
+            <button onclick="loadSection('Epoki literackie', 'polski_epoki.json', this)">Epoki literackie</button>
+            <button onclick="loadSection('Analiza tekstu', 'polski_analiza.json', this)">Analiza tekstu</button>
         </nav>
     </aside>
 
@@ -205,67 +205,54 @@
             }
         }
 
-        function showPage(title, button) {
+        async function loadSection(title, jsonFile, button) {
             setActiveButton(button);
 
             content.innerHTML = `
                 <h2>${title}</h2>
-                <p class="intro">
-                    Ten dział jest gotowy do rozbudowy. Tutaj możesz dodać notatki,
-                    przykłady, ćwiczenia i materiały do nauki.
-                </p>
+                <p class="intro">Ładowanie materiałów...</p>
+            `;
 
-                <div class="lesson">
-                    <span class="tag">W przygotowaniu</span>
-                    <h3>${title}</h3>
-                    <p>
-                        Tu pojawi się pełny materiał do działu: <b>${title}</b>.
+            try {
+                const response = await fetch(jsonFile);
+                if (!response.ok) throw new Error("Nie udało się załadować danych");
+                const course = await response.json();
+
+                let html = `
+                    <h2>${title}</h2>
+                    <p class="intro">
+                        Szczegółowe materiały i zasady z działu: <b>${title}</b>. Znajdziesz tutaj kompleksowe objaśnienia i przykłady.
                     </p>
-                </div>
-            `;
-        }
-
-        async function loadGrammar(button) {
-            setActiveButton(button);
-
-            content.innerHTML = `
-                <h2>Gramatyka</h2>
-                <p class="intro">Ładowanie kursu gramatyki...</p>
-            `;
-
-            const response = await fetch("gramatyka.json");
-            const grammarCourse = await response.json();
-
-            let html = `
-                <h2>Gramatyka</h2>
-                <p class="intro">
-                    Pełny kurs gramatyki języka polskiego. Znajdziesz tutaj działy,
-                    definicje, przykłady i ważne zasady potrzebne do nauki.
-                </p>
-            `;
-
-            grammarCourse.forEach(section => {
-                html += `
-                    <article class="lesson">
-                        <span class="tag">${section.tag}</span>
-                        <h3>${section.title}</h3>
-                        <p>${section.text}</p>
-
-                        <ul>
-                            ${section.points.map(point => `<li>${point}</li>`).join("")}
-                        </ul>
-
-                        <div class="example">
-                            ${section.example}
-                        </div>
-                    </article>
                 `;
-            });
 
-            content.innerHTML = html;
+                course.forEach(section => {
+                    html += `
+                        <article class="lesson">
+                            <span class="tag">${section.tag}</span>
+                            <h3>${section.title}</h3>
+                            <p>${section.text}</p>
+
+                            <ul>
+                                ${section.points.map(point => `<li>${point}</li>`).join("")}
+                            </ul>
+
+                            <div class="example">
+                                ${section.example}
+                            </div>
+                        </article>
+                    `;
+                });
+
+                content.innerHTML = html;
+            } catch (error) {
+                content.innerHTML = `
+                    <h2>${title}</h2>
+                    <p class="intro">Błąd ładowania danych lub plik nie istnieje.</p>
+                `;
+            }
         }
 
-        loadGrammar(document.querySelector(".menu button.active"));
+        loadSection('Lektury', 'polski_lektury.json', document.querySelector(".menu button.active"));
     </script>
 
 </body>

@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Ułamki zwykłe – podstawy",
+        "tag": "Ułamki zwykłe",
+        "text": "Ułamek zwykły a/b to część całości podzielonej na b równych części, z których wzięliśmy a. Licznik to a, mianownik to b.",
+        "points": [
+            "Ułamek właściwy: licznik < mianownik (np. 3/5)",
+            "Ułamek niewłaściwy: licznik ≥ mianownik (np. 7/4)",
+            "Liczba mieszana: całość + ułamek (np. 1¾ = 7/4)",
+            "Skracanie: dzielenie licznika i mianownika przez NWD"
+        ],
+        "example": "¾ – ułamek właściwy / 5/3 – niewłaściwy / 1⅔ = 5/3 / Skracanie: 12/18 = 2/3 (NWD = 6)"
+    },
+    {
+        "title": "2. Dodawanie i odejmowanie ułamków",
+        "tag": "Działania",
+        "text": "Ułamki o tym samym mianowniku dodajemy lub odejmujemy, działając tylko na licznikach. Przy różnych mianownikach szukamy NWW.",
+        "points": [
+            "Ten sam mianownik: a/c ± b/c = (a ± b)/c",
+            "Różne mianowniki: sprowadź do wspólnego mianownika (NWW)",
+            "NWW to najmniejsza wspólna wielokrotność mianowników",
+            "Pamiętaj o zamianie liczby mieszanej na ułamek niewłaściwy przed działaniem"
+        ],
+        "example": "1/4 + 2/3 → NWW=12 → 3/12 + 8/12 = 11/12 / 5/6 - 1/4 → 10/12 - 3/12 = 7/12"
+    },
+    {
+        "title": "3. Mnożenie i dzielenie ułamków",
+        "tag": "Działania",
+        "text": "Ułamki mnożymy licznik przez licznik i mianownik przez mianownik. Przy dzieleniu odwracamy drugi ułamek i mnożymy.",
+        "points": [
+            "Mnożenie: a/b · c/d = (a·c)/(b·d)",
+            "Dzielenie: a/b ÷ c/d = a/b · d/c = (a·d)/(b·c)",
+            "Przed mnożeniem warto skrócić krzyżowo dla uproszczenia obliczeń",
+            "Całość mnożona przez ułamek: n · a/b = (n·a)/b"
+        ],
+        "example": "3/4 · 8/9 = 24/36 = 2/3 (lub skróć krzyżowo: 1/1 · 2/3 = 2/3) / 5/6 ÷ 5/3 = 5/6 · 3/5 = 15/30 = 1/2"
+    },
+    {
+        "title": "4. Ułamki dziesiętne – podstawy",
+        "tag": "Ułamki dziesiętne",
+        "text": "Ułamki dziesiętne to ułamki, których mianownik jest potęgą 10. Zapis z przecinkiem dziesiętnym.",
+        "points": [
+            "0,1 = 1/10; 0,01 = 1/100; 0,001 = 1/1000",
+            "Zamienianie na ułamek: 0,75 = 75/100 = 3/4",
+            "Zamienianie na ułamek dziesiętny: 3/8 = 0,375 (dzielimy 3÷8)",
+            "Ułamki skończone i nieskończone (np. 1/3 = 0,333... = 0,3̄)"
+        ],
+        "example": "0,625 = 625/1000 = 5/8 / 7/20 = 7÷20 = 0,35 / 0,7̄ = 7/9"
+    },
+    {
+        "title": "5. Działania na ułamkach dziesiętnych",
+        "tag": "Działania",
+        "text": "Działania na ułamkach dziesiętnych wykonujemy jak na liczbach całkowitych, pamiętając o właściwym umieszczeniu przecinka.",
+        "points": [
+            "Dodawanie/odejmowanie: wyrównaj przecinki, działaj kolumnowo",
+            "Mnożenie: ignoruj przecinki, pomnóż, przesuwaj przecinek o sumę miejsc dziesiętnych",
+            "Dzielenie: przesuń przecinek w dzielniku i dzielnej o tyle samo miejsc, by dzielnik był całkowity",
+            "Zaokrąglanie: cyfra ≥ 5 → zaokrąglamy w górę; < 5 → w dół"
+        ],
+        "example": "2,5 · 0,4 = 25 · 4 = 100 → 2 miejsca dziesiętne → 1,00 = 1 / 3,6 ÷ 0,4 = 36 ÷ 4 = 9"
+    },
+    {
+        "title": "6. Porównywanie ułamków",
+        "tag": "Ułamki zwykłe",
+        "text": "Ułamki porównujemy przez sprowadzenie do wspólnego mianownika lub zamieniając na ułamki dziesiętne.",
+        "points": [
+            "Wspólny mianownik: 2/3 vs 3/4 → 8/12 vs 9/12 → 2/3 < 3/4",
+            "Ułamki dziesiętne: 3/5 = 0,6; 5/8 = 0,625 → 3/5 < 5/8",
+            "Jeśli mianowniki równe: porównuj liczniki",
+            "Jeśli liczniki równe: ułamek z większym mianownikiem jest mniejszy"
+        ],
+        "example": "Porównaj 5/7 i 3/4: NWW=28 → 20/28 i 21/28 → 5/7 < 3/4"
+    },
+    {
+        "title": "7. Procenty a ułamki",
+        "tag": "Zastosowania",
+        "text": "Procenty to ułamki z mianownikiem 100. Sprawna zamiana między procentami, ułamkami i liczbami dziesiętnymi to podstawa.",
+        "points": [
+            "25% = 25/100 = 1/4 = 0,25",
+            "33⅓% ≈ 1/3 ≈ 0,333...",
+            "Zamiana: ułamek → % : mnóż przez 100",
+            "Zamiana: % → ułamek: dziel przez 100 i skróć"
+        ],
+        "example": "Tabela ważnych: 10%=1/10, 20%=1/5, 25%=1/4, 50%=1/2, 75%=3/4, 33,3%=1/3, 66,6%=2/3"
+    },
+    {
+        "title": "8. NWD i NWW",
+        "tag": "Liczby",
+        "text": "NWD (Największy Wspólny Dzielnik) i NWW (Najmniejsza Wspólna Wielokrotność) są kluczowe przy operacjach na ułamkach.",
+        "points": [
+            "NWD: największa liczba dzieląca obie liczby bez reszty",
+            "Algorytm Euklidesa: NWD(a,b) = NWD(b, a mod b) aż do reszty 0",
+            "NWW: najmniejsza liczba dzieląca się przez obie liczby",
+            "Związek: NWD(a,b) · NWW(a,b) = a · b"
+        ],
+        "example": "NWD(12, 18): 18=12·1+6; 12=6·2+0 → NWD=6 / NWW(4,6) = 4·6/NWD(4,6) = 24/2 = 12"
+    },
+    {
+        "title": "9. Ułamki w zadaniach tekstowych",
+        "tag": "Zastosowania",
+        "text": "Ułamki pojawiają się w zadaniach o podziale całości, mieszaninach, rabatach i proporcjach.",
+        "points": [
+            "¼ z 80 = 20 (mnożymy)",
+            "Jeśli ¾ drogi = 30 km, to cała droga = 30 ÷ ¾ = 40 km",
+            "Mieszaniny: sumuj ułamki składników = 1 (całość)",
+            "Reszta: jeśli wydałeś ⅗ → zostało 2/5"
+        ],
+        "example": "Kasia przeczytała ⅖ książki mającej 250 stron. Ile stron przeczytała? → ⅖ · 250 = 100 stron."
+    },
+    {
+        "title": "10. Liczby wymierne i niewymierne",
+        "tag": "Zbiory liczb",
+        "text": "Liczby wymierne można zapisać jako ułamek p/q (q≠0). Liczby niewymierne to takie, których nie da się tak zapisać.",
+        "points": [
+            "Wymierne: wszystkie ułamki i liczby całkowite (np. ½, -3, 0,75)",
+            "Niewymierne: √2, √3, π, e – nieskończone, nieokresowe rozwinięcia dziesiętne",
+            "Razem tworzą zbiór liczb rzeczywistych ℝ",
+            "Każda liczba wymierna ma rozwinięcie dziesiętne skończone lub okresowe"
+        ],
+        "example": "√4 = 2 (wymierna!) / √2 ≈ 1,41421356... (niewymierna – nieskończona, nieperiodyczna) / π ≈ 3,14159..."
+    }
+]

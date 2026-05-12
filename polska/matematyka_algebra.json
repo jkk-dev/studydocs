@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Jednomiany i wielomiany",
+        "tag": "Wyrażenia algebraiczne",
+        "text": "Jednomian to iloczyn liczby i zmiennych z wykładnikami naturalnymi. Wielomian to suma jednomianów.",
+        "points": [
+            "Jednomian: np. 3x², -5xy, 7 (sama liczba też jest jednomianem)",
+            "Stopień jednomianu: suma wykładników zmiennych (np. 3x²y ma stopień 3)",
+            "Wielomian: suma jednomianów różnych stopni, np. 2x² + 3x - 5",
+            "Stopień wielomianu: stopień członu o najwyższym wykładniku"
+        ],
+        "example": "W(x) = 4x³ - 2x² + x - 7 → wielomian stopnia 3. Współczynnik wiodący: 4. Wyraz wolny: -7."
+    },
+    {
+        "title": "2. Działania na wielomianach",
+        "tag": "Wyrażenia algebraiczne",
+        "text": "Wielomiany można dodawać, odejmować i mnożyć. Przy dodawaniu/odejmowaniu łączymy wyrazy podobne (tej samej potęgi).",
+        "points": [
+            "Dodawanie: łącz wyrazy tego samego stopnia: (x² + 3x) + (2x² - x) = 3x² + 2x",
+            "Odejmowanie: zmień znaki odjemnika i dodaj: (x² + 3x) - (2x² - x) = -x² + 4x",
+            "Mnożenie przez jednomian: rozdzielczość mnożenia, np. 2x(x + 3) = 2x² + 6x",
+            "Mnożenie wielomianów: każdy przez każdego (metoda FOIL lub kolumnowa)"
+        ],
+        "example": "(x + 2)(x + 3) = x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6 = x² + 5x + 6"
+    },
+    {
+        "title": "3. Wzory skróconego mnożenia",
+        "tag": "Wzory",
+        "text": "Wzory skróconego mnożenia pozwalają szybko rozwijać i faktoryzować wyrażenia algebraiczne. Trzeba je znać na pamięć.",
+        "points": [
+            "(a + b)² = a² + 2ab + b²",
+            "(a - b)² = a² - 2ab + b²",
+            "(a + b)(a - b) = a² - b²  (różnica kwadratów)",
+            "(a + b)³ = a³ + 3a²b + 3ab² + b³"
+        ],
+        "example": "(x + 5)² = x² + 10x + 25 / (x - 3)(x + 3) = x² - 9 / (2x + 1)² = 4x² + 4x + 1"
+    },
+    {
+        "title": "4. Wyłączanie wspólnego czynnika",
+        "tag": "Faktoryzacja",
+        "text": "Faktoryzacja (rozkład na czynniki) to odwrotność mnożenia. Polega na wyciąganiu wspólnych elementów przed nawias.",
+        "points": [
+            "Znajdź NWD współczynników i największą wspólną potęgę zmiennych",
+            "Wyciągnij znaleziony czynnik przed nawias",
+            "Sprawdź wynik przez mnożenie",
+            "Przykład: 6x² + 9x = 3x(2x + 3)"
+        ],
+        "example": "12x³ - 8x² + 4x = 4x(3x² - 2x + 1) ← wyciągamy 4x jako wspólny czynnik"
+    },
+    {
+        "title": "5. Potęgi i ich własności",
+        "tag": "Potęgowanie",
+        "text": "Potęga to skrócony zapis wielokrotnego mnożenia tej samej liczby. Zasady działań na potęgach są kluczowe w algebrze.",
+        "points": [
+            "aᵐ · aⁿ = aᵐ⁺ⁿ (mnożenie: dodajemy wykładniki)",
+            "aᵐ ÷ aⁿ = aᵐ⁻ⁿ (dzielenie: odejmujemy wykładniki)",
+            "(aᵐ)ⁿ = aᵐⁿ (potęgowanie potęgi: mnożymy wykładniki)",
+            "a⁰ = 1 dla każdego a ≠ 0; a⁻ⁿ = 1/aⁿ"
+        ],
+        "example": "x³ · x⁴ = x⁷ / x⁶ ÷ x² = x⁴ / (x²)³ = x⁶ / x⁻² = 1/x²"
+    },
+    {
+        "title": "6. Pierwiastki",
+        "tag": "Pierwiastkowanie",
+        "text": "Pierwiastek to odwrotność potęgowania. Pierwiastek n-tego stopnia z a to liczba, która podniesiona do n-tej potęgi daje a.",
+        "points": [
+            "√a · √b = √(ab); √a / √b = √(a/b)",
+            "√(a²) = |a| (wartość bezwzględna!)",
+            "ⁿ√(aᵐ) = a^(m/n) (pierwiastek jako ułamkowy wykładnik)",
+            "Pierwiastek z sumy ≠ suma pierwiastków: √(a+b) ≠ √a + √b"
+        ],
+        "example": "√12 = √(4·3) = 2√3 / √50 = √(25·2) = 5√2 / ³√8 = 2 (bo 2³=8)"
+    },
+    {
+        "title": "7. Procenty",
+        "tag": "Procenty",
+        "text": "Procent to setna część całości. Obliczenia procentowe pojawiają się w zadaniach z ekonomii, statystyki i życia codziennego.",
+        "points": [
+            "p% z W = (p/100) · W",
+            "Podwyżka o p%: nowa wartość = W · (1 + p/100)",
+            "Obniżka o p%: nowa wartość = W · (1 - p/100)",
+            "Jaki % jest A z B? → (A/B) · 100%"
+        ],
+        "example": "30% z 200 = 0,3 · 200 = 60 / Cena 500 zł, obniżka 20% → 500 · 0,8 = 400 zł / 45 to jaki % z 180? → (45/180)·100% = 25%"
+    },
+    {
+        "title": "8. Proporcje i skale",
+        "tag": "Proporcje",
+        "text": "Proporcja to równość dwóch stosunków. Skala to stosunek odległości na mapie do odległości w rzeczywistości.",
+        "points": [
+            "Proporcja: a/b = c/d ↔ a·d = b·c (iloczyny krzyżowe)",
+            "Proporcja prosta: jeśli x rośnie, to y rośnie",
+            "Proporcja odwrotna: jeśli x rośnie, to y maleje",
+            "Skala 1:1000 → 1 cm na mapie = 10 m w rzeczywistości"
+        ],
+        "example": "x/6 = 4/8 → 8x = 24 → x = 3 / Skala 1:50000, odl. na mapie 4 cm → rzeczywista: 4 · 50000 = 200000 cm = 2 km"
+    },
+    {
+        "title": "9. Układy równań liniowych",
+        "tag": "Równania",
+        "text": "Układ dwóch równań z dwiema niewiadomymi można rozwiązać metodą podstawiania, przeciwnych współczynników lub graficznie.",
+        "points": [
+            "Metoda podstawiania: wyznacz jedną zmienną z jednego równania, podstaw do drugiego",
+            "Metoda przeciwnych współczynników: przemnóż równania, by wyeliminować jedną zmienną",
+            "Układ oznaczony: jedno rozwiązanie (proste się przecinają)",
+            "Układ nieoznaczony: nieskończenie wiele rozwiązań; sprzeczny: brak rozwiązań"
+        ],
+        "example": "{ x + y = 5 i 2x - y = 1 } → dodajemy: 3x = 6 → x = 2, y = 3. Sprawdzenie: 2+3=5 ✓, 4-3=1 ✓"
+    },
+    {
+        "title": "10. Wzory i przekształcenia",
+        "tag": "Przekształcenia",
+        "text": "Przekształcanie wzorów polega na wyznaczeniu wybranej zmiennej jako zależnej od pozostałych.",
+        "points": [
+            "Wykonuj te same operacje po obu stronach równania",
+            "Kolejność: nawiasy → mnożenie/dzielenie → dodawanie/odejmowanie",
+            "Przenieś zmienną, którą chcesz wyznaczyć, na jedną stronę",
+            "Sprawdź wynik podstawiając do oryginalnego wzoru"
+        ],
+        "example": "V = l · w · h; wyznacz h: h = V / (l · w) / S = (a + b) · h / 2; wyznacz h: h = 2S / (a + b)"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Starożytność (do V w. n.e.)",
+        "tag": "Epoki",
+        "text": "Starożytność to epoka literatury greckiej, rzymskiej i hebrajskiej. Jej wzorce i wartości trwają do dziś. W Polsce nie ma rodzimej literatury z tego okresu.",
+        "points": [
+            "Najważniejsze dzieła: „Iliada\", „Odyseja\", Biblia, tragedie Sofoklesa",
+            "Filozofia: stoicyzm (spokój), epikureizm (radość życia)",
+            "Gatunki: epos, tragedia, komedia, mit, przypowieść",
+            "Wartości: harmonia, umiar (zasada złotego środka)"
+        ],
+        "example": "Mit o Syzyfie – symbol bezowocnego trudu; Biblia – źródło uniwersalnych zasad moralnych."
+    },
+    {
+        "title": "2. Średniowiecze (V–XV w.)",
+        "tag": "Epoki",
+        "text": "Epoka zdominowana przez chrześcijaństwo i system feudalny. Literatura miała charakter dydaktyczny i religijny.",
+        "points": [
+            "Wzorce osobowe: święty (asceta), rycerz, dobry władca",
+            "Teocentryzm: Bóg w centrum zainteresowania ludzi",
+            "Najstarsze polskie teksty: „Bogurodzica\", „Lament świętokrzyski\"",
+            "Zabytki języka polskiego: Bulla gnieźnieńska, Kazania świętokrzyskie"
+        ],
+        "example": "„Bogurodzica\" – najstarszy polski hymn i pieśń bojowa rycerstwa."
+    },
+    {
+        "title": "3. Odrodzenie (Renesans, XVI w.)",
+        "tag": "Epoki",
+        "text": "Człowiek w centrum uwagi (humanizm). Powrót do antyku, rozwój nauki i języków narodowych.",
+        "points": [
+            "Hasło: „Człowiekiem jestem i nic co ludzkie nie jest mi obce\" (Terencjusz)",
+            "Najważniejszy twórca w Polsce: Jan Kochanowski (Fraszki, Pieśni, Treny)",
+            "Gatunki: sielanka, fraszka, pieśń, sonet, dramat humanistyczny",
+            "Wartości: harmonia, edukacja, radość z życia, patriotyzm"
+        ],
+        "example": "Jan Kochanowski – twórca polskiego języka literackiego i mistrz form klasycznych."
+    },
+    {
+        "title": "4. Barok (XVII w.)",
+        "tag": "Epoki",
+        "text": "Epoka kontrastów, przepychu i niepokoju. Literatura baroku charakteryzowała się bogactwem formy i zaskakującymi konceptami.",
+        "points": [
+            "Hasło: memento mori (pamiętaj o śmierci), vanitas (marność)",
+            "Konceptyzm: poszukiwanie oryginalnych, zaskakujących pomysłów",
+            "Twórcy: Jan Andrzej Morsztyn (poezja dworska), Daniel Naborowski",
+            "Pamiętnikarstwo: Jan Chryzostom Pasek (opis życia szlachty)"
+        ],
+        "example": "Jan Andrzej Morsztyn – mistrz paradoksu i wyszukanych metafor w poezji miłosnej."
+    },
+    {
+        "title": "5. Oświecenie (XVIII w.)",
+        "tag": "Epoki",
+        "text": "Wiek rozumu, nauki i krytyki tradycji. Literatura miała uczyć, bawić i wychowywać obywatela.",
+        "points": [
+            "Hasło: Sapere aude (odważ się być mądrym)",
+            "Twórcy: Ignacy Krasicki (Bajki, Satyry), Julian Ursyn Niemcewicz",
+            "Dydaktyzm: literatura powinna uczyć i piętnować wady społeczne",
+            "Rozwój czasopiśmiennictwa („Monitor\") i teatru narodowego"
+        ],
+        "example": "Ignacy Krasicki – „książę poetów\", mistrz krótkiej bajki o charakterze pouczającym."
+    },
+    {
+        "title": "6. Romantyzm (XIX w. - I połowa)",
+        "tag": "Epoki",
+        "text": "Najważniejsza epoka dla polskiej tożsamości. Skupienie na uczuciu, duchowości, naturze i walce o niepodległość.",
+        "points": [
+            "Hasło: „Miej serce i patrzaj w serce\"",
+            "Trzej Wieszcze: Mickiewicz, Słowacki, Krasiński",
+            "Bohater romantyczny: buntownik, samotnik, patriota",
+            "Mesjanizm: wiara w szczególną rolę Polski w historii świata"
+        ],
+        "example": "Adam Mickiewicz – autor „Dziadów\" i „Pana Tadeusza\", duchowy przywódca narodu."
+    },
+    {
+        "title": "7. Pozytywizm (XIX w. - II połowa)",
+        "tag": "Epoki",
+        "text": "Czas pracy organicznej i pracy u podstaw po upadku powstania styczniowego. Skupienie na nauce, faktach i społeczeństwie.",
+        "points": [
+            "Hasła: praca u podstaw, praca organiczna, emancypacja kobiet",
+            "Twórcy: Bolesław Prus („Lalka\"), Henryk Sienkiewicz, Eliza Orzeszkowa",
+            "Rozwój powieści realistycznej i noweli",
+            "Wartości: użyteczność społeczna, nauka, realizm"
+        ],
+        "example": "Bolesław Prus – wnikliwy obserwator społeczeństwa w wielkiej powieści „Lalka\"."
+    },
+    {
+        "title": "8. Młoda Polska (przełom XIX i XX w.)",
+        "tag": "Epoki",
+        "text": "Powrót do romantyzmu, ale w formie dekadenckiej i symbolicznej. Skupienie na sztuce, nastroju i podświadomości.",
+        "points": [
+            "Hasło: Sztuka dla sztuki; dekadentyzm (poczucie schyłku)",
+            "Twórcy: Stanisław Wyspiański („Wesele\"), Stefan Żeromski, Jan Kasprowicz",
+            "Symbolizm i impresjonizm w literaturze",
+            "Wartości: wolność artystyczna, mistycyzm, ludomania"
+        ],
+        "example": "Stanisław Wyspiański – twórca nowoczesnego dramatu narodowego „Wesele\"."
+    },
+    {
+        "title": "9. Dwudziestolecie międzywojenne (1918–1939)",
+        "tag": "Epoki",
+        "text": "Czas wolności i eksperymentu po odzyskaniu niepodległości. Literatura stała się różnorodna i nowoczesna.",
+        "points": [
+            "Grupa Skamander: Tuwim, Lechoń, Słonimski, Iwaszkiewicz, Wierzyński",
+            "Awangarda: poszukiwanie nowych form wyrazu",
+            "Pojawienie się nurtów: futuryzm, nadrealizm, katastrofizm",
+            "Twórcy: Witold Gombrowicz, Bruno Schulz, Maria Dąbrowska"
+        ],
+        "example": "Julian Tuwim – poeta codzienności i mistrz języka polskiego."
+    },
+    {
+        "title": "10. Literatura współczesna (po 1939 r.)",
+        "tag": "Epoki",
+        "text": "Obejmuje literaturę czasu wojny (Pokolenie Kolumbów) oraz powojenną, aż do dziś.",
+        "points": [
+            "Pokolenie Kolumbów: Baczyński, Gajcy, Borowski",
+            "Nobliści: Sienkiewicz, Reymont, Miłosz, Szymborska, Tokarczuk",
+            "Różnorodność form i tematów: od rozliczenia z wojną po postmodernizm",
+            "Literatura emigracyjna i krajowa (w okresie PRL)"
+        ],
+        "example": "Wisława Szymborska – poetka ironii i paradoksu, laureatka Nagrody Nobla."
+    }
+]

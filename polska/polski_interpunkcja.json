@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Przecinek w zdaniu złożonym",
+        "tag": "Przecinek",
+        "text": "Przecinek oddziela zdania składowe w zdaniu złożonym podrzędnie i współrzędnie. To najważniejsza zasada interpunkcji.",
+        "points": [
+            "Przed spójnikami podrzędności: że, bo, ponieważ, który, gdy, jeśli, aby",
+            "Przed spójnikami współrzędności: ale, lecz, a, jednak, owszem, lecz",
+            "W zdaniach złożonych współrzędnie: przed spójnikami przeciwstawnymi i wynikowymi",
+            "Zawsze sprawdzaj, czy spójnik łączy dwa orzeczenia!"
+        ],
+        "example": "„Pójdę do domu, bo pada deszcz.\" (bo łączy zdania) / „To jest książka, którą wczoraj kupiłem.\""
+    },
+    {
+        "title": "2. Przecinek a spójniki „i\", „oraz\", „lub\", „czy\"",
+        "tag": "Przecinek",
+        "text": "Przed spójnikami łącznymi (i, oraz, tudzież) i rozłącznymi (lub, czy, albo, bądź) zazwyczaj NIE stawiamy przecinka.",
+        "points": [
+            "Brak przecinka: „i\", „oraz\", „tudzież\", „lub\", „czy\", „albo\", „bądź\"",
+            "Wyjątek 1: gdy spójnik się powtarza w tej samej funkcji: „Nie lubię i herbaty, i kawy.\"",
+            "Wyjątek 2: gdy spójnik rozpoczyna dopowiedzenie: „Znam go, i to bardzo dobrze.\"",
+            "Zasada: jeśli spójnik łączy jednorodne części zdania → brak przecinka"
+        ],
+        "example": "„Kupiłem jabłka i gruszki.\" (brak przecinka) / „Czy pójdziemy do kina, czy zostaniemy w domu?\" (powtórzony spójnik)"
+    },
+    {
+        "title": "3. Przecinek przy wyliczeniach",
+        "tag": "Przecinek",
+        "text": "Przecinek oddziela jednorodne części zdania (np. kilka przymiotników lub rzeczowników) wymieniane po sobie.",
+        "points": [
+            "Oddzielaj kolejne elementy wyliczenia: „Kupiłem mąkę, cukier, jajka.\"",
+            "Jeśli elementy łączy spójnik „i\" lub „oraz\" → brak przecinka przed spójnikiem",
+            "Przy wyliczeniu wieloelementowym ostatni element często łączy się spójnikiem",
+            "Zawsze sprawdzaj, czy elementy są tej samej kategorii gramatycznej"
+        ],
+        "example": "„Ania jest miła, pomocna, inteligentna.\" / „W ogrodzie rosną róże, tulipany oraz bratki.\""
+    },
+    {
+        "title": "4. Przecinek przy wołaczu i wykrzyknikach",
+        "tag": "Przecinek",
+        "text": "Wołacz (bezpośredni zwrot do kogoś) oraz wykrzykniki (wyrazy wyrażające silne emocje) zawsze oddzielamy przecinkiem.",
+        "points": [
+            "Wołacz na początku: „Mamo, chodź tutaj.\"",
+            "Wołacz w środku: „Nie zapomnij, Janku, o kluczach.\"",
+            "Wykrzykniki na początku: „Och, jak tu pięknie!\", „Hej, poczekaj!\"",
+            "Zasada: element wyodrębniony intonacyjnie wymaga przecinka"
+        ],
+        "example": "„Dzień dobry, Pani Dyrektor.\" / „Ojej, zapomniałam o tym!\""
+    },
+    {
+        "title": "5. Przecinek przy wtrąceniach i dopowiedzeniach",
+        "tag": "Przecinek",
+        "text": "Wtrącenia, czyli dodatkowe informacje wstawione w środek zdania, oraz dopowiedzenia na końcu muszą być wydzielone przecinkami.",
+        "points": [
+            "Wtrącenia: „Mój brat, student medycyny, wrócił do domu.\"",
+            "Dopowiedzenia: „Kupię tę sukienkę, i to już dziś.\"",
+            "Wyrazy modyfikujące (nawiasy logiczne): „być może\", „prawdopodobnie\", „niestety\"",
+            "Zasada: jeśli usunięcie fragmentu nie niszczy sensu zdania → to wtrącenie"
+        ],
+        "example": "„Ten dom, wybudowany w zeszłym roku, jest bardzo nowoczesny.\" / „Przyjdę do ciebie, prawdopodobnie wieczorem.\""
+    },
+    {
+        "title": "6. Dwukropek",
+        "tag": "Inne znaki",
+        "text": "Dwukropek zapowiada wyliczenie, wyjaśnienie lub przytoczenie czyichś słów. Sygnalizuje pauzę i skupienie uwagi.",
+        "points": [
+            "Przed wyliczeniem: „Na zakupy weź: mąkę, wodę, drożdże.\"",
+            "Przed wyjaśnieniem: „Wiedział jedno: musi uciekać.\"",
+            "Przed cytatem: „Mickiewicz pisał: «Litwo! Ojczyzno moja...»\"",
+            "Zasada: dwukropek otwiera fragment objaśniający poprzedni"
+        ],
+        "example": "„Mój plan był prosty: wygrać turniej.\" / „W szafie wisiały: koszule, spodnie, swetry.\""
+    },
+    {
+        "title": "7. Cudzysłów",
+        "tag": "Inne znaki",
+        "text": "Cudzysłów służy do wydzielania cytatów, tytułów dzieł oraz wyrazów użytych w znaczeniu ironicznym lub specjalnym.",
+        "points": [
+            "Cytaty: „Wtedy powiedział: «Nigdy cię nie zapomnę».\"",
+            "Tytuły (często zamiast kursywy): Czytałem „Lalkę\" Prusa.",
+            "Ironia: Ten „geniusz\" znowu wszystko zepsuł.",
+            "W polszczyźnie używamy cudzysłowu dolnego „ i górnego \" lub ”"
+        ],
+        "example": "Wiersz „Stepy akermańskie\" to część cyklu „Sonety krymskie\"."
+    },
+    {
+        "title": "8. Myślnik (pauza)",
+        "tag": "Inne znaki",
+        "text": "Myślnik służy do zaznaczania przerw w toku myśli, wprowadzania dialogów oraz uwydatniania części zdania.",
+        "points": [
+            "W dialogach: – Gdzie idziesz? – zapytał Jan.",
+            "Wtrącenia (silniejsze niż przecinek): „Kasia – moja najlepsza przyjaciółka – wyjechała.\"",
+            "Przed wyjaśnieniem na końcu: „Zostało mu tylko jedno marzenie – wolność.\"",
+            "Łącznik (dywiz) a myślnik: łącznik jest krótszy (biało-czerwona)"
+        ],
+        "example": "„– To był najpiękniejszy dzień w moim życiu – szepnęła Maria.\""
+    },
+    {
+        "title": "9. Średnik",
+        "tag": "Inne znaki",
+        "text": "Średnik to znak silniejszy od przecinka, ale słabszy od kropki. Oddziela rozbudowane części zdania lub grupy wyliczeń.",
+        "points": [
+            "W długich wyliczeniach wielopoziomowych",
+            "Między samodzielnymi zdaniami składowymi, które są ze sobą powiązane treściowo",
+            "Pozwala uniknąć zbyt wielu krótkich zdań",
+            "Używany rzadziej niż przecinek, głównie w tekstach naukowych i literackich"
+        ],
+        "example": "„W ogrodzie rosły wysokie drzewa; krzewy owocowe ugięły się pod ciężarem owoców; trawa była zielona i gęsta.\""
+    },
+    {
+        "title": "10. Najczęstsze błędy interpunkcyjne",
+        "tag": "Błędy",
+        "text": "Unikanie tych błędów poprawia klarowność tekstu i zapobiega nieporozumieniom. Sprawdź swój tekst pod ich kątem.",
+        "points": [
+            "Stawianie przecinka przed „że\" w środku wyrazu złożonego (np. mimo że)",
+            "Brak przecinka przed „który\" i „ponieważ\"",
+            "Stawianie przecinka przed „i\" (chyba że jest powtórzone)",
+            "Niewydzielanie wołacza przecinkami (np. Cześć Ania! zamiast Cześć, Aniu!)"
+        ],
+        "example": "BŁĄD: „Mimo, że padało poszliśmy na spacer.\" → POPRAWNIE: „Mimo że padało, poszliśmy na spacer.\""
+    }
+]

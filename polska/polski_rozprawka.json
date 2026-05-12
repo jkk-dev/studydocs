@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Czym jest rozprawka?",
+        "tag": "Podstawy",
+        "text": "Rozprawka to forma wypowiedzi, w której autor formułuje tezę (lub hipotezę) i broni jej za pomocą logicznych argumentów popartych przykładami.",
+        "points": [
+            "Teza: jednoznaczne stanowisko autora (np. „Uważam, że...\")",
+            "Hipoteza: pytanie lub stanowisko do weryfikacji",
+            "Argumenty: co najmniej 2–3, każdy poparty przykładem",
+            "Spójniki logiczne: po pierwsze, po drugie, ponadto, co więcej, podsumowując"
+        ],
+        "example": "Teza: „Przyjaźń jest jedną z najważniejszych wartości, bo towarzyszy człowiekowi w najtrudniejszych chwilach.\""
+    },
+    {
+        "title": "2. Struktura rozprawki",
+        "tag": "Budowa",
+        "text": "Każda rozprawka musi mieć trzy wyraźne części: wstęp z tezą, rozwinięcie z argumentami i zakończenie z podsumowaniem.",
+        "points": [
+            "WSTĘP: nawiązanie do tematu + teza lub hipoteza",
+            "ROZWINIĘCIE: argument 1 + przykład → argument 2 + przykład → (argument 3)",
+            "ZAKOŃCZENIE: podsumowanie, wniosek nawiązujący do tezy",
+            "Objętość: min. 250 słów na egzaminie; zachowaj proporcje części"
+        ],
+        "example": "Wstęp: „Człowiek jest istotą społeczną. Dlatego uważam, że przyjaźń odgrywa kluczową rolę w życiu każdego z nas.\" (teza na końcu wstępu)"
+    },
+    {
+        "title": "3. Jak budować argumenty?",
+        "tag": "Argumentacja",
+        "text": "Dobry argument to twierdzenie poparte konkretnym przykładem z lektury, historii, nauki lub własnego doświadczenia.",
+        "points": [
+            "Schemat: Argument → Przykład → Wniosek (metoda T-A-W lub P-E-E)",
+            "Przykłady z lektur: odwołaj się do konkretnych bohaterów i sytuacji",
+            "Przykłady z życia: własne doświadczenie lub znane fakty historyczne",
+            "Unikaj ogólników – bądź precyzyjny i konkretny"
+        ],
+        "example": "Argument: „Przyjaźń daje siłę w trudnych czasach.\" Przykład: „Potwierdzają to Rudy, Alek i Zośka z 'Kamieni na szaniec' – razem przeżyli najtrudniejsze chwile okupacji.\" Wniosek: „Ich historia dowodzi, że prawdziwa przyjaźń jest niezastąpiona.\""
+    },
+    {
+        "title": "4. Spójniki i wyrażenia rozprawki",
+        "tag": "Język",
+        "text": "Używanie odpowiednich spójników i wyrażeń nadaje rozprawce logiczny, płynny charakter i świadczy o dojrzałości językowej.",
+        "points": [
+            "Wyliczanie: po pierwsze, po drugie, po trzecie, kolejnym argumentem jest...",
+            "Dodawanie: ponadto, co więcej, dodatkowo, a także, nie tylko... ale również...",
+            "Przeciwstawianie: jednak, niemniej jednak, z drugiej strony, choć...",
+            "Podsumowanie: podsumowując, w konkluzji, reasumując, z powyższych rozważań wynika, że..."
+        ],
+        "example": "„Po pierwsze, przyjaźń daje poczucie bezpieczeństwa. Po drugie, motywuje do działania. Podsumowując, jest wartością nieocenioną.\""
+    },
+    {
+        "title": "5. Wstęp – jak zacząć?",
+        "tag": "Budowa",
+        "text": "Dobry wstęp przyciąga uwagę, wprowadza w temat i kończy się wyraźną tezą lub hipotezą.",
+        "points": [
+            "Zacznij od pytania retorycznego: „Czy zastanawiałeś się kiedyś, czym jest prawdziwa przyjaźń?\"",
+            "Zacznij od cytatu lub sentencji: „«Człowiek jest stworzony do szczęścia» – mawiał Dostojewski...\"",
+            "Zacznij od definicji pojęcia: „Odwaga to zdolność do działania pomimo strachu...\"",
+            "Zakończ wstęp wyraźną tezą lub hipotezą!"
+        ],
+        "example": "„Czy można żyć bez prawdziwych przyjaciół? Uważam, że przyjaźń jest fundamentem ludzkiego szczęścia i jedną z najważniejszych wartości w życiu każdego człowieka.\""
+    },
+    {
+        "title": "6. Zakończenie – jak podsumować?",
+        "tag": "Budowa",
+        "text": "Zakończenie to krótkie podsumowanie rozważań. Nie wprowadzamy nowych argumentów – tylko wnioski i nawiązanie do tezy.",
+        "points": [
+            "Nawiąż do tezy ze wstępu – potwierdź ją lub odnieś się do niej",
+            "Krótko podsumuj główne argumenty",
+            "Możesz zakończyć sentencją, refleksją lub pytaniem otwartym",
+            "Zakończenie powinno zamknąć rozważania, nie otwierać nowych wątków"
+        ],
+        "example": "„Podsumowując, przytoczone argumenty dowodzą, że przyjaźń jest wartością bezcenną. Losy bohaterów literackich pokazują, że to ona nadaje sens nawet najtrudniejszym doświadczeniom.\""
+    },
+    {
+        "title": "7. Najczęstsze błędy w rozprawce",
+        "tag": "Błędy",
+        "text": "Unikanie typowych błędów decyduje o wysokiej ocenie. Oto najczęstsze pułapki, w które wpadają uczniowie.",
+        "points": [
+            "Brak tezy lub niewyraźna teza we wstępie",
+            "Argumenty bez przykładów – gołosłowne twierdzenia",
+            "Wprowadzanie nowych argumentów w zakończeniu",
+            "Streszczanie lektury zamiast używania jej jako przykładu"
+        ],
+        "example": "BŁĄD: „W 'Kamieniach na szaniec' Rudy i Alek byli przyjaciółmi. Alek lubił jeździć na rowerze...\" (streszczanie zamiast argumentacji)"
+    },
+    {
+        "title": "8. Jak odwoływać się do lektur?",
+        "tag": "Argumentacja",
+        "text": "Odwołania do lektur muszą być trafne, konkretne i powiązane z argumentem. Nie streszczaj – interpretuj i wnioskuj.",
+        "points": [
+            "Podaj tytuł i autora: „W powieści 'Kamienie na szaniec' Aleksandra Kamińskiego...\"",
+            "Opisz konkretną sytuację: „...Rudy nie wydał kolegów mimo tortur...\"",
+            "Wyciągnij wniosek: „...co dowodzi, że prawdziwa przyjaźń jest silniejsza od strachu.\"",
+            "Możesz użyć cytatu (w cudzysłowie) dla wzmocnienia argumentu"
+        ],
+        "example": "„Jak pisał Mickiewicz w inwokacji 'Pana Tadeusza': «Litwo! Ojczyzno moja!» – słowa te oddają głęboką tęsknotę za utraconą ojczyzną.\""
+    },
+    {
+        "title": "9. Rozprawka za i przeciw",
+        "tag": "Rodzaje",
+        "text": "Odmiana rozprawki, w której autor prezentuje argumenty obu stron, a następnie formułuje własne stanowisko (lub pozostawia wniosek otwarty).",
+        "points": [
+            "Wstęp: wprowadzenie problemu + hipoteza (np. „Czy technologia niszczy relacje?\")",
+            "Rozwinięcie: argumenty ZA (technologia łączy) + argumenty PRZECIW (izoluje)",
+            "Zakończenie: własny wniosek lub otwarte pytanie",
+            "Używaj zwrotów: z jednej strony... z drugiej strony...; jednak..."
+        ],
+        "example": "„Z jednej strony, internet pozwala utrzymywać kontakt z bliskimi na całym świecie. Z drugiej strony, nadmierne korzystanie z mediów społecznościowych prowadzi do izolacji.\""
+    },
+    {
+        "title": "10. Egzamin ósmoklasisty – co oceniają?",
+        "tag": "Egzamin",
+        "text": "Na egzaminie ósmoklasisty rozprawka jest oceniana w kilku kategoriach. Znajomość kryteriów pozwala pisać celowo i unikać strat punktów.",
+        "points": [
+            "Realizacja tematu: czy odpowiedziałeś na pytanie z polecenia?",
+            "Spójność i logika: czy tekst płynnie się czyta? Czy argumenty są powiązane?",
+            "Bogactwo językowe: zróżnicowane słownictwo, brak powtórzeń",
+            "Poprawność językowa: ortografia, interpunkcja, gramatyka"
+        ],
+        "example": "Wskazówka: Przeczytaj polecenie 2 razy. Podkreśl kluczowe słowa. Napisz tezę. Dopiero wtedy zacznij pisać całą tekst."
+    }
+]

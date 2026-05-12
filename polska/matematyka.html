@@ -169,13 +169,13 @@
         <h1>Matematyka</h1>
 
         <nav class="menu">
-            <button class="active" onclick="loadCourse(this)">Podstawy</button>
-            <button onclick="showPage('Algebra', this)">Algebra</button>
-            <button onclick="showPage('Geometria', this)">Geometria</button>
-            <button onclick="showPage('Ułamki', this)">Ułamki</button>
-            <button onclick="showPage('Funkcje', this)">Funkcje</button>
-            <button onclick="showPage('Równania', this)">Równania</button>
-            <button onclick="showPage('Prawdopodobieństwo', this)">Prawdopodobieństwo</button>
+            <button class="active" onclick="loadSection('Podstawy i Zasady', 'matematyka.json', this)">Podstawy</button>
+            <button onclick="loadSection('Algebra', 'matematyka_algebra.json', this)">Algebra</button>
+            <button onclick="loadSection('Geometria', 'matematyka_geometria.json', this)">Geometria</button>
+            <button onclick="loadSection('Ułamki', 'matematyka_ulamki.json', this)">Ułamki</button>
+            <button onclick="loadSection('Funkcje', 'matematyka_funkcje.json', this)">Funkcje</button>
+            <button onclick="loadSection('Równania', 'matematyka_rownania.json', this)">Równania</button>
+            <button onclick="loadSection('Prawdopodobieństwo', 'matematyka_prawdopodobienstwo.json', this)">Prawdopodobieństwo</button>
         </nav>
     </aside>
 
@@ -200,67 +200,54 @@
             }
         }
 
-        function showPage(title, button) {
+        async function loadSection(title, jsonFile, button) {
             setActiveButton(button);
 
             content.innerHTML = `
                 <h2>${title}</h2>
-                <p class="intro">
-                    Ten dział jest gotowy do rozbudowy. Tutaj możesz dodać notatki,
-                    przykłady, ćwiczenia i materiały do nauki.
-                </p>
+                <p class="intro">Ładowanie materiałów...</p>
+            `;
 
-                <div class="lesson">
-                    <span class="tag">W przygotowaniu</span>
-                    <h3>${title}</h3>
-                    <p>
-                        Tu pojawi się pełny materiał do działu: <b>${title}</b>.
+            try {
+                const response = await fetch(jsonFile);
+                if (!response.ok) throw new Error("Nie udało się załadować danych");
+                const course = await response.json();
+
+                let html = `
+                    <h2>${title}</h2>
+                    <p class="intro">
+                        Szczegółowe materiały i zasady z działu: <b>${title}</b>. Znajdziesz tutaj definicje, wzory i przykłady.
                     </p>
-                </div>
-            `;
-        }
-
-        async function loadCourse(button) {
-            setActiveButton(button);
-
-            content.innerHTML = `
-                <h2>Podstawy</h2>
-                <p class="intro">Ładowanie kursu matematyki...</p>
-            `;
-
-            const response = await fetch("matematyka.json");
-            const course = await response.json();
-
-            let html = `
-                <h2>Podstawy i Zasady Matematyki</h2>
-                <p class="intro">
-                    Pełny zbiór podstawowych pojęć matematycznych. Znajdziesz tutaj definicje,
-                    wzory, przykłady i ważne reguły potrzebne do dalszej nauki.
-                </p>
-            `;
-
-            course.forEach(section => {
-                html += `
-                    <article class="lesson">
-                        <span class="tag">${section.tag}</span>
-                        <h3>${section.title}</h3>
-                        <p>${section.text}</p>
-
-                        <ul>
-                            ${section.points.map(point => `<li>${point}</li>`).join("")}
-                        </ul>
-
-                        <div class="example">
-                            ${section.example}
-                        </div>
-                    </article>
                 `;
-            });
 
-            content.innerHTML = html;
+                course.forEach(section => {
+                    html += `
+                        <article class="lesson">
+                            <span class="tag">${section.tag}</span>
+                            <h3>${section.title}</h3>
+                            <p>${section.text}</p>
+
+                            <ul>
+                                ${section.points.map(point => `<li>${point}</li>`).join("")}
+                            </ul>
+
+                            <div class="example">
+                                ${section.example}
+                            </div>
+                        </article>
+                    `;
+                });
+
+                content.innerHTML = html;
+            } catch (error) {
+                content.innerHTML = `
+                    <h2>${title}</h2>
+                    <p class="intro">Błąd ładowania danych lub plik nie istnieje.</p>
+                `;
+            }
         }
 
-        loadCourse(document.querySelector(".menu button.active"));
+        loadSection('Podstawy i Zasady', 'matematyka.json', document.querySelector(".menu button.active"));
     </script>
 
 </body>

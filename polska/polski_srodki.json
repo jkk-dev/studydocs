@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Epitet",
+        "tag": "Tropy słowne",
+        "text": "Epitet to określenie wyrażające cechę osoby, rzeczy lub zjawiska. Wzbogaca tekst i buduje nastrój. Może być przymiotnikiem, imiesłowem lub przysłówkiem.",
+        "points": [
+            "Wskazuje cechę rzeczownika: złota jesień, szumiący las",
+            "Epitet stały: nierozerwalnie związany z postacią (np. gromowładny Zeus)",
+            "Epitet metaforyczny: nadaje nowe, niedosłowne znaczenie",
+            "Funkcja: uplastycznienie opisu, wyrażanie stosunku autora"
+        ],
+        "example": "„Srebrzysty blask księżyca rozlał się nad ciemną doliną.\""
+    },
+    {
+        "title": "2. Porównanie",
+        "tag": "Tropy słowne",
+        "text": "Zestawienie dwóch zjawisk na podstawie podobieństwa za pomocą słów: jak, jakby, niczym, niby, na kształt.",
+        "points": [
+            "Budowa: człon A + spójnik + człon B",
+            "Porównanie homeryckie: bardzo rozbudowany człon B, tworzący oddzielny obraz",
+            "Funkcja: pobudzenie wyobraźni, uwydatnienie cechy zjawiska",
+            "Umożliwia lepsze zrozumienie opisywanej rzeczy przez analogię"
+        ],
+        "example": "„Chmury płynęły po niebie jak białe okręty na spokojnym oceanie.\""
+    },
+    {
+        "title": "3. Metafora (przenośnia)",
+        "tag": "Tropy słowne",
+        "text": "Niedosłowne użycie wyrazów, które w nowym zestawieniu zyskują nowe znaczenie, niemożliwe do odczytania dosłownie.",
+        "points": [
+            "Łączy wyrazy z różnych dziedzin życia",
+            "Tworzy obrazy poetyckie i wieloznaczność",
+            "Odmiany: animizacja, personifikacja, reifikacja",
+            "Funkcja: zaskoczenie czytelnika, budowanie głębi tekstu"
+        ],
+        "example": "„Las rąk wzniósł się w górę.\", „Serce z kamienia.\", „Ogień miłości.\""
+    },
+    {
+        "title": "4. Personifikacja i animizacja",
+        "tag": "Tropy słowne",
+        "text": "Odmiany metafory polegające na nadawaniu cech istot żywych lub ludzkich przedmiotom, zwierzętom lub pojęciom.",
+        "points": [
+            "Animizacja (ożywienie): nadanie cech istot żywych: kamień woła, wiatr wyje",
+            "Personifikacja (uosobienie): nadanie cech ludzkich: los się uśmiecha, jesień płacze",
+            "Funkcja: dynamizacja opisu, zbliżenie świata przyrody do człowieka",
+            "Buduje emocjonalną więź odbiorcy z opisem"
+        ],
+        "example": "„Drzewa szeptały o nadchodzącej burzy.\" (personifikacja) / „Morze ryczało z wściekłości.\" (animizacja)"
+    },
+    {
+        "title": "5. Onomatopeja (wyraz dźwiękonaśladowczy)",
+        "tag": "Instrumentacja dźwiękowa",
+        "text": "Wyraz naśladujący brzmieniem dźwięki natury, zwierząt lub przedmiotów.",
+        "points": [
+            "Przykłady: mruczeć, szumieć, zgrzytać, kukać, kap-kap, bum",
+            "Buduje warstwę brzmieniową tekstu (audialną)",
+            "Funkcja: urealnienie opisu, oddziaływanie na słuch czytelnika",
+            "Często stosowana w poezji dla dzieci i komiksach"
+        ],
+        "example": "„Świerszcz strzykał w trawie.\", „Woda pluskała o brzeg.\""
+    },
+    {
+        "title": "6. Przenośnia (Metonimia i Synekdocha)",
+        "tag": "Tropy słowne",
+        "text": "Specyficzne rodzaje metafor oparte na bliskości pojęć lub zamianie części na całość.",
+        "points": [
+            "Metonimia (zamiennia): „Czytam Mickiewicza\" (zamiast dzieł Mickiewicza)",
+            "Synekdocha (ogarnienie): „Dach nad głową\" (zamiast domu), „Polska wygrała\" (zamiast drużyny)",
+            "Funkcja: skrótowość myśli, urozmaicenie języka",
+            "Wymaga od czytelnika znajomości kontekstu"
+        ],
+        "example": "„Wypił cały kieliszek.\" (zamiast zawartości) / „Noga mu się podwinęła.\""
+    },
+    {
+        "title": "7. Pytanie retoryczne",
+        "tag": "Figury retoryczne",
+        "text": "Pytanie, na które nie oczekuje się odpowiedzi, bo jest ona oczywista lub ma skłonić do refleksji.",
+        "points": [
+            "Angażuje odbiorcę w dialog",
+            "Podkreśla wagę problemu",
+            "Funkcja: budowanie napięcia, ekspresja uczuć",
+            "Często stosowane w przemówieniach i rozprawkach"
+        ],
+        "example": "„Czyż nie jesteśmy wszyscy ludźmi?\", „Kto z nas nie pragnie szczęścia?\""
+    },
+    {
+        "title": "8. Wykrzyknienie",
+        "tag": "Figury retoryczne",
+        "text": "Wyraz, zwrot lub zdanie wykrzyknikowe wyrażające silne emocje: radość, gniew, zachwyt, przerażenie.",
+        "points": [
+            "Kończy się wykrzyknikiem",
+            "Dynamizuje wypowiedź",
+            "Funkcja: nadanie tekstowi emocjonalnego tonu, zwrócenie uwagi",
+            "Często występuje w inwokacjach i apostrofach"
+        ],
+        "example": "„O święta naiwności!\", „Precz z moich oczu!\", „Litwo! Ojczyzno moja!\""
+    },
+    {
+        "title": "9. Apostrofa i inwokacja",
+        "tag": "Figury retoryczne",
+        "text": "Bezpośredni, uroczysty zwrot do osoby, bóstwa, przedmiotu lub pojęcia personifikowanego.",
+        "points": [
+            "Apostrofa: zwrot do kogoś/czegoś (np. „O radosna młodości!\")",
+            "Inwokacja: rozbudowana apostrofa na początku utworu (np. prośba do Muzy)",
+            "Funkcja: nadanie tekstowi podniosłego, sakralnego charakteru",
+            "Buduje uroczysty nastrój i hierarchię wartości"
+        ],
+        "example": "„Wielkieś mi uczyniła pustki w domu moim, Moja droga Orszulo...\" (Jan Kochanowski)"
+    },
+    {
+        "title": "10. Inwersja (szyk przestawny)",
+        "tag": "Szyk zdania",
+        "text": "Zmiana naturalnej kolejności wyrazów w zdaniu w celu uwydatnienia konkretnego słowa lub nadania tekstowi poetyckiego brzmienia.",
+        "points": [
+            "Przesunięcie czasownika na koniec lub podmiotu po orzeczeniu",
+            "Typowa dla poezji dawnej i tekstów stylizowanych",
+            "Funkcja: zmiana rytmu, skupienie uwagi na konkretnym wyrazie",
+            "Buduje dystans wobec języka potocznego"
+        ],
+        "example": "„Dom ten stary w ruinę popadł.\" (zamiast: Ten stary dom popadł w ruinę)."
+    }
+]

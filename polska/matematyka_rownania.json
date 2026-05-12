@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Równania liniowe z jedną niewiadomą",
+        "tag": "Równania liniowe",
+        "text": "Równanie liniowe ma postać ax + b = 0. Rozwiązujemy je izolując x po jednej stronie równania.",
+        "points": [
+            "Przenoś wyrazy z x na lewą stronę, liczby na prawą (zmieniaj znaki!)",
+            "Wykonaj uproszczenia po obu stronach",
+            "Podziel obie strony przez współczynnik przy x",
+            "Zawsze sprawdź wynik podstawiając do oryginalnego równania"
+        ],
+        "example": "3x - 7 = 2x + 5 → 3x - 2x = 5 + 7 → x = 12. Sprawdzenie: 3·12-7=29, 2·12+5=29 ✓"
+    },
+    {
+        "title": "2. Równania z nawiasami i ułamkami",
+        "tag": "Równania liniowe",
+        "text": "Przed rozwiązaniem: rozwiń nawiasy i sprowadź ułamki do wspólnego mianownika.",
+        "points": [
+            "Nawiasy: zastosuj rozdzielczość (pamiętaj o znaku przed nawiasem!)",
+            "Ułamki: pomnóż obie strony przez NWW mianowników",
+            "Upraszczaj po każdym kroku",
+            "Wynik może być ułamkiem – to jest poprawne!"
+        ],
+        "example": "2(x-3) = 4x + 2 → 2x-6 = 4x+2 → -8 = 2x → x = -4 / x/2 + 1 = x/3 + 2: ×6: 3x+6 = 2x+12 → x=6"
+    },
+    {
+        "title": "3. Równania kwadratowe",
+        "tag": "Równania kwadratowe",
+        "text": "Równanie kwadratowe: ax² + bx + c = 0. Rozwiązujemy przez deltę, rozkład na czynniki lub wzory Viète'a.",
+        "points": [
+            "Krok 1: sprowadź do postaci ax²+bx+c=0",
+            "Krok 2: oblicz Δ = b² - 4ac",
+            "Krok 3: Δ>0 → dwa x; Δ=0 → jeden x; Δ<0 → brak rozwiązań",
+            "Wzory: x₁,₂ = (-b ± √Δ) / (2a)"
+        ],
+        "example": "x² - 3x - 10 = 0: Δ = 9+40 = 49, √Δ=7, x₁=(3-7)/2=-2, x₂=(3+7)/2=5. Sprawdź: (-2)²-3(-2)-10=4+6-10=0 ✓"
+    },
+    {
+        "title": "4. Równania – szczególne przypadki",
+        "tag": "Równania kwadratowe",
+        "text": "Niektóre równania kwadratowe można rozwiązać szybciej bez pełnego wzoru na deltę.",
+        "points": [
+            "Brak wyrazu wolnego (c=0): x(ax+b)=0 → x=0 lub x=-b/a",
+            "Brak środkowego wyrazu (b=0): ax²=c → x²=c/a → x=±√(c/a)",
+            "Pełny kwadrat: a(x-p)²+q=0 → (x-p)²=-q/a",
+            "Rozkład na czynniki: szukaj dwóch liczb dających iloczyn c i sumę b"
+        ],
+        "example": "x²-9=0 → x²=9 → x=±3 / 2x²+6x=0 → 2x(x+3)=0 → x=0 lub x=-3 / x²-5x+6=0 → (x-2)(x-3)=0 → x=2 lub x=3"
+    },
+    {
+        "title": "5. Układy równań liniowych",
+        "tag": "Układy równań",
+        "text": "Układ dwóch równań z dwiema niewiadomymi rozwiązujemy metodą podstawiania lub przeciwnych współczynników.",
+        "points": [
+            "Podstawianie: wyraź jedną zmienną z jednego równania, podstaw do drugiego",
+            "Przeciwne współczynniki: przemnóż równania tak, by jedna zmienna się skróciła",
+            "Rozwiązanie: para (x, y) spełniająca oba równania jednocześnie",
+            "Sprawdź wynik podstawiając do obu równań!"
+        ],
+        "example": "{ x+y=7 i 2x-y=2 }: dodaj → 3x=9 → x=3, y=4. Sprawdzenie: 3+4=7 ✓, 6-4=2 ✓"
+    },
+    {
+        "title": "6. Nierówności liniowe",
+        "tag": "Nierówności",
+        "text": "Nierówność to równanie ze znakiem < , >, ≤ lub ≥. Rozwiązaniem jest przedział liczb.",
+        "points": [
+            "Przekształcenia jak w równaniach, ale: mnożenie/dzielenie przez liczbę ujemną odwraca znak nierówności!",
+            "Rozwiązanie zapisujemy jako przedział: x ∈ (-∞, 3) lub x < 3",
+            "Nierówność ostrą zaznaczamy na osi pustym kółkiem, nieostrą – pełnym",
+            "Sprawdź wynik podstawiając konkretną wartość z rozwiązania"
+        ],
+        "example": "2x - 4 > 6 → 2x > 10 → x > 5, czyli x ∈ (5, +∞) / -3x ≥ 9 → x ≤ -3 (zmiana znaku!)"
+    },
+    {
+        "title": "7. Równania z wartością bezwzględną",
+        "tag": "Równania zaawansowane",
+        "text": "Wartość bezwzględna |x| to odległość x od 0 na osi liczbowej. |x| = x gdy x≥0, i -x gdy x<0.",
+        "points": [
+            "|x| = a (a>0): dwa przypadki: x = a lub x = -a",
+            "|x| = 0: tylko x = 0",
+            "|x| = a (a<0): brak rozwiązań",
+            "|wyrażenie| = a: rozwiąż dwa równania: wyrażenie = a i wyrażenie = -a"
+        ],
+        "example": "|2x - 3| = 5 → (1) 2x-3=5 → x=4 lub (2) 2x-3=-5 → x=-1. Dwa rozwiązania: x=4 i x=-1."
+    },
+    {
+        "title": "8. Równania w zadaniach tekstowych",
+        "tag": "Zastosowania",
+        "text": "Zadania tekstowe wymagają przełożenia treści na równanie. Kluczem jest poprawne zdefiniowanie niewiadomej.",
+        "points": [
+            "Krok 1: Wyznacz niewiadomą (co szukamy? = x)",
+            "Krok 2: Wyraź pozostałe wielkości przez x",
+            "Krok 3: Ułóż równanie z warunków zadania",
+            "Krok 4: Rozwiąż i sprawdź, czy wynik ma sens (np. długość > 0)"
+        ],
+        "example": "Ojciec jest 3× starszy od syna. Za 10 lat różnica wyniesie 20 lat. Ile lat ma syn? Syn=x, ojciec=3x. Za 10 lat: (3x+10)-(x+10)=20 → 2x=20 → x=10."
+    },
+    {
+        "title": "9. Równania z proporcją",
+        "tag": "Zastosowania",
+        "text": "Równania proporcji pojawiają się w zadaniach o podziałach, skalach i mieszaninach.",
+        "points": [
+            "Proporcja a/b = c/d → a·d = b·c (iloczyny krzyżowe)",
+            "Podział w stosunku a:b: cały = a+b części; jedna część = całość/(a+b)",
+            "Mieszaniny: suma składników = całość; zapisuj jako równanie",
+            "Szybkość: droga = prędkość × czas → s = v · t"
+        ],
+        "example": "Podział 120 w stosunku 3:5: części razem=8, 1 część=15. Wyniki: 45 i 75. Sprawdź: 45+75=120 ✓, 45/75=3/5 ✓"
+    },
+    {
+        "title": "10. Równania na egzaminie – strategia",
+        "tag": "Egzamin",
+        "text": "Na egzaminie kluczowe jest zachowanie porządku w obliczeniach i zawsze sprawdzenie wyniku.",
+        "points": [
+            "Pisz każdy krok – za poprawną metodę przyznawane są punkty cząstkowe",
+            "Sprawdź wynik podstawiając do oryginalnego równania",
+            "W zadaniu tekstowym zapisz: co oznacza x i jaka jest odpowiedź słowna",
+            "Jeśli Δ<0 przy równaniu kwadratowym – zapisz, że brak rozwiązań rzeczywistych"
+        ],
+        "example": "Schemat odpowiedzi: Oznaczam: x = ... / Układam równanie: ... / Rozwiązuję: ... / Odpowiedź: ..."
+    }
+]

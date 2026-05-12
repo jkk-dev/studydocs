@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Kąty i ich rodzaje",
+        "tag": "Podstawy geometrii",
+        "text": "Kąt to figura geometryczna utworzona przez dwa promienie wychodzące z jednego punktu (wierzchołka). Mierzymy go w stopniach.",
+        "points": [
+            "Kąt ostry: 0° < α < 90°",
+            "Kąt prosty: α = 90° (oznaczamy kwadratem)",
+            "Kąt rozwarty: 90° < α < 180°",
+            "Kąt pełny: α = 360°; kąt półpełny (płaski): α = 180°"
+        ],
+        "example": "Kąty suplementarne: suma = 180° (np. 60° + 120°) / Kąty komplementarne: suma = 90° (np. 35° + 55°)"
+    },
+    {
+        "title": "2. Trójkąty – rodzaje i własności",
+        "tag": "Trójkąty",
+        "text": "Trójkąt to figura o 3 bokach i 3 kątach. Suma kątów wewnętrznych trójkąta zawsze wynosi 180°.",
+        "points": [
+            "Równoboczny: 3 równe boki, 3 kąty po 60°",
+            "Równoramienny: 2 równe boki, 2 równe kąty przy podstawie",
+            "Prostokątny: jeden kąt = 90°; boki: dwie przyprostokątne i przeciwprostokątna",
+            "Nierówność trójkąta: każdy bok < suma pozostałych dwóch"
+        ],
+        "example": "Trójkąt o kątach 40°, 60°, α → α = 180° - 40° - 60° = 80°"
+    },
+    {
+        "title": "3. Twierdzenie Pitagorasa",
+        "tag": "Trójkąty",
+        "text": "W trójkącie prostokątnym kwadrat przeciwprostokątnej jest równy sumie kwadratów przyprostokątnych.",
+        "points": [
+            "Wzór: c² = a² + b² (c – przeciwprostokątna, a, b – przyprostokątne)",
+            "Wyznaczanie przyprostokątnej: a² = c² - b²",
+            "Trójki pitagorejskie: (3,4,5), (5,12,13), (8,15,17), (6,8,10)",
+            "Zastosowanie: obliczanie odległości, przekątnych, wysokości"
+        ],
+        "example": "Trójkąt o przyprostokątnych 6 i 8: c² = 36 + 64 = 100, c = 10 / Przekątna kwadratu o boku 5: d = 5√2 ≈ 7,07"
+    },
+    {
+        "title": "4. Czworokąty – pola i obwody",
+        "tag": "Czworokąty",
+        "text": "Czworokąty to figury o 4 bokach. Suma kątów wewnętrznych każdego czworokąta wynosi 360°.",
+        "points": [
+            "Kwadrat: P = a², Ob = 4a, d = a√2",
+            "Prostokąt: P = a · b, Ob = 2(a + b), d = √(a² + b²)",
+            "Romb: P = ½ · d₁ · d₂ (iloczyn połówek przekątnych), Ob = 4a",
+            "Trapez: P = ½ · (a + b) · h (a, b – podstawy, h – wysokość)"
+        ],
+        "example": "Prostokąt 6×4: P = 24, Ob = 20, d = √(36+16) = √52 = 2√13 / Trapez o podstawach 5 i 9, wys. 4: P = ½·14·4 = 28"
+    },
+    {
+        "title": "5. Okrąg i koło",
+        "tag": "Okrąg",
+        "text": "Okrąg to zbiór punktów równoodległych od środka. Koło to okrąg wraz z jego wnętrzem.",
+        "points": [
+            "Obwód okręgu: C = 2πr = πd (r – promień, d – średnica)",
+            "Pole koła: P = πr²",
+            "Liczba π ≈ 3,14 (lub 22/7 w przybliżeniu)",
+            "Wycinek koła: P_wycinka = (α/360°) · πr²; długość łuku = (α/360°) · 2πr"
+        ],
+        "example": "Koło o r = 5: C = 2π·5 = 10π ≈ 31,4; P = π·25 ≈ 78,5 / Wycinek 90°, r=4: P = ¼·π·16 = 4π ≈ 12,6"
+    },
+    {
+        "title": "6. Pola trójkątów – wszystkie wzory",
+        "tag": "Trójkąty",
+        "text": "Pole trójkąta można obliczyć na kilka sposobów, w zależności od danych.",
+        "points": [
+            "Podstawowy: P = ½ · a · h (a – podstawa, h – wysokość)",
+            "Ze wzoru Herona: P = √(s(s-a)(s-b)(s-c)), gdzie s = (a+b+c)/2",
+            "Z dwóch boków i kąta między nimi: P = ½ · a · b · sin(C)",
+            "Trójkąt równoboczny o boku a: P = (a²√3)/4"
+        ],
+        "example": "Trójkąt o bokach 3, 4, 5: s = 6; P = √(6·3·2·1) = √36 = 6 / Trójkąt o podstawie 8 i wys. 5: P = ½·8·5 = 20"
+    },
+    {
+        "title": "7. Bryły – objętości i pola powierzchni",
+        "tag": "Bryły",
+        "text": "Bryły to figury przestrzenne. Najważniejsze wzory na objętość (V) i pole powierzchni (Pp) obowiązują na egzaminie.",
+        "points": [
+            "Prostopadłościan: V = a·b·c; Pp = 2(ab + bc + ac)",
+            "Sześcian: V = a³; Pp = 6a²",
+            "Walec: V = πr²h; Pp = 2πr² + 2πrh",
+            "Stożek: V = ⅓πr²h; Pp = πr² + πrl (l – tworząca)"
+        ],
+        "example": "Prostopadłościan 3×4×5: V = 60; Pp = 2(12+20+15) = 94 / Walec r=3, h=5: V = π·9·5 = 45π ≈ 141,4"
+    },
+    {
+        "title": "8. Symetria i przekształcenia",
+        "tag": "Przekształcenia",
+        "text": "Przekształcenia geometryczne to operacje na figurach: oś symetrii, środek symetrii, przesunięcie, obrót i symetria.",
+        "points": [
+            "Symetria osiowa: odbicie względem prostej (oś symetrii)",
+            "Symetria środkowa: odbicie względem punktu (środek symetrii)",
+            "Przesunięcie (translacja): każdy punkt przesuwa się o ten sam wektor",
+            "Figury przystające: takie same kształt i rozmiar (można nałożyć jedna na drugą)"
+        ],
+        "example": "Kwadrat ma 4 osie symetrii i 1 środek symetrii / Prostokąt: 2 osie symetrii, 1 środek symetrii"
+    },
+    {
+        "title": "9. Figury podobne i skale",
+        "tag": "Podobieństwo",
+        "text": "Figury podobne mają te same kształty, ale różne rozmiary. Odpowiadające boki są proporcjonalne, a kąty – równe.",
+        "points": [
+            "Skala podobieństwa k: każdy bok większej figury = k · bok mniejszej",
+            "Stosunek pól podobnych figur = k²",
+            "Stosunek objętości podobnych brył = k³",
+            "Cechy podobieństwa trójkątów: KK (kąt-kąt), BBB, BKB"
+        ],
+        "example": "Trójkąty podobne w skali 1:3. Mniejszy ma pole 10 → większy ma pole 10·9 = 90 (bo 3² = 9)"
+    },
+    {
+        "title": "10. Twierdzenie Talesa",
+        "tag": "Proporcje",
+        "text": "Twierdzenie Talesa: jeśli dwie proste równoległe przetną dwie proste, to odcinki odpowiadające sobie są proporcjonalne.",
+        "points": [
+            "Jeśli DE || BC, to: AD/DB = AE/EC",
+            "Zastosowanie: obliczanie nieznanych odcinków w trójkątach",
+            "Odwrotne twierdzenie Talesa: jeśli proporcje są zachowane, proste są równoległe",
+            "Środkowa trójkąta: łączy środki dwóch boków i jest równoległa do trzeciego boku"
+        ],
+        "example": "W trójkącie ABC, DE || BC, AD=3, DB=2, AE=? i EC=? → AE/EC = AD/DB = 3/2. Jeśli AC=5: AE=3, EC=2."
+    }
+]

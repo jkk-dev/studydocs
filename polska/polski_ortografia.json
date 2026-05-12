@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Pisownia „nie\" z różnymi częściami mowy",
+        "tag": "Zasady pisowni",
+        "text": "Pisownia „nie\" zależy od tego, z jaką częścią mowy się łączy. To jedna z najczęstszych trudności ortograficznych.",
+        "points": [
+            "Łącznie z rzeczownikami: nieprzyjaciela, niechęć, niemożność",
+            "Łącznie z przymiotnikami i przysłówkami: niemądry, niedaleko (gdy nie ma wyraźnego przeciwstawienia)",
+            "Rozłącznie z czasownikami: nie wiem, nie idę, nie rozumiem",
+            "Rozłącznie z imiesłowami przysłówkowymi: nie wiedząc, nie robiąc"
+        ],
+        "example": "Łącznie: „Nieznajomy człowiek zapukał do drzwi.\" / Rozłącznie: „Nie znał tej osoby wcześniej.\""
+    },
+    {
+        "title": "2. Pisownia „ó\" i „u\"",
+        "tag": "Zasady pisowni",
+        "text": "Głoska [u] może być zapisywana jako „u\" lub „ó\". Istnieją reguły, które pomagają wybrać właściwą literę.",
+        "points": [
+            "„ó\" piszemy, gdy wymienia się na „o\", „e\", „a\": mróz → mrozy, wróbel → wróble",
+            "„ó\" w zakończeniach: -ów, -ówka, -ówna",
+            "„u\" piszemy na początku wyrazu: ul, ucho, uczeń",
+            "„u\" piszemy, gdy nie ma wymiany na inną samogłoskę: nuda, guma, muzeum"
+        ],
+        "example": "Wymiana: wóz → wozy (piszemy ó), but: ul → nie ma wymiany (piszemy u)."
+    },
+    {
+        "title": "3. Pisownia „rz\" i „ż\"",
+        "tag": "Zasady pisowni",
+        "text": "Głoska [ż] może być zapisywana jako „rz\" lub „ż\". Dobór litery zależy od etymologii i reguł ortograficznych.",
+        "points": [
+            "„rz\" piszemy po spółgłoskach: p, b, t, d, k, g, ch, j, w: brzeg, grzyb, trzy",
+            "„rz\" piszemy, gdy wymienia się na „r\": morze → morski, perz → pierze",
+            "„ż\" piszemy, gdy wymienia się na „g\", „dz\", „z\", „h\", „s\", „zi\": droższy → drogi, mosiężny → mosiądz",
+            "„ż\" piszemy w zakończeniach: -aż, -eż, -yż: garaż, odzież, ryż"
+        ],
+        "example": "Wymiana: droższy → drogi (ż wymienia się na g, więc piszemy ż). Brzeg: po spółgłosce „b\" piszemy rz."
+    },
+    {
+        "title": "4. Pisownia „ch\" i „h\"",
+        "tag": "Zasady pisowni",
+        "text": "Głoska [ch] może być zapisywana jako „ch\" lub „h\". Zazwyczaj decyduje tradycja lub wymiana.",
+        "points": [
+            "„ch\" piszemy na końcu wyrazu: dach, mech, strach",
+            "„ch\" piszemy, gdy wymienia się na „sz\": suchy → suszyć, mucha → muszka",
+            "„h\" piszemy, gdy wymienia się na „g\" lub „z\": wahać → waga, druh → druhna",
+            "Wyrazy z „h\" trzeba zapamiętać: hak, herb, hymn, historia, hełm"
+        ],
+        "example": "Suchy → suszyć (ch wymienia się na sz → piszemy ch). Wahać → waga (h wymienia się na g → piszemy h)."
+    },
+    {
+        "title": "5. Wielka i mała litera",
+        "tag": "Zasady pisowni",
+        "text": "Wielka litera to nie tylko początek zdania. Istnieje wiele zasad dotyczących pisowni nazw własnych i tytułów.",
+        "points": [
+            "Wielką literą: imiona i nazwiska, nazwy geograficzne (Warszawa, Wisła), tytuły dzieł (pierwsza litera: „Pan Tadeusz\")",
+            "Wielką literą: nazwy narodowości jako przymiotniki: polska flaga, ale: Polak (rzeczownik)",
+            "Małą literą: nazwy pospolitych gatunków, zawodów, dni tygodnia, miesięcy",
+            "Małą literą: przymiotniki dzierżawcze: mickiewiczowski, szekspirowski"
+        ],
+        "example": "„Wisła płynie przez Warszawę.\" – nazwy własne wielkimi literami. „W środę czytaliśmy wiersz mickiewiczowski.\" – małą literą."
+    },
+    {
+        "title": "6. Pisownia zakończeń -ji / -ii / -i",
+        "tag": "Zasady pisowni",
+        "text": "Zakończenia rzeczowników żeńskich w dopełniaczu, celowniku i miejscowniku liczby pojedynczej bywają mylące.",
+        "points": [
+            "-ji po spółgłoskach miękkich lub historycznie miękkich: lekcji, akcji, stacji",
+            "-ii po samogłoskach lub spółgłoskach twardych: idei, poezji, euforii",
+            "-i po spółgłosce „l\": sali, chwili, roli",
+            "Zasada: rdzeń wyrazu + końcówka: lekcja → lekcji, idea → idei"
+        ],
+        "example": "„Czekałem na stacji.\" (stacja → stacji) / „Uczę się teorii.\" (teoria → teorii)"
+    },
+    {
+        "title": "7. Łączna i rozłączna pisownia wyrażeń przyimkowych",
+        "tag": "Zasady pisowni",
+        "text": "Wyrażenia przyimkowe mogą być pisane łącznie (jako przysłówki) lub rozłącznie (jako przyimek + rzeczownik). Zależy to od funkcji w zdaniu.",
+        "points": [
+            "Łącznie, gdy pełnią funkcję przysłówka: naprawdę, nagle, dobrze, nareszcie",
+            "Rozłącznie, gdy po przyimku stoi rzeczownik z określeniem: na pewno, po prostu, od razu",
+            "„w ogóle\" – zawsze rozłącznie",
+            "„naprzekór\", „naokół\" – łącznie jako przysłówki"
+        ],
+        "example": "„Zrób to od razu.\" (przyimek + rzeczownik, rozłącznie) vs „Nagle usłyszał hałas.\" (przysłówek, łącznie)"
+    },
+    {
+        "title": "8. Pisownia partykuły „-by\"",
+        "tag": "Zasady pisowni",
+        "text": "Partykuła „-by\" łącząca się z formami czasowników i spójnikami rządzi się określonymi zasadami pisowni.",
+        "points": [
+            "Łącznie z formami osobowymi czasownika: zrobiłbym, poszłabyś, mogłoby",
+            "Łącznie ze spójnikami: żeby, gdyby, chociaż żeby, kiedy żeby → żebyś, gdybyś",
+            "Rozłącznie z bezokolicznikiem i innymi formami: chciał by iść, można by pomyśleć",
+            "Zasada: jeśli -by jest składnikiem formy osobowej → łącznie"
+        ],
+        "example": "„Chciałbym pojechać.\" (łącznie – forma osobowa) / „Można by to zmienić.\" (rozłącznie – bezokolicznik)"
+    },
+    {
+        "title": "9. Pisownia liczebników",
+        "tag": "Zasady pisowni",
+        "text": "Liczebniki złożone i porządkowe mają swoje zasady pisowni, zwłaszcza w połączeniu z innymi wyrazami.",
+        "points": [
+            "Liczebniki główne złożone piszemy rozłącznie: dwadzieścia pięć, trzysta siedemdziesiąt",
+            "Liczebniki porządkowe złożone: dwudziesty piąty, trzechsetny",
+            "Daty: piszemy słownie lub cyframi, ale konsekwentnie w tekście",
+            "Wyrazy: pół, ćwierć + rzeczownik → rozłącznie: pół godziny, ćwierć kilograma"
+        ],
+        "example": "„Mieszkam tu od dwudziestu pięciu lat.\" (rozłącznie) / „Urodziłem się 15 marca.\" (data cyframi)"
+    },
+    {
+        "title": "10. Najczęstsze wyjątki i wyrazy trudne",
+        "tag": "Wyjątki",
+        "text": "Pewne wyrazy należy zapamiętać, bo nie podlegają ogólnym regułom lub mają skomplikowaną etymologię.",
+        "points": [
+            "Przez „ó\": skóra, córka, mózg, ogórek, wróbel, kółko, góra",
+            "Przez „rz\": rzeka, rzecz, rzeźba, rzadki, rzucać",
+            "Przez „h\": historia, honor, hałas, herbata, hotel, humor",
+            "Przez „ż\": żaba, żona, żółty, żyć, żal, już, też, też"
+        ],
+        "example": "Mnemotechnika: „Córka i skóra przez ó, bo córka ma skórę jak ogórek.\""
+    }
+]

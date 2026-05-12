@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Zdarzenia losowe i doświadczenia",
+        "tag": "Podstawy",
+        "text": "Doświadczenie losowe to takie, którego wynik nie jest z góry znany. Zdarzenie elementarne to pojedynczy możliwy wynik.",
+        "points": [
+            "Przestrzeń zdarzeń Ω: zbiór wszystkich możliwych wyników",
+            "Zdarzenie: dowolny podzbiór Ω",
+            "Zdarzenie pewne: zawsze zachodzi (cała Ω)",
+            "Zdarzenie niemożliwe: nigdy nie zachodzi (zbiór pusty ∅)"
+        ],
+        "example": "Rzut kostką: Ω = {1,2,3,4,5,6} / Zdarzenie A = 'wypadła liczba parzysta' = {2,4,6} / Zdarzenie pewne: 'wypadła liczba ≤ 6'"
+    },
+    {
+        "title": "2. Klasyczna definicja prawdopodobieństwa",
+        "tag": "Prawdopodobieństwo",
+        "text": "Prawdopodobieństwo zdarzenia A to stosunek liczby zdarzeń sprzyjających do liczby wszystkich możliwych wyników (przy założeniu, że są równo prawdopodobne).",
+        "points": [
+            "P(A) = liczba zdarzeń sprzyjających / liczba wszystkich możliwych wyników",
+            "P(A) ∈ [0, 1]: zawsze między 0 a 1",
+            "P(∅) = 0 (zdarzenie niemożliwe)",
+            "P(Ω) = 1 (zdarzenie pewne)"
+        ],
+        "example": "Rzut kostką, zdarzenie A='wypadła liczba parzysta': P(A) = 3/6 = 1/2 / Losowanie karty z talii 52: P(As) = 4/52 = 1/13"
+    },
+    {
+        "title": "3. Zdarzenie przeciwne",
+        "tag": "Prawdopodobieństwo",
+        "text": "Zdarzenie przeciwne do A (oznaczane A' lub Ā) to zdarzenie polegające na tym, że A NIE zachodzi.",
+        "points": [
+            "P(A') = 1 - P(A)",
+            "A i A' są wzajemnie wykluczające i wyczerpują całą przestrzeń",
+            "Strategia: jeśli trudno obliczyć P(A), oblicz P(A') i odejmij od 1",
+            "Przykład: P('co najmniej jeden orzeł') = 1 - P('same reszki')"
+        ],
+        "example": "Rzut kostką: P(nie wypadnie 6) = 1 - 1/6 = 5/6 / Dwa rzuty monetą: P(co najmniej jeden orzeł) = 1 - P(RR) = 1 - 1/4 = 3/4"
+    },
+    {
+        "title": "4. Zdarzenia niezależne – mnożenie",
+        "tag": "Działania na zdarzeniach",
+        "text": "Zdarzenia A i B są niezależne, jeśli zajście A nie wpływa na prawdopodobieństwo B. Dla niezależnych: P(A∩B) = P(A) · P(B).",
+        "points": [
+            "Niezależność: wynik jednego doświadczenia nie wpływa na drugie",
+            "Rzuty monetą, kostką, losowania ze zwracaniem – niezależne",
+            "P(A i B) = P(A) · P(B) – reguła iloczynu",
+            "Dla wielu zdarzeń: P(A₁ ∩ A₂ ∩ ... ∩ Aₙ) = P(A₁) · P(A₂) · ... · P(Aₙ)"
+        ],
+        "example": "Dwa rzuty kostką: P(6 i 6) = 1/6 · 1/6 = 1/36 / Trzy rzuty monetą: P(3 orły) = 1/2 · 1/2 · 1/2 = 1/8"
+    },
+    {
+        "title": "5. Zdarzenia wykluczające – dodawanie",
+        "tag": "Działania na zdarzeniach",
+        "text": "Zdarzenia A i B są wykluczające (rozłączne), jeśli nie mogą zajść jednocześnie. Wtedy P(A∪B) = P(A) + P(B).",
+        "points": [
+            "Wykluczające: A ∩ B = ∅ (nie ma części wspólnej)",
+            "P(A lub B) = P(A) + P(B) – dla wykluczających",
+            "Dla NIE-wykluczających: P(A∪B) = P(A) + P(B) - P(A∩B)",
+            "Sprawdź: czy oba zdarzenia mogą zajść jednocześnie?"
+        ],
+        "example": "Rzut kostką: A='1 lub 2', B='5 lub 6'. P(A)=2/6, P(B)=2/6. A i B wykluczające: P(A∪B)=4/6=2/3"
+    },
+    {
+        "title": "6. Drzewo możliwości",
+        "tag": "Techniki obliczeniowe",
+        "text": "Drzewo możliwości to diagram ułatwiający liczenie wyników złożonych doświadczeń losowych. Każda gałąź to jedna ścieżka wyników.",
+        "points": [
+            "Każdy poziom drzewa odpowiada jednej fazie doświadczenia",
+            "Prawdopodobieństwo ścieżki = iloczyn prawdopodobieństw wzdłuż gałęzi",
+            "Prawdopodobieństwo zdarzenia = suma prawdopodobieństw sprzyjających ścieżek",
+            "Pomocne przy doświadczeniach dwu- i trójfazowych"
+        ],
+        "example": "Urna: 3 czerwone, 2 niebieskie. 2 losowania ze zwracaniem: P(2 czerwone) = 3/5 · 3/5 = 9/25"
+    },
+    {
+        "title": "7. Kombinatoryka – permutacje i kombinacje",
+        "tag": "Kombinatoryka",
+        "text": "Kombinatoryka zajmuje się liczeniem możliwych układów. Trzy podstawowe pojęcia: permutacje, wariacje i kombinacje.",
+        "points": [
+            "Permutacje (n elementów, kolejność ważna, bez powtórzeń): n! (n silnia)",
+            "Wariacje z powtórzeniami (n elementów, r miejsc): nʳ",
+            "Kombinacje (n elementów, r bez kolejności): C(n,r) = n! / (r! · (n-r)!)",
+            "Reguła mnożenia: jeśli A możliwości i B możliwości → A·B kombinacji"
+        ],
+        "example": "5! = 120 (ilu sposobami ustawić 5 osób?) / C(6,2) = 15 (ilu sposobami wybrać 2 z 6?) / Hasło 3 cyfry: 10³ = 1000"
+    },
+    {
+        "title": "8. Prawdopodobieństwo w urnie i kartach",
+        "tag": "Zadania klasyczne",
+        "text": "Klasyczne zadania z urną i kartami to podstawa egzaminów. Wymagają poprawnego określenia przestrzeni zdarzeń.",
+        "points": [
+            "Urna: oblicz liczbę wszystkich możliwych losowań (z lub bez zwracania)",
+            "Karty: talia = 52 karty (4 kolory × 13 wartości)",
+            "Bez zwracania: liczba możliwych wyników maleje z każdym losowaniem",
+            "Ze zwracaniem: każde losowanie ma tę samą liczbę możliwości"
+        ],
+        "example": "Urna: 4 kule białe, 6 czarnych. P(2 białe bez zwracania) = 4/10 · 3/9 = 12/90 = 2/15"
+    },
+    {
+        "title": "9. Statystyka – średnia, mediana, dominanta",
+        "tag": "Statystyka",
+        "text": "Miary tendencji centralnej opisują 'środek' zbioru danych. Każda z trzech miar ma inne zastosowanie.",
+        "points": [
+            "Średnia arytmetyczna: suma wszystkich wartości / liczba elementów",
+            "Mediana: środkowa wartość po posortowaniu; dla parzystej liczby – średnia dwóch środkowych",
+            "Dominanta (moda): wartość pojawiająca się najczęściej",
+            "Zakres: max - min (rozstęp danych)"
+        ],
+        "example": "Dane: 3, 5, 5, 7, 10. Średnia=(3+5+5+7+10)/5=6. Mediana=5. Dominanta=5. Zakres=10-3=7."
+    },
+    {
+        "title": "10. Odczytywanie danych z wykresów",
+        "tag": "Statystyka",
+        "text": "Dane statystyczne przedstawiamy na wykresach: słupkowych, kołowych, liniowych i histogramach.",
+        "points": [
+            "Wykres słupkowy: porównuje kategorie; odczytuj wysokość słupka",
+            "Wykres kołowy: udziały procentowe; sektor 90° = 25% całości",
+            "Histogram: rozkład danych ciągłych; pole prostokąta = częstość",
+            "Wykres liniowy: zmiany w czasie; trend rosnący/malejący"
+        ],
+        "example": "Wykres kołowy: sektor A zajmuje 72°. Udział: 72/360 = 1/5 = 20%."
+    }
+]

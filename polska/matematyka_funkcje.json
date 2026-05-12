@@ -1,0 +1,122 @@
+[
+    {
+        "title": "1. Czym jest funkcja?",
+        "tag": "Podstawy",
+        "text": "Funkcja to przyporządkowanie, które każdemu elementowi dziedziny przypisuje dokładnie jeden element przeciwdziedziny.",
+        "points": [
+            "Dziedzina: zbiór wszystkich dopuszczalnych argumentów x",
+            "Zbiór wartości: zbiór wszystkich y = f(x) dla x z dziedziny",
+            "Zapis: f(x) = ... lub y = ...",
+            "Test pionowej prostej: wykres jest funkcją, jeśli każda pionowa prosta przecina go co najwyżej raz"
+        ],
+        "example": "f(x) = 2x + 1 → f(3) = 7; f(0) = 1; f(-2) = -3 / Dziedzina f(x) = 1/x: wszystkie x ≠ 0"
+    },
+    {
+        "title": "2. Funkcja liniowa",
+        "tag": "Funkcja liniowa",
+        "text": "Funkcja liniowa ma postać f(x) = ax + b, gdzie a to współczynnik kierunkowy (nachylenie), b to wyraz wolny (przecięcie z osią Y).",
+        "points": [
+            "a > 0: funkcja rosnąca (wykres idzie w górę od lewej do prawej)",
+            "a < 0: funkcja malejąca",
+            "a = 0: funkcja stała f(x) = b (pozioma prosta)",
+            "Miejsce zerowe: x₀ = -b/a (gdzie wykres przecina oś X)"
+        ],
+        "example": "f(x) = 2x - 4 → a=2 (rosnąca), b=-4 (przecina Y w -4), miejsce zerowe: x=2 / f(x) = -3x + 6: malejąca, mz: x=2"
+    },
+    {
+        "title": "3. Wykres funkcji liniowej",
+        "tag": "Funkcja liniowa",
+        "text": "Wykres funkcji liniowej to prosta. Do narysowania potrzebujemy dwóch punktów – najwygodniej miejsce zerowe i przecięcie z osią Y.",
+        "points": [
+            "Punkt (0, b): przecięcie z osią OY",
+            "Miejsce zerowe (x₀, 0): f(x₀) = 0 → x₀ = -b/a",
+            "Alternatywnie: wybierz dowolne dwa x i oblicz f(x)",
+            "Równoległe proste mają ten sam współczynnik a; prostopadłe: a₁ · a₂ = -1"
+        ],
+        "example": "f(x) = x + 2: punkty (0,2) i (-2,0) → rysujemy prostą / g(x) = x - 1: równoległa do f(x) = x + 3 (oba a=1)"
+    },
+    {
+        "title": "4. Funkcja kwadratowa",
+        "tag": "Funkcja kwadratowa",
+        "text": "Funkcja kwadratowa: f(x) = ax² + bx + c (a ≠ 0). Jej wykres to parabola.",
+        "points": [
+            "a > 0: parabola skierowana ramionami w górę (minimum)",
+            "a < 0: parabola skierowana ramionami w dół (maksimum)",
+            "Wierzchołek paraboli: W = (-b/(2a), -Δ/(4a))",
+            "Wyróżnik (delta): Δ = b² - 4ac"
+        ],
+        "example": "f(x) = x² - 4x + 3: a=1, b=-4, c=3, Δ=4, W=(2,-1) / Parabola skierowana w górę, wierzchołek (2,-1)"
+    },
+    {
+        "title": "5. Miejsca zerowe funkcji kwadratowej",
+        "tag": "Funkcja kwadratowa",
+        "text": "Miejsca zerowe to punkty, w których parabola przecina oś X. Ich liczba zależy od wartości wyróżnika Δ.",
+        "points": [
+            "Δ > 0: dwa miejsca zerowe: x₁ = (-b - √Δ)/(2a); x₂ = (-b + √Δ)/(2a)",
+            "Δ = 0: jedno miejsce zerowe (parabola dotyka osi X): x₀ = -b/(2a)",
+            "Δ < 0: brak miejsc zerowych (parabola nie przecina osi X)",
+            "Wzory Viète'a: x₁ + x₂ = -b/a; x₁ · x₂ = c/a"
+        ],
+        "example": "x² - 5x + 6 = 0: Δ = 25-24 = 1, x₁ = (5-1)/2 = 2, x₂ = (5+1)/2 = 3 ✓ (Viète: 2+3=5, 2·3=6)"
+    },
+    {
+        "title": "6. Postaci funkcji kwadratowej",
+        "tag": "Funkcja kwadratowa",
+        "text": "Funkcję kwadratową można zapisać w trzech równoważnych postaciach, każda użyteczna do innych celów.",
+        "points": [
+            "Postać ogólna: f(x) = ax² + bx + c (łatwa do obliczenia Δ)",
+            "Postać wierzchołkowa: f(x) = a(x - p)² + q, gdzie W=(p,q)",
+            "Postać iloczynowa (gdy Δ ≥ 0): f(x) = a(x - x₁)(x - x₂)",
+            "Przejście między postaciami: rozwijanie nawiasów lub uzupełnianie do pełnego kwadratu"
+        ],
+        "example": "f(x) = 2(x-3)² - 8 → wierzchołek W(3,-8) / f(x) = 2(x-1)(x-5) → mz: x=1 i x=5"
+    },
+    {
+        "title": "7. Funkcja proporcjonalności odwrotnej",
+        "tag": "Inne funkcje",
+        "text": "Funkcja f(x) = k/x (k ≠ 0). Wykres to hiperbola. Gdy x rośnie, y maleje (i odwrotnie).",
+        "points": [
+            "Dziedzina: wszystkie x ≠ 0",
+            "Zbiór wartości: wszystkie y ≠ 0",
+            "k > 0: hiperbola w I i III ćwiartce; k < 0: w II i IV",
+            "Brak miejsca zerowego – wykres nigdy nie przecina osi"
+        ],
+        "example": "f(x) = 6/x: f(2)=3, f(3)=2, f(6)=1 → im większe x, tym mniejsze y / Zastosowanie: prędkość i czas (v=d/t)"
+    },
+    {
+        "title": "8. Odczytywanie własności funkcji z wykresu",
+        "tag": "Analiza wykresu",
+        "text": "Z wykresu funkcji można odczytać: dziedzinę, zbiór wartości, miejsca zerowe, przedziały monotoniczności i ekstremum.",
+        "points": [
+            "Miejsca zerowe: punkty przecięcia z osią OX",
+            "Wartość w punkcie: odczytaj y dla danego x",
+            "Przedziały rosnące: wykres idzie w górę (czytaj od lewej do prawej)",
+            "Maksimum/minimum: wierzchołek (najwyższy/najniższy punkt)"
+        ],
+        "example": "Parabola z wierzchołkiem W(2, 5), przecinająca OX w x=0 i x=4: max = 5 dla x=2; rośnie dla x<2, maleje dla x>2"
+    },
+    {
+        "title": "9. Funkcja – zadania tekstowe",
+        "tag": "Zastosowania",
+        "text": "Funkcje opisują zależności w realnym świecie: ceny, odległości, prędkości, wzrost populacji.",
+        "points": [
+            "Zidentyfikuj zmienną niezależną (x) i zależną (y)",
+            "Wyraź zależność wzorem matematycznym",
+            "Sprawdź jednostki i interpretuj wynik",
+            "Pamiętaj o sensowności dziedziny (np. x ≥ 0 dla czasu)"
+        ],
+        "example": "Taksówka: 5 zł za wjazd + 3 zł/km. Koszt: f(x) = 3x + 5. Dla 7 km: f(7) = 26 zł."
+    },
+    {
+        "title": "10. Układy równań a funkcje",
+        "tag": "Zastosowania",
+        "text": "Rozwiązanie układu dwóch równań liniowych to punkt przecięcia dwóch prostych na wykresie.",
+        "points": [
+            "Proste równoległe (a₁=a₂, b₁≠b₂): brak przecięcia → układ sprzeczny",
+            "Proste pokrywające się: nieskończenie wiele rozwiązań → układ nieoznaczony",
+            "Proste przecinające się: jedno rozwiązanie → układ oznaczony",
+            "Punkt przecięcia f(x) = g(x): rozwiąż równanie f(x) - g(x) = 0"
+        ],
+        "example": "f(x) = 2x+1 i g(x) = x+3: 2x+1 = x+3 → x=2, y=5. Punkt przecięcia: (2,5)"
+    }
+]
