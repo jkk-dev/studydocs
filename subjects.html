@@ -4,6 +4,7 @@
 <head>
     <title>StudyDocs</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
@@ -17,12 +18,13 @@
             align-items: center;
             min-height: 100vh;
             padding: 20px;
+            box-sizing: border-box;
         }
 
         #content,
         .selection-container {
             background: rgba(255, 255, 255, 0.07);
-            padding: 45px;
+            padding: clamp(25px, 8vw, 45px);
             border-radius: 22px;
             text-align: center;
             width: 100%;
@@ -31,7 +33,7 @@
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: clamp(1.5rem, 6vw, 2rem);
             margin-bottom: 35px;
             font-weight: 700;
         }
@@ -39,7 +41,7 @@
         .button-grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 22px;
+            gap: 18px;
         }
 
         button {
