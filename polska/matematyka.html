@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matematyka - StudyDocs</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -148,14 +149,40 @@
                 width: auto;
                 border-right: none;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                padding: 20px;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+            }
+
+            .sidebar h1 {
+                font-size: 1.4rem;
+                margin-bottom: 15px;
+            }
+
+            .menu {
+                flex-direction: row;
+                overflow-x: auto;
+                padding-bottom: 10px;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .menu button {
+                white-space: nowrap;
+                padding: 10px 16px;
             }
 
             .main {
-                padding: 25px;
+                padding: 20px;
             }
 
             .card {
-                padding: 28px;
+                padding: 25px;
+                border-radius: 20px;
+            }
+
+            h2 {
+                font-size: 1.8rem;
             }
         }
     </style>
