@@ -1,80 +1,90 @@
 # StudyDocs
 
-\# StudyDocs
+StudyDocs is a project created to make studying easier, cleaner, and more organized for students.
+The goal of the platform is to provide educational materials in one simple place where topics are easy to access and understand.
 
+Instead of searching through random notes, documents, or websites, StudyDocs focuses on creating a structured learning experience that feels lightweight and student-friendly.
 
+---
 
-StudyDocs is a project made to help students learn in a simpler and more organized way.  
+## About The Project
 
-The idea behind the project is to create one place where study materials, notes, and school topics can be easy to access and easy to understand.
+StudyDocs is an educational platform built for students who want a simpler way to learn and revise school subjects.
+The project is designed to organize learning materials into categories and subjects so studying becomes faster and less stressful.
 
+The platform is planned to grow over time with more subjects, better navigation, interactive tools, and additional learning features.
 
+---
 
-A lot of learning websites feel overloaded or complicated, so StudyDocs focuses on keeping everything clean, simple, and useful for students.
+## Features
 
+- Clean and simple interface
+- Organized educational content
+- Subject-based navigation
+- Lightweight frontend
+- Easy to expand with new materials
+- Structured JSON-based content system
+- Multi-language and multi-country concept
 
+---
 
-\---
+## Tech Stack
 
+- HTML
+- CSS
+- JavaScript
+- JSON
 
+---
 
-\## About The Project
+## Project Structure
 
+```txt
+studydocs/
+├── index.html
+├── subjects.html
+├── background.svg
+├── polska/
+│   ├── polski.html
+│   └── gramatyka.json
+└── README.md
+```
 
+---
 
-StudyDocs is built as an educational platform where students can browse subjects, read study materials, and learn faster without wasting time searching through random notes or documents.
+## Future Plans
 
+Planned features and improvements:
 
+- More school subjects
+- Better UI/UX
+- Responsive mobile support
+- Search functionality
+- Interactive quizzes
+- Progress tracking
+- User accounts
+- More languages and countries
+- Improved content organization
 
-The project is meant to grow over time with more subjects, better organization, and new learning features.
+---
 
+## Why I Made This
 
+I created StudyDocs because most study materials online feel unorganized or difficult to use.
+I wanted to build a platform where students can quickly find topics and focus on learning without distractions.
 
-The main goal is to make studying less stressful and more accessible for everyone.
+The idea is to keep everything simple while still making the project scalable for the future.
 
+---
 
+## Getting Started
 
-\---
+Clone the repository:
 
+```bash
+git clone https://github.com/jkk-dev/studydocs.git
+```
 
+Open the project folder and launch `index.html` in your browser.
 
-\## Features
-
-
-
-\- Simple and clean design
-
-\- Organized study materials
-
-\- Subject-based structure
-
-\- Fast and lightweight
-
-\- Easy to expand with new content
-
-\- JSON-based data organization
-
-
-
-\---
-
-
-
-\## Built With
-
-
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
-
-\- JSON
-
-
-
-\---
-
-
-
+---
