@@ -1,85 +1,363 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
-    <title>StudyDocs</title>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <title>Przedmioty - StudyDocs</title>
+    <link rel="stylesheet" href="styles.css?v=library-subjects-fix-2">
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #0b0b0f, #171717, #000);
-            color: white;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        html,
+        body.subjects-body {
+            width: 100%;
+            height: 100vh;
             min-height: 100vh;
-            padding: 20px;
-            box-sizing: border-box;
+            margin: 0;
+            overflow: hidden;
+            background: #1e1208;
         }
 
-        #content,
-        .selection-container {
-            background: rgba(255, 255, 255, 0.07);
-            padding: clamp(25px, 8vw, 45px);
-            border-radius: 22px;
-            text-align: center;
-            width: 100%;
-            max-width: 480px;
-            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.35);
+        body.subjects-body::before,
+        body.subjects-body::after {
+            display: none !important;
         }
 
-        h1 {
-            font-size: clamp(1.5rem, 6vw, 2rem);
-            margin-bottom: 35px;
-            font-weight: 700;
+        .subjects-scene {
+            position: fixed !important;
+            inset: 0 !important;
+            z-index: -3 !important;
+            display: block !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            max-height: none !important;
+            pointer-events: none;
+            image-rendering: pixelated;
+            shape-rendering: crispEdges;
         }
 
-        .button-grid {
+        .subjects-body .topbar {
+            position: absolute !important;
+            top: 14px !important;
+            left: 50% !important;
+            z-index: 3 !important;
+            width: min(1120px, calc(100% - 40px)) !important;
+            margin-top: 0 !important;
+            transform: translateX(-50%) !important;
+        }
+
+        .subjects-body .subjects-page {
+            display: grid !important;
+            grid-template-rows: auto minmax(0, 1fr);
+            align-content: center;
+            height: 100vh !important;
+            padding: clamp(108px, 15vh, 138px) 0 clamp(28px, 6vh, 56px) !important;
+        }
+
+        .subjects-body .page-head {
+            margin: 0 0 clamp(18px, 3vh, 30px) !important;
+            padding-bottom: clamp(12px, 2vh, 20px) !important;
+        }
+
+        .subjects-body .page-head::after,
+        .subjects-body .tile-label {
+            display: none !important;
+        }
+
+        .subjects-body .subject-grid {
             display: grid;
-            grid-template-columns: 1fr;
-            gap: 18px;
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            gap: clamp(14px, 2vw, 22px);
+            min-height: 0;
         }
 
-        button {
-            background: #6366f1;
-            color: white;
-            border: none;
-            padding: 17px 20px;
-            border-radius: 12px;
-            font-family: inherit;
-            font-weight: 600;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: 0.2s;
-            width: 100%;
+        .subjects-body .subject-tile {
+            min-height: clamp(250px, 34vh, 330px) !important;
+            overflow: hidden;
         }
 
-        button:hover {
-            background: #4f46e5;
-            transform: translateY(-2px);
+        @media (max-width: 880px) {
+            .subjects-body .subjects-page {
+                padding: 106px 0 24px !important;
+            }
+
+            .subjects-body .subject-grid {
+                grid-template-columns: 1fr !important;
+                gap: 10px;
+            }
+
+            .subjects-body .subject-tile {
+                min-height: clamp(105px, 16vh, 142px) !important;
+            }
         }
 
-        button:active {
-            transform: translateY(0);
+        @media (max-width: 560px) {
+            .subjects-body .subjects-page {
+                padding: 96px 0 18px !important;
+            }
+
+            .subjects-body .subject-tile {
+                min-height: clamp(96px, 15vh, 124px) !important;
+            }
         }
     </style>
 </head>
 
-<body>
+<body class="subjects-body">
+    <svg class="subjects-scene" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: -3; display: block; pointer-events: none;">
+        <defs>
+            <radialGradient id="subjectLanternGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="rgba(255,160,0,0.15)" />
+                <stop offset="100%" stop-color="rgba(255,160,0,0)" />
+            </radialGradient>
+        </defs>
 
-    <div id="content">
-        <h1>Wybierz przedmiot!</h1>
-        <div class="button-grid">
-            <button onclick="window.location.href='polska/polski.html'">Polski</button>
-            <button onclick="window.location.href='polska/angielski.html'">Angielski</button>
-            <button onclick="window.location.href='polska/matematyka.html'">Matematyka</button>
-        </div>
-    </div>
+        <rect width="1600" height="900" fill="#1e1208" />
+        <rect width="1600" height="900" fill="rgba(0,0,0,0.24)" />
+        <g opacity="0.42">
+            <rect x="0" y="0" width="1600" height="40" fill="#2a1f14" />
+            <rect x="0" y="180" width="1600" height="44" fill="#2d2d2d" />
+            <rect x="0" y="360" width="1600" height="44" fill="#2a1f14" />
+            <rect x="0" y="540" width="1600" height="44" fill="#2d2d2d" />
+            <rect x="0" y="720" width="1600" height="44" fill="#2a1f14" />
+            <rect x="0" y="886" width="1600" height="14" fill="#120a04" />
+        </g>
 
+        <g opacity="0.55">
+            <rect x="0" y="64" width="170" height="730" fill="#4a2b10" />
+            <rect x="1430" y="64" width="170" height="730" fill="#4a2b10" />
+            <rect x="0" y="228" width="170" height="18" fill="#2b1b10" />
+            <rect x="0" y="414" width="170" height="18" fill="#2b1b10" />
+            <rect x="0" y="600" width="170" height="18" fill="#2b1b10" />
+            <rect x="1430" y="228" width="170" height="18" fill="#2b1b10" />
+            <rect x="1430" y="414" width="170" height="18" fill="#2b1b10" />
+            <rect x="1430" y="600" width="170" height="18" fill="#2b1b10" />
+            <rect x="26" y="92" width="18" height="118" fill="#C0392B" />
+            <rect x="52" y="92" width="18" height="118" fill="#2980B9" />
+            <rect x="78" y="92" width="18" height="118" fill="#f5c842" />
+            <rect x="104" y="92" width="18" height="118" fill="#27AE60" />
+            <rect x="130" y="92" width="18" height="118" fill="#7a3f9a" />
+            <rect x="1452" y="92" width="18" height="118" fill="#27AE60" />
+            <rect x="1478" y="92" width="18" height="118" fill="#C0392B" />
+            <rect x="1504" y="92" width="18" height="118" fill="#2980B9" />
+            <rect x="1530" y="92" width="18" height="118" fill="#7a3f9a" />
+            <rect x="1556" y="92" width="18" height="118" fill="#f5c842" />
+        </g>
+
+        <ellipse cx="330" cy="220" rx="110" ry="120" fill="url(#subjectLanternGlow)" />
+        <svg x="306" y="18" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="610" cy="220" rx="110" ry="120" fill="url(#subjectLanternGlow)" />
+        <svg x="586" y="18" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="990" cy="220" rx="110" ry="120" fill="url(#subjectLanternGlow)" />
+        <svg x="966" y="18" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="1270" cy="220" rx="110" ry="120" fill="url(#subjectLanternGlow)" />
+        <svg x="1246" y="18" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+    </svg>
+
+    <header class="shell topbar">
+        <a class="brand" href="index.html" aria-label="StudyDocs">
+            <span class="brand-mark">SD</span>
+            <span>StudyDocs</span>
+        </a>
+        <button class="language-toggle" type="button" title="EN / PL" aria-label="Switch language">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                <rect x="3" y="2" width="10" height="2" fill="#f0e6c8" />
+                <rect x="2" y="4" width="12" height="8" fill="#f0e6c8" />
+                <rect x="3" y="12" width="10" height="2" fill="#f0e6c8" />
+                <rect x="4" y="5" width="8" height="1" fill="#2a1f14" />
+                <rect x="4" y="10" width="8" height="1" fill="#2a1f14" />
+                <rect x="7" y="3" width="2" height="10" fill="#2a1f14" />
+                <rect x="2" y="7" width="12" height="2" fill="#2a1f14" />
+                <rect x="1" y="5" width="2" height="6" fill="#f5c842" />
+                <rect x="13" y="5" width="2" height="6" fill="#f5c842" />
+            </svg>
+        </button>
+    </header>
+
+    <main class="shell subjects-page">
+        <section class="page-head">
+            <div>
+                <p class="eyebrow" data-i18n="region">Polska</p>
+                <h1 data-i18n="title">Przedmioty</h1>
+                <p data-i18n="subtitle">Wybierz dział i przejdź od razu do materiałów.</p>
+            </div>
+        </section>
+
+        <section class="subject-grid" aria-label="Lista przedmiotów">
+            <a class="subject-tile subject-polish" href="polska/polski.html">
+                <span class="book-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <rect x="3" y="2" width="10" height="12" fill="#C0392B" />
+                        <rect x="3" y="2" width="2" height="12" fill="#7f241c" />
+                        <rect x="5" y="3" width="7" height="1" fill="#e06a5f" />
+                        <rect x="12" y="2" width="1" height="12" fill="#3b170f" />
+                    </svg>
+                </span>
+                <h2 data-i18n="polishTitle">Polski</h2>
+                <p data-i18n="polishDesc">Lektury, gramatyka, rozprawka, poezja i analiza tekstu.</p>
+            </a>
+
+            <a class="subject-tile subject-english" href="polska/angielski.html">
+                <span class="book-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <rect x="3" y="2" width="10" height="12" fill="#2980B9" />
+                        <rect x="3" y="2" width="2" height="12" fill="#174c70" />
+                        <rect x="5" y="3" width="7" height="1" fill="#6fb3dc" />
+                        <rect x="12" y="2" width="1" height="12" fill="#102a3d" />
+                    </svg>
+                </span>
+                <h2 data-i18n="englishTitle">Angielski</h2>
+                <p data-i18n="englishDesc">Czasy, słownictwo, czytanie, pisanie, mówienie i idiomy.</p>
+            </a>
+
+            <a class="subject-tile subject-math" href="polska/matematyka.html">
+                <span class="book-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <rect x="3" y="2" width="10" height="12" fill="#27AE60" />
+                        <rect x="3" y="2" width="2" height="12" fill="#176c3b" />
+                        <rect x="5" y="3" width="7" height="1" fill="#72d99d" />
+                        <rect x="12" y="2" width="1" height="12" fill="#0f3d24" />
+                    </svg>
+                </span>
+                <h2 data-i18n="mathTitle">Matematyka</h2>
+                <p data-i18n="mathDesc">Podstawy, algebra, geometria, funkcje i prawdopodobieństwo.</p>
+            </a>
+        </section>
+    </main>
+
+    <script>
+        const subjectMessages = {
+            pl: {
+                region: "Polska",
+                title: "Przedmioty",
+                subtitle: "Wybierz dział i przejdź od razu do materiałów.",
+                polishTitle: "Polski",
+                polishDesc: "Lektury, gramatyka, rozprawka, poezja i analiza tekstu.",
+                englishTitle: "Angielski",
+                englishDesc: "Czasy, słownictwo, czytanie, pisanie, mówienie i idiomy.",
+                mathTitle: "Matematyka",
+                mathDesc: "Podstawy, algebra, geometria, funkcje i prawdopodobieństwo.",
+                label: "Switch to English"
+            },
+            en: {
+                region: "Poland",
+                title: "Subjects",
+                subtitle: "Choose a subject and jump straight into the materials.",
+                polishTitle: "Polish",
+                polishDesc: "Literature, grammar, essays, poetry, and text analysis.",
+                englishTitle: "English",
+                englishDesc: "Tenses, vocabulary, reading, writing, speaking, and idioms.",
+                mathTitle: "Mathematics",
+                mathDesc: "Basics, algebra, geometry, functions, and probability.",
+                label: "Przełącz na polski"
+            }
+        };
+
+        const languageToggle = document.querySelector(".language-toggle");
+        const languageKey = "sd-lang";
+
+        function applyLanguage(language) {
+            const selected = subjectMessages[language] ? language : "pl";
+            document.documentElement.lang = selected;
+            document.querySelectorAll("[data-i18n]").forEach((element) => {
+                element.textContent = subjectMessages[selected][element.dataset.i18n];
+            });
+            languageToggle.setAttribute("aria-label", subjectMessages[selected].label);
+            localStorage.setItem(languageKey, selected);
+            localStorage.setItem("studydocs-language", selected);
+        }
+
+        const savedLanguage = localStorage.getItem(languageKey) || localStorage.getItem("studydocs-language") || "pl";
+        applyLanguage(savedLanguage === "en" ? "en" : "pl");
+
+        languageToggle.addEventListener("click", () => {
+            applyLanguage(document.documentElement.lang === "pl" ? "en" : "pl");
+        });
+    </script>
 </body>
 
 </html>

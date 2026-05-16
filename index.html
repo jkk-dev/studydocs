@@ -1,75 +1,294 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
-    <title>StudyDocs</title>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            min-height: 100vh;
-
-            /* clean dark gradient */
-            background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #000);
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 500px;
-            width: 100%;
-        }
-
-        h1 {
-            font-size: clamp(2.5rem, 10vw, 3rem);
-            margin-bottom: 15px;
-        }
-
-        p {
-            font-size: 18px;
-            font-weight: 300;
-            color: #ccc;
-            margin-bottom: 35px;
-        }
-
-        button {
-            font-family: 'Poppins', sans-serif;
-            padding: 14px 32px;
-            font-size: 16px;
-            border: none;
-            border-radius: 8px;
-            background-color: #6366f1;
-            color: white;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-
-        button:hover {
-            background-color: #4f46e5;
-            transform: translateY(-2px);
-        }
-    </style>
+    <title>StudyDocs</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="home-page">
+    <svg class="library-scene" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+            <radialGradient id="lanternGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="rgba(255,160,0,0.15)" />
+                <stop offset="100%" stop-color="rgba(255,160,0,0)" />
+            </radialGradient>
+            <radialGradient id="candleGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="rgba(255,180,50,0.2)" />
+                <stop offset="100%" stop-color="rgba(255,180,50,0)" />
+            </radialGradient>
+        </defs>
 
-    <div class="container">
-        <h1>StudyDocs</h1>
-        <p>StudyDocs is a library of notes and resources to learn from.</p>
-        <button onclick="window.location.href='subjects.html'">Start Learning</button>
-    </div>
+        <rect width="1600" height="900" fill="#2d2d2d" />
+        <rect width="1600" height="900" fill="rgba(0,0,0,0.22)" />
+        <g opacity="0.32">
+            <rect x="0" y="0" width="1600" height="38" fill="#3a3a3a" />
+            <rect x="0" y="190" width="1600" height="38" fill="#3a3a3a" />
+            <rect x="0" y="380" width="1600" height="38" fill="#3a3a3a" />
+            <rect x="0" y="570" width="1600" height="38" fill="#3a3a3a" />
+            <rect x="0" y="760" width="1600" height="38" fill="#3a3a3a" />
+            <rect x="96" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="288" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="480" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="672" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="864" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="1056" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="1248" y="0" width="2" height="900" fill="#1f1f1f" />
+            <rect x="1440" y="0" width="2" height="900" fill="#1f1f1f" />
+        </g>
 
+        <g class="scene-shelf left-shelf">
+            <rect x="0" y="70" width="284" height="650" fill="#5c3515" />
+            <rect x="16" y="88" width="252" height="170" fill="#7a4d1d" />
+            <rect x="16" y="276" width="252" height="170" fill="#7a4d1d" />
+            <rect x="16" y="464" width="252" height="170" fill="#7a4d1d" />
+            <rect x="0" y="250" width="284" height="18" fill="#3b230e" />
+            <rect x="0" y="438" width="284" height="18" fill="#3b230e" />
+            <rect x="0" y="626" width="284" height="18" fill="#3b230e" />
+            <rect x="0" y="70" width="18" height="650" fill="#3b230e" />
+            <rect x="266" y="70" width="18" height="650" fill="#3b230e" />
+            <rect x="38" y="104" width="22" height="126" fill="#bd3f2f" />
+            <rect x="66" y="104" width="22" height="126" fill="#27729a" />
+            <rect x="94" y="104" width="22" height="126" fill="#b99212" />
+            <rect x="122" y="104" width="22" height="126" fill="#23875a" />
+            <rect x="150" y="104" width="22" height="126" fill="#7a3f9a" />
+            <rect x="178" y="104" width="22" height="126" fill="#bd3f2f" />
+            <rect x="206" y="104" width="22" height="126" fill="#b99212" />
+            <rect x="36" y="292" width="22" height="126" fill="#27729a" />
+            <rect x="64" y="292" width="22" height="126" fill="#f5c842" />
+            <rect x="92" y="292" width="22" height="126" fill="#23875a" />
+            <rect x="120" y="292" width="22" height="126" fill="#bd3f2f" />
+            <rect x="148" y="292" width="22" height="126" fill="#7a3f9a" />
+            <rect x="176" y="292" width="22" height="126" fill="#27729a" />
+            <rect x="204" y="292" width="22" height="126" fill="#23875a" />
+            <rect x="38" y="480" width="22" height="126" fill="#bd3f2f" />
+            <rect x="66" y="480" width="22" height="126" fill="#23875a" />
+            <rect x="94" y="480" width="22" height="126" fill="#7a3f9a" />
+            <rect x="122" y="480" width="22" height="126" fill="#27729a" />
+            <rect x="150" y="480" width="22" height="126" fill="#f5c842" />
+            <rect x="178" y="480" width="22" height="126" fill="#23875a" />
+        </g>
+
+        <g class="scene-shelf right-shelf">
+            <rect x="1316" y="70" width="284" height="650" fill="#5c3515" />
+            <rect x="1332" y="88" width="252" height="170" fill="#7a4d1d" />
+            <rect x="1332" y="276" width="252" height="170" fill="#7a4d1d" />
+            <rect x="1332" y="464" width="252" height="170" fill="#7a4d1d" />
+            <rect x="1316" y="250" width="284" height="18" fill="#3b230e" />
+            <rect x="1316" y="438" width="284" height="18" fill="#3b230e" />
+            <rect x="1316" y="626" width="284" height="18" fill="#3b230e" />
+            <rect x="1316" y="70" width="18" height="650" fill="#3b230e" />
+            <rect x="1582" y="70" width="18" height="650" fill="#3b230e" />
+            <rect x="1354" y="104" width="22" height="126" fill="#23875a" />
+            <rect x="1382" y="104" width="22" height="126" fill="#bd3f2f" />
+            <rect x="1410" y="104" width="22" height="126" fill="#27729a" />
+            <rect x="1438" y="104" width="22" height="126" fill="#7a3f9a" />
+            <rect x="1466" y="104" width="22" height="126" fill="#b99212" />
+            <rect x="1494" y="104" width="22" height="126" fill="#23875a" />
+            <rect x="1522" y="104" width="22" height="126" fill="#27729a" />
+            <rect x="1354" y="292" width="22" height="126" fill="#7a3f9a" />
+            <rect x="1382" y="292" width="22" height="126" fill="#bd3f2f" />
+            <rect x="1410" y="292" width="22" height="126" fill="#27729a" />
+            <rect x="1438" y="292" width="22" height="126" fill="#f5c842" />
+            <rect x="1466" y="292" width="22" height="126" fill="#23875a" />
+            <rect x="1494" y="292" width="22" height="126" fill="#b99212" />
+            <rect x="1354" y="480" width="22" height="126" fill="#bd3f2f" />
+            <rect x="1382" y="480" width="22" height="126" fill="#27729a" />
+            <rect x="1410" y="480" width="22" height="126" fill="#7a3f9a" />
+            <rect x="1438" y="480" width="22" height="126" fill="#f5c842" />
+            <rect x="1466" y="480" width="22" height="126" fill="#23875a" />
+            <rect x="1494" y="480" width="22" height="126" fill="#bd3f2f" />
+        </g>
+
+        <ellipse cx="330" cy="225" rx="110" ry="120" fill="url(#lanternGlow)" />
+        <svg x="306" y="22" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="610" cy="225" rx="110" ry="120" fill="url(#lanternGlow)" />
+        <svg x="586" y="22" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="990" cy="225" rx="110" ry="120" fill="url(#lanternGlow)" />
+        <svg x="966" y="22" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+        <ellipse cx="1270" cy="225" rx="110" ry="120" fill="url(#lanternGlow)" />
+        <svg x="1246" y="22" width="48" height="180" viewBox="0 0 8 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+            <rect x="3" y="0"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="2"  width="2" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="4"  width="2" height="2" fill="#6B4E10"/>
+            <rect x="0" y="6"  width="8" height="2" fill="#4A3200"/>
+            <rect x="0" y="8"  width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="10" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="10" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="12" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="12" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="14" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="14" width="4" height="2" fill="#FFF9C4"/>
+            <rect x="0" y="16" width="8" height="2" fill="#FF8F00"/>
+            <rect x="2" y="16" width="4" height="2" fill="#FFE082"/>
+            <rect x="0" y="18" width="8" height="2" fill="#FFB300"/>
+            <rect x="2" y="18" width="4" height="2" fill="#FFD54F"/>
+            <rect x="0" y="20" width="8" height="2" fill="#6B4E10"/>
+            <rect x="0" y="22" width="8" height="2" fill="#4A3200"/>
+            <rect x="1" y="24" width="6" height="2" fill="#6B4E10"/>
+            <rect x="2" y="26" width="4" height="2" fill="#8B6A1A"/>
+            <rect x="3" y="28" width="2" height="2" fill="#FFB300"/>
+        </svg>
+
+        <g class="scene-desk">
+            <ellipse cx="800" cy="738" rx="230" ry="90" fill="url(#candleGlow)" />
+            <rect x="480" y="680" width="640" height="56" fill="#7a4d1d" />
+            <rect x="450" y="736" width="700" height="22" fill="#4a2b10" />
+            <rect x="500" y="758" width="28" height="74" fill="#3b230e" />
+            <rect x="1072" y="758" width="28" height="74" fill="#3b230e" />
+            <rect x="682" y="646" width="58" height="14" fill="#f0e6c8" />
+            <rect x="740" y="646" width="58" height="14" fill="#e5d9b7" />
+            <rect x="682" y="660" width="116" height="26" fill="#fff3cf" />
+            <rect x="737" y="646" width="5" height="40" fill="#8b5e3c" />
+            <rect x="696" y="666" width="30" height="4" fill="#8b5e3c" />
+            <rect x="754" y="666" width="28" height="4" fill="#8b5e3c" />
+            <rect x="868" y="630" width="20" height="48" fill="#f0e6c8" />
+            <rect x="866" y="624" width="24" height="8" fill="#f5c842" />
+            <rect x="874" y="610" width="8" height="16" fill="#ffb300" />
+            <rect x="878" y="602" width="4" height="8" fill="#fff9c4" />
+            <rect x="914" y="644" width="24" height="34" fill="#201b48" />
+            <rect x="938" y="636" width="8" height="42" fill="#f5c842" />
+            <rect x="900" y="656" width="14" height="22" fill="#6b4e10" />
+        </g>
+    </svg>
+
+    <header class="shell topbar">
+        <a class="brand" href="index.html" aria-label="StudyDocs">
+            <span class="brand-mark">SD</span>
+            <span>StudyDocs</span>
+        </a>
+
+        <button class="language-toggle" type="button" title="EN / PL" aria-label="Switch language">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                <rect x="3" y="2" width="10" height="2" fill="#f0e6c8" />
+                <rect x="2" y="4" width="12" height="8" fill="#f0e6c8" />
+                <rect x="3" y="12" width="10" height="2" fill="#f0e6c8" />
+                <rect x="4" y="5" width="8" height="1" fill="#2a1f14" />
+                <rect x="4" y="10" width="8" height="1" fill="#2a1f14" />
+                <rect x="7" y="3" width="2" height="10" fill="#2a1f14" />
+                <rect x="2" y="7" width="12" height="2" fill="#2a1f14" />
+                <rect x="1" y="5" width="2" height="6" fill="#f5c842" />
+                <rect x="13" y="5" width="2" height="6" fill="#f5c842" />
+            </svg>
+        </button>
+    </header>
+
+    <main class="shell home">
+        <section class="home-copy">
+            <p class="eyebrow" data-i18n="eyebrow">Materiały do nauki</p>
+            <h1>StudyDocs</h1>
+            <p class="lede" data-i18n="lede">Ucz się krócej i mądrzej.</p>
+            <div class="actions">
+                <a class="button" href="/subjects.html" data-i18n="openSubjects">Otwórz przedmioty</a>
+                <span class="button secondary plan-button" role="button" aria-disabled="true" data-i18n="plan">Nasz plan</span>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const messages = {
+            pl: {
+                eyebrow: "Materiały do nauki",
+                lede: "Ucz się krócej i mądrzej.",
+                openSubjects: "Otwórz przedmioty",
+                plan: "Nasz plan",
+                label: "Switch to English"
+            },
+            en: {
+                eyebrow: "Study materials",
+                lede: "Study shorter and smarter.",
+                openSubjects: "Open subjects",
+                plan: "Our plan",
+                label: "Przełącz na polski"
+            }
+        };
+
+        const languageToggle = document.querySelector(".language-toggle");
+        const languageKey = "sd-lang";
+
+        function applyLanguage(language) {
+            const selected = messages[language] ? language : "pl";
+            document.documentElement.lang = selected;
+            document.querySelectorAll("[data-i18n]").forEach((element) => {
+                element.textContent = messages[selected][element.dataset.i18n];
+            });
+            languageToggle.setAttribute("aria-label", messages[selected].label);
+            localStorage.setItem(languageKey, selected);
+            localStorage.setItem("studydocs-language", selected);
+        }
+
+        const savedLanguage = localStorage.getItem(languageKey) || localStorage.getItem("studydocs-language") || "pl";
+        applyLanguage(savedLanguage);
+
+        languageToggle.addEventListener("click", () => {
+            applyLanguage(document.documentElement.lang === "pl" ? "en" : "pl");
+        });
+    </script>
 </body>
 
 </html>
