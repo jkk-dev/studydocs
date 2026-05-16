@@ -5,278 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angielski - StudyDocs</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #0b0b0f, #171717, #000);
-            color: white;
-            display: flex;
-        }
-
-        .sidebar {
-            width: 300px;
-            padding: 30px 20px;
-            background: rgba(255, 255, 255, 0.06);
-            backdrop-filter: blur(14px);
-            border-right: 1px solid rgba(255, 255, 255, 0.1);
-            overflow-y: auto;
-        }
-
-        .back {
-            display: block;
-            margin-bottom: 25px;
-            color: #c7d2fe;
-            text-decoration: none;
-            font-size: 0.95rem;
-        }
-
-        .sidebar h1 {
-            font-size: 1.7rem;
-            margin-bottom: 25px;
-        }
-
-        .menu {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .menu button {
-            text-align: left;
-            padding: 14px 16px;
-            border-radius: 14px;
-            border: none;
-            background: rgba(255, 255, 255, 0.08);
-            color: white;
-            font-family: inherit;
-            font-size: 0.95rem;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-
-        .menu button:hover {
-            background: rgba(255, 255, 255, 0.16);
-            transform: translateX(4px);
-        }
-
-        .menu button.active {
-            background: #6366f1;
-        }
-
-        .main {
-            flex: 1;
-            padding: 60px;
-            overflow-y: auto;
-        }
-
-        .card {
-            max-width: 950px;
-            padding: 45px;
-            border-radius: 30px;
-            background: rgba(255, 255, 255, 0.07);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
-        }
-
-        h2 {
-            font-size: 2.4rem;
-            margin-top: 0;
-            margin-bottom: 12px;
-        }
-
-        .intro {
-            color: #d4d4d4;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            margin-bottom: 35px;
-        }
-
-        .lesson {
-            margin-top: 28px;
-            padding: 26px;
-            border-radius: 22px;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        .lesson h3 {
-            margin-top: 0;
-            font-size: 1.35rem;
-        }
-
-        .lesson p {
-            color: #d6d6d6;
-            line-height: 1.8;
-        }
-
-        ul {
-            color: #d6d6d6;
-            line-height: 1.9;
-            padding-left: 22px;
-        }
-
-        .example {
-            margin-top: 16px;
-            padding: 16px;
-            border-left: 4px solid #6366f1;
-            background: rgba(99, 102, 241, 0.13);
-            border-radius: 12px;
-            color: #eeeeee;
-            line-height: 1.7;
-        }
-
-        .tag {
-            display: inline-block;
-            margin-bottom: 14px;
-            padding: 6px 12px;
-            border-radius: 999px;
-            background: rgba(99, 102, 241, 0.22);
-            color: #c7d2fe;
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-
-        @media (max-width: 800px) {
-            body {
-                flex-direction: column;
-            }
-
-            .sidebar {
-                width: auto;
-                border-right: none;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                padding: 20px;
-                position: sticky;
-                top: 0;
-                z-index: 100;
-            }
-
-            .sidebar h1 {
-                font-size: 1.4rem;
-                margin-bottom: 15px;
-            }
-
-            .menu {
-                flex-direction: row;
-                overflow-x: auto;
-                padding-bottom: 10px;
-                -webkit-overflow-scrolling: touch;
-            }
-
-            .menu button {
-                white-space: nowrap;
-                padding: 10px 16px;
-            }
-
-            .main {
-                padding: 20px;
-            }
-
-            .card {
-                padding: 25px;
-                border-radius: 20px;
-            }
-
-            h2 {
-                font-size: 1.8rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../styles.css?v=reading-page-fix-9">
 </head>
 
-<body>
+<body class="study-page subject-english-page">
+    <div class="study-scene" aria-hidden="true"></div>
+<header class="shell topbar">
+        <a class="brand" href="../index.html" aria-label="StudyDocs"><span class="brand-mark">SD</span><span>StudyDocs</span></a>
+        <button class="language-toggle" type="button" title="EN / PL" aria-label="Switch language">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="2" width="10" height="2" fill="#f0e6c8"/><rect x="2" y="4" width="12" height="8" fill="#f0e6c8"/><rect x="3" y="12" width="10" height="2" fill="#f0e6c8"/><rect x="4" y="5" width="8" height="1" fill="#2a1f14"/><rect x="4" y="10" width="8" height="1" fill="#2a1f14"/><rect x="7" y="3" width="2" height="10" fill="#2a1f14"/><rect x="2" y="7" width="12" height="2" fill="#2a1f14"/><rect x="1" y="5" width="2" height="6" fill="#f5c842"/><rect x="13" y="5" width="2" height="6" fill="#f5c842"/></svg>
+        </button>
+    </header>
 
-    <aside class="sidebar">
-        <a class="back" href="../subjects.html">← Wróć</a>
+    <div class="study-layout">
+        <aside class="sidebar">
+            <div class="sidebar-head">
+                <a class="back-link" href="../subjects.html">Wróć</a>
+                <h1 class="subject-title">Angielski</h1>
+            </div>
 
-        <h1>Angielski</h1>
+            <nav class="menu" aria-label="Działy z języka angielskiego">
+                <button class="active" type="button" aria-current="page" onclick="loadSection('Gramatyka', 'angielski.json', this)">Gramatyka</button>
+                <button type="button" onclick="loadSection('Słownictwo', 'angielski_slownictwo.json', this)">Słownictwo</button>
+                <button type="button" onclick="loadSection('Czytanie', 'angielski_czytanie.json', this)">Czytanie</button>
+                <button type="button" onclick="loadSection('Pisanie', 'angielski_pisanie.json', this)">Pisanie</button>
+                <button type="button" onclick="loadSection('Mówienie', 'angielski_mowienie.json', this)">Mówienie</button>
+                <button type="button" onclick="loadSection('Słuchanie', 'angielski_sluchanie.json', this)">Słuchanie</button>
+                <button type="button" onclick="loadSection('Idiomy', 'angielski_idiomy.json', this)">Idiomy</button>
+            </nav>
+        </aside>
 
-        <nav class="menu">
-            <button class="active" onclick="loadSection('Gramatyka Angielska', 'angielski.json', this)">Gramatyka</button>
-            <button onclick="loadSection('Słownictwo', 'angielski_slownictwo.json', this)">Słownictwo</button>
-            <button onclick="loadSection('Czytanie', 'angielski_czytanie.json', this)">Czytanie</button>
-            <button onclick="loadSection('Pisanie', 'angielski_pisanie.json', this)">Pisanie</button>
-            <button onclick="loadSection('Mówienie', 'angielski_mowienie.json', this)">Mówienie</button>
-            <button onclick="loadSection('Słuchanie', 'angielski_sluchanie.json', this)">Słuchanie</button>
-            <button onclick="loadSection('Idiomy', 'angielski_idiomy.json', this)">Idiomy</button>
-        </nav>
-    </aside>
-
-    <main class="main">
-        <section class="card" id="content">
-            <h2>Ładowanie...</h2>
-        </section>
-    </main>
+        <main class="main">
+            <section class="book-shell">
+                <div class="chapter-tabs" id="chapterTabs" aria-label="Zakładki rozdziałów"></div>
+                <div class="content" id="content" aria-live="polite"><h2>Ładowanie...</h2></div>
+            </section>
+        </main>
+    </div>
 
     <script>
         const content = document.getElementById("content");
+        const chapterTabs = document.getElementById("chapterTabs");
+        const languageToggle = document.querySelector(".language-toggle");
+        const languageKey = "sd-lang";
+        const chapterSets = {
+            "Gramatyka": ["Tenses", "Articles", "Conditionals", "Passive", "Modals"],
+            "Słownictwo": ["B2 Words", "Phrasal Verbs", "Collocations", "Idioms", "False Friends"],
+            "Pisanie": ["Essay", "Email", "Report", "Review", "Story"],
+            "default": ["Tenses", "Articles", "Conditionals", "Passive", "Modals"]
+        };
+
+        function applyLanguage(language) {
+            const selected = language === "en" ? "en" : "pl";
+            document.documentElement.lang = selected;
+            languageToggle.setAttribute("aria-label", selected === "pl" ? "Switch to English" : "Przełącz na polski");
+            localStorage.setItem(languageKey, selected);
+            localStorage.setItem("studydocs-language", selected);
+        }
 
         function setActiveButton(button) {
-            const buttons = document.querySelectorAll(".menu button");
-
-            buttons.forEach(btn => {
+            document.querySelectorAll(".menu button").forEach((btn) => {
                 btn.classList.remove("active");
+                btn.removeAttribute("aria-current");
             });
-
             if (button) {
                 button.classList.add("active");
+                button.setAttribute("aria-current", "page");
             }
         }
 
+        function renderTabs(title) {
+            const tabs = chapterSets[title] || chapterSets.default;
+            chapterTabs.innerHTML = tabs.map((tab, index) => `<button class="chapter-tab${index === 0 ? " active" : ""}" type="button" data-index="${index}">${tab}</button>`).join("");
+        }
+
+        chapterTabs.addEventListener("click", (event) => {
+            const tab = event.target.closest(".chapter-tab");
+            if (!tab) return;
+            chapterTabs.querySelectorAll(".chapter-tab").forEach((item) => item.classList.remove("active"));
+            tab.classList.add("active");
+            const lessons = content.querySelectorAll(".lesson");
+            const lesson = lessons[Math.min(Number(tab.dataset.index), Math.max(lessons.length - 1, 0))];
+            if (lesson) lesson.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+
+        languageToggle.addEventListener("click", () => applyLanguage(document.documentElement.lang === "pl" ? "en" : "pl"));
+        applyLanguage(localStorage.getItem(languageKey) || localStorage.getItem("studydocs-language") || "pl");
+
         async function loadSection(title, jsonFile, button) {
             setActiveButton(button);
-
-            content.innerHTML = `
-                <h2>${title}</h2>
-                <p class="intro">Ładowanie materiałów...</p>
-            `;
+            renderTabs(title);
+            content.innerHTML = `<h2>${title}</h2><p class="loading">Ładowanie materiałów...</p>`;
 
             try {
                 const response = await fetch(jsonFile);
                 if (!response.ok) throw new Error("Nie udało się załadować danych");
                 const course = await response.json();
-
-                let html = `
-                    <h2>${title}</h2>
-                    <p class="intro">
-                        Szczegółowe materiały i zasady z działu: <b>${title}</b>. Znajdziesz tutaj kompleksowe objaśnienia i przykłady.
-                    </p>
-                `;
-
-                course.forEach(section => {
-                    html += `
-                        <article class="lesson">
-                            <span class="tag">${section.tag}</span>
-                            <h3>${section.title}</h3>
-                            <p>${section.text}</p>
-
-                            <ul>
-                                ${section.points.map(point => `<li>${point}</li>`).join("")}
-                            </ul>
-
-                            <div class="example">
-                                ${section.example}
-                            </div>
-                        </article>
-                    `;
+                let html = `<h2>${title}</h2><p class="intro">Materiały z działu <b>${title}</b>: struktury, słowa i przykłady gotowe do powtórki.</p><div class="lesson-flow">`;
+                course.forEach((section) => {
+                    html += `<article class="lesson"><span class="tag">${section.tag}</span><h3>${section.title}</h3><p>${section.text}</p><ul>${section.points.map((point) => `<li>${point}</li>`).join("")}</ul><div class="example">${section.example}</div></article>`;
                 });
-
-                content.innerHTML = html;
+                content.innerHTML = `${html}</div>`;
             } catch (error) {
-                content.innerHTML = `
-                    <h2>${title}</h2>
-                    <p class="intro">Błąd ładowania danych lub plik nie istnieje.</p>
-                `;
+                content.innerHTML = `<h2>${title}</h2><p class="error">Błąd ładowania danych lub plik nie istnieje.</p>`;
             }
         }
 
-        loadSection('Gramatyka Angielska', 'angielski.json', document.querySelector(".menu button.active"));
+        loadSection("Gramatyka", "angielski.json", document.querySelector(".menu button.active"));
     </script>
-
 </body>
 
 </html>
