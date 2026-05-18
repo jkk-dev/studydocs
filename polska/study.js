@@ -21,7 +21,7 @@
                     loading: "Ładowanie materiałów...",
                     error: "Błąd ładowania danych lub plik nie istnieje.",
                     introPrefix: "Materiały z działu",
-                    intro: "najważniejsze pojęcia, zasady i przykłady w jednym miejscu.",
+                    intro: "krótkie zasady i przykłady.",
                     label: "Switch to English"
                 },
                 en: {
@@ -32,7 +32,7 @@
                     loading: "Loading materials...",
                     error: "Could not load the data, or the file does not exist.",
                     introPrefix: "Materials for",
-                    intro: "key ideas, rules, and examples in one place.",
+                    intro: "quick rules and examples.",
                     label: "Przełącz na polski"
                 }
             },
@@ -61,7 +61,7 @@
                     loading: "Ładowanie materiałów...",
                     error: "Błąd ładowania danych lub plik nie istnieje.",
                     introPrefix: "Materiały z działu",
-                    intro: "struktury, słowa i przykłady gotowe do powtórki.",
+                    intro: "najważniejsze struktury i przykłady.",
                     label: "Switch to English"
                 },
                 en: {
@@ -72,7 +72,7 @@
                     loading: "Loading materials...",
                     error: "Could not load the data, or the file does not exist.",
                     introPrefix: "Materials for",
-                    intro: "structures, words, and examples ready for review.",
+                    intro: "key structures and examples.",
                     label: "Przełącz na polski"
                 }
             },
@@ -96,7 +96,7 @@
                     loading: "Ładowanie materiałów...",
                     error: "Błąd ładowania danych lub plik nie istnieje.",
                     introPrefix: "Materiały z działu",
-                    intro: "definicje, wzory i przykłady bez zbędnego szumu.",
+                    intro: "najważniejsze wzory i przykłady.",
                     label: "Switch to English"
                 },
                 en: {
@@ -107,7 +107,7 @@
                     loading: "Loading materials...",
                     error: "Could not load the data, or the file does not exist.",
                     introPrefix: "Materials for",
-                    intro: "definitions, formulas, and examples without extra noise.",
+                    intro: "key formulas and examples.",
                     label: "Przełącz na polski"
                 }
             },
@@ -139,6 +139,75 @@
 
     function sectionTitle(title) {
         return copy.sections[title]?.[selectedLanguage] || title;
+    }
+
+    function splitTitle(title) {
+        const match = String(title).match(/^(\d+)\.\s*(.+)$/);
+        return {
+            number: match ? match[1] : "",
+            text: match ? match[2] : String(title)
+        };
+    }
+
+    function cleanTitle(title) {
+        return splitTitle(title).text
+            .replace(/\s*\([^)]*\)/g, "")
+            .replace(/\s+[–-]\s+.*$/g, "")
+            .replace(/\s+i\s+ich\s+(rodzaje|własności)$/i, "")
+            .replace(/^Twierdzenie\s+Pitagorasa$/i, "Pitagoras")
+            .replace(/^Twierdzenie\s+Talesa$/i, "Tales")
+            .replace(/^Czas\s+/i, "")
+            .replace(/^Funkcja\s+/i, "")
+            .replace(/^Twierdzenie\s+/i, "")
+            .replace(/^Najczęstsze\s+/i, "")
+            .trim();
+    }
+
+    function compactWords(text, maxLength) {
+        const skipped = new Set(["i", "oraz", "z", "ze", "w", "we", "na", "do", "a"]);
+        const words = text.split(/\s+/).filter(Boolean);
+        const picked = [];
+
+        for (const word of words) {
+            const simple = word.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+            if (picked.length && skipped.has(simple)) continue;
+
+            const next = [...picked, word].join(" ");
+            if (next.length > maxLength && picked.length) break;
+            picked.push(word);
+            if (picked.join(" ").length >= maxLength) break;
+        }
+
+        return picked.join(" ") || text;
+    }
+
+    function clampTitle(text, maxLength) {
+        if (text.length <= maxLength) return text;
+        const words = text.split(/\s+/);
+        const picked = [];
+
+        for (const word of words) {
+            const next = [...picked, word].join(" ");
+            if (next.length > maxLength && picked.length) break;
+            picked.push(word);
+        }
+
+        return picked.join(" ") || text;
+    }
+
+    function compactTabTitle(title) {
+        const { number } = splitTitle(title);
+        const cleaned = cleanTitle(title);
+        const text = cleaned.length <= 18 ? cleaned : compactWords(cleaned, 18);
+        return number ? `${number}. ${text}` : text;
+    }
+
+    function compactLessonTitle(title) {
+        return clampTitle(cleanTitle(title), 44);
+    }
+
+    function escapeAttribute(value) {
+        return String(value).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
     }
 
     function getButtonSectionTitle(button) {
@@ -211,7 +280,7 @@
     }
 
     function renderTabs(course) {
-        chapterTabs.innerHTML = course.map((section, index) => `<button class="chapter-tab${index === 0 ? " active" : ""}" type="button" data-index="${index}"${index === 0 ? ' aria-current="true"' : ""}>${section.title}</button>`).join("");
+        chapterTabs.innerHTML = course.map((section, index) => `<button class="chapter-tab${index === 0 ? " active" : ""}" type="button" data-index="${index}" title="${escapeAttribute(section.title)}"${index === 0 ? ' aria-current="true"' : ""}>${compactTabTitle(section.title)}</button>`).join("");
     }
 
     function observeLessons() {
@@ -263,7 +332,7 @@
             const course = await response.json();
             if (requestId !== sectionRequestId) return;
             renderTabs(course);
-            const lessons = course.map((section, index) => `<article class="lesson" id="lesson-${index}" data-index="${index}"><span class="tag">${section.tag}</span><h3>${section.title}</h3><p>${section.text}</p><ul>${section.points.map((point) => `<li>${point}</li>`).join("")}</ul><div class="example">${section.example}</div></article>`).join("");
+            const lessons = course.map((section, index) => `<article class="lesson" id="lesson-${index}" data-index="${index}"><span class="tag">${section.tag}</span><h3 title="${escapeAttribute(section.title)}">${compactLessonTitle(section.title)}</h3><p>${section.text}</p><ul>${section.points.map((point) => `<li>${point}</li>`).join("")}</ul><div class="example">${section.example}</div></article>`).join("");
             content.innerHTML = `<h2>${displayTitle}</h2><p class="intro">${message("introPrefix")} <b>${displayTitle}</b>: ${message("intro")}</p><div class="lesson-flow">${lessons}</div>`;
             observeLessons();
         } catch (error) {
