@@ -88,3 +88,8 @@ git clone https://github.com/jkk-dev/studydocs.git
 Open the project folder and launch `index.html` in your browser.
 
 ---
+
+## Author
+
+Made by [jkk-dev](https://github.com/jkk-dev)
+
