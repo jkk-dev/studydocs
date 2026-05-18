@@ -44,75 +44,9 @@
     </div>
 
     <script>
-        const content = document.getElementById("content");
-        const chapterTabs = document.getElementById("chapterTabs");
-        const languageToggle = document.querySelector(".language-toggle");
-        const languageKey = "sd-lang";
-        const chapterSets = {
-            "Algebra": ["Równania", "Układy", "Nierówności", "Wielomiany", "Funkcje"],
-            "Geometria": ["Trójkąty", "Okrąg", "Bryły", "Wektory", "Trygonometria"],
-            "Prawdopodobieństwo": ["Średnia", "Mediana", "Prawdopodobieństwo", "Kombinatoryka", "Wykresy"],
-            "default": ["Równania", "Układy", "Nierówności", "Wielomiany", "Funkcje"]
-        };
-
-        function applyLanguage(language) {
-            const selected = language === "en" ? "en" : "pl";
-            document.documentElement.lang = selected;
-            languageToggle.setAttribute("aria-label", selected === "pl" ? "Switch to English" : "Przełącz na polski");
-            localStorage.setItem(languageKey, selected);
-            localStorage.setItem("studydocs-language", selected);
-        }
-
-        function setActiveButton(button) {
-            document.querySelectorAll(".menu button").forEach((btn) => {
-                btn.classList.remove("active");
-                btn.removeAttribute("aria-current");
-            });
-            if (button) {
-                button.classList.add("active");
-                button.setAttribute("aria-current", "page");
-            }
-        }
-
-        function renderTabs(title) {
-            const tabs = chapterSets[title] || chapterSets.default;
-            chapterTabs.innerHTML = tabs.map((tab, index) => `<button class="chapter-tab${index === 0 ? " active" : ""}" type="button" data-index="${index}">${tab}</button>`).join("");
-        }
-
-        chapterTabs.addEventListener("click", (event) => {
-            const tab = event.target.closest(".chapter-tab");
-            if (!tab) return;
-            chapterTabs.querySelectorAll(".chapter-tab").forEach((item) => item.classList.remove("active"));
-            tab.classList.add("active");
-            const lessons = content.querySelectorAll(".lesson");
-            const lesson = lessons[Math.min(Number(tab.dataset.index), Math.max(lessons.length - 1, 0))];
-            if (lesson) lesson.scrollIntoView({ behavior: "smooth", block: "start" });
-        });
-
-        languageToggle.addEventListener("click", () => applyLanguage(document.documentElement.lang === "pl" ? "en" : "pl"));
-        applyLanguage(localStorage.getItem(languageKey) || localStorage.getItem("studydocs-language") || "pl");
-
-        async function loadSection(title, jsonFile, button) {
-            setActiveButton(button);
-            renderTabs(title);
-            content.innerHTML = `<h2>${title}</h2><p class="loading">Ładowanie materiałów...</p>`;
-
-            try {
-                const response = await fetch(jsonFile);
-                if (!response.ok) throw new Error("Nie udało się załadować danych");
-                const course = await response.json();
-                let html = `<h2>${title}</h2><p class="intro">Materiały z działu <b>${title}</b>: definicje, wzory i przykłady bez zbędnego szumu.</p><div class="lesson-flow">`;
-                course.forEach((section) => {
-                    html += `<article class="lesson"><span class="tag">${section.tag}</span><h3>${section.title}</h3><p>${section.text}</p><ul>${section.points.map((point) => `<li>${point}</li>`).join("")}</ul><div class="example">${section.example}</div></article>`;
-                });
-                content.innerHTML = `${html}</div>`;
-            } catch (error) {
-                content.innerHTML = `<h2>${title}</h2><p class="error">Błąd ładowania danych lub plik nie istnieje.</p>`;
-            }
-        }
-
-        loadSection("Podstawy i zasady", "matematyka.json", document.querySelector(".menu button.active"));
+        window.studyConfig = { subject: "math", initial: ["Podstawy i zasady", "matematyka.json"] };
     </script>
+    <script src="study.js"></script>
 </body>
 
 </html>
